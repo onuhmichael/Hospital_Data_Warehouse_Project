@@ -1,0 +1,931 @@
+AppointmentID,AppointmentDateTime,PatientID,NHS_ID,PatientFirstName,PatientLastName,PatientDOB,PatientPostcode,ClinicName,Specialty,ProviderID,ProviderName,DiagnosisCode,DiagnosisDescription,AppointmentStatus
+A1001,12/07/2025 07:58,P537,7695140767,Michael,Hendrick,22/02/1948,NP20 9WE,Royal Glamorgan,Gastroenterology,D88,Dr. Davies,S82.1,Fracture of upper end of tibia,Attended
+A1002,12/07/2025 07:58,P531,3900866457,Eugene,Rhodes,11/05/1965,CF30 6NZ,Singleton Hospital,Oncology,D21,Dr. Evans,K21.9,Gastro-oesophageal reflux disease,DNA
+A1003,12/07/2025 07:58,P531,3900866457,Eugene,Rhodes,11/05/1965,CF30 6NZ,Royal Glamorgan,Dermatology,D67,Dr. Williams,L20.9,"Atopic dermatitis, unspecified",Attended
+A1004,12/07/2025 07:59,P570,2367876150,Denise,Shaw,14/09/1974,NP23 1OE,University Hospital,Cardiology,D12,Dr. Thomas,M54.5,Low back pain,DNA
+A1005,12/07/2025 07:59,P628,6755009776,Mitchell,Cantrell,24/09/2010,CF32 5RW,Royal Glamorgan,Dermatology,D33,Dr. Roberts,I10,Essential hypertension,Attended
+A1006,12/07/2025 07:59,P520,9467217090,Nina,Chapman,09/03/1957,CF34 6OI,University Hospital,Cardiology,D45,Dr. Jones,K21.9,Gastro-oesophageal reflux disease,Attended
+A1007,12/07/2025 07:59,P523,7931708075,Kenneth,Valenti,28/12/2009,NP40 6OR,Royal Glamorgan,Dermatology,D67,Dr. Williams,I10,Essential hypertension,Attended
+A1008,12/07/2025 07:59,P644,8481114871,Donna,Bayas,11/12/1987,SA33 8KP,Morriston Hospital,Neurology,D21,Dr. Evans,K21.9,Gastro-oesophageal reflux disease,Attended
+A1009,12/07/2025 07:59,P558,2310987972,Marc,Williams,15/05/1997,SA40 7PT,University Hospital,Cardiology,D88,Dr. Davies,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1010,12/07/2025 07:59,P610,2940214026,Shaun,Charles,13/01/1943,SA16 1LE,Singleton Hospital,Oncology,D33,Dr. Roberts,M54.5,Low back pain,Attended
+A1011,12/07/2025 07:59,P519,6076995270,Enriqueta,Green,23/01/1957,LL37 1NX,Prince Charles,Orthopaedics,D45,Dr. Jones,J45.9,"Asthma, unspecified",DNA
+A1012,12/07/2025 07:59,P518,2369184264,Mark,Scott,23/09/1990,CF38 6NR,University Hospital,Cardiology,D21,Dr. Evans,M54.5,Low back pain,DNA
+A1013,12/07/2025 07:59,P633,4742966511,Edward,Sanchez,23/12/1980,CF38 4VY,University Hospital,Cardiology,D12,Dr. Thomas,L20.9,"Atopic dermatitis, unspecified",DNA
+A1014,12/07/2025 07:59,P604,6100855690,Elizabeth,Mcclain,06/06/1954,NP40 4BS,Singleton Hospital,Oncology,D21,Dr. Evans,S82.1,Fracture of upper end of tibia,Attended
+A1015,12/07/2025 07:59,P510,9700713903,Jerry,Stivers,02/07/1977,SA15 6AP,Prince Charles,Orthopaedics,D67,Dr. Williams,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1016,12/07/2025 08:00,P600,5642730460,Jacquelyn,Garcia,19/11/1970,SA28 6EE,Royal Glamorgan,Dermatology,D12,Dr. Thomas,I10,Essential hypertension,Attended
+A1017,12/07/2025 08:00,P646,824745507,Billy,Freedman,02/11/2003,SA16 2EA,Royal Glamorgan,Gastroenterology,D67,Dr. Williams,S82.1,Fracture of upper end of tibia,Attended
+A1018,12/07/2025 08:00,P603,1707421625,Lorenzo,Jones,17/09/1982,NP11 6HY,Prince Charles,Orthopaedics,D12,Dr. Thomas,L20.9,"Atopic dermatitis, unspecified",Attended
+A1019,12/07/2025 08:00,P537,7695140767,Michael,Hendrick,22/02/1948,NP20 9WE,Royal Glamorgan,Gastroenterology,D12,Dr. Thomas,E11.9,Type 2 diabetes mellitus without complications,DNA
+A1020,12/07/2025 08:00,P532,8062626423,Chelsea,Isaac,09/03/1999,NP31 9OE,Morriston Hospital,Neurology,D33,Dr. Roberts,K21.9,Gastro-oesophageal reflux disease,DNA
+A1021,12/07/2025 08:00,P514,6821788588,Pauline,Quinlan,17/10/1948,NP18 8LX,Royal Glamorgan,Dermatology,D33,Dr. Roberts,J45.9,"Asthma, unspecified",DNA
+A1022,12/07/2025 08:00,P502,4495005286,Ruth,Nozum,26/01/1957,CF26 8DQ,Royal Glamorgan,Dermatology,D21,Dr. Evans,J45.9,"Asthma, unspecified",DNA
+A1023,12/07/2025 08:00,P529,6139499917,Sara,Taylor,23/05/1965,LL19 6LZ,Singleton Hospital,Oncology,D45,Dr. Jones,L20.9,"Atopic dermatitis, unspecified",Attended
+A1024,12/07/2025 08:00,P590,855246952,Alta,Corley,24/11/1993,LL15 4KD,Royal Glamorgan,Gastroenterology,D45,Dr. Jones,K21.9,Gastro-oesophageal reflux disease,Attended
+A1025,12/07/2025 08:00,P575,6822603581,Dorothy,Perry,01/05/1970,SA20 5NG,Prince Charles,Orthopaedics,D88,Dr. Davies,S82.1,Fracture of upper end of tibia,Attended
+A1026,12/07/2025 08:00,P582,2168718547,Justin,Bass,05/03/1993,SA25 3RL,Royal Glamorgan,Dermatology,D67,Dr. Williams,S82.1,Fracture of upper end of tibia,Attended
+A1027,12/07/2025 08:00,P524,6042067729,Steven,Taylor,15/04/1973,LL23 3UR,Morriston Hospital,Neurology,D12,Dr. Thomas,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1028,12/07/2025 08:01,P581,7702321369,Edwina,Barbeau,10/02/1977,NP18 1PK,Singleton Hospital,Oncology,D12,Dr. Thomas,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1029,12/07/2025 08:01,P565,8925070820,Michael,Gordon,11/12/1946,NP39 2UG,Prince Charles,Orthopaedics,D12,Dr. Thomas,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1030,12/07/2025 08:01,P570,2367876150,Denise,Shaw,14/09/1974,NP23 1OE,Singleton Hospital,Oncology,D67,Dr. Williams,E11.9,Type 2 diabetes mellitus without complications,DNA
+A1031,12/07/2025 08:01,P556,9540947723,Monica,Hall,21/06/1962,SA35 6JS,University Hospital,Cardiology,D45,Dr. Jones,M54.5,Low back pain,DNA
+A1032,12/07/2025 08:01,P587,6897290408,Mary,Strong,05/12/1946,CF34 5HH,Royal Glamorgan,Gastroenterology,D88,Dr. Davies,I10,Essential hypertension,Attended
+A1033,12/07/2025 08:01,P505,2593196572,Cherie,Winters,20/04/1991,CF34 9HF,Singleton Hospital,Oncology,D33,Dr. Roberts,J45.9,"Asthma, unspecified",Attended
+A1034,12/07/2025 08:01,P638,8151639571,Ada,Dietrich,10/03/1991,NP31 1OM,Singleton Hospital,Oncology,D45,Dr. Jones,I10,Essential hypertension,DNA
+A1035,12/07/2025 08:01,P645,5531756,Scott,Mccatty,04/01/1988,NP28 6FN,Singleton Hospital,Oncology,D33,Dr. Roberts,S82.1,Fracture of upper end of tibia,Attended
+A1036,12/07/2025 08:01,P529,6139499917,Sara,Taylor,23/05/1965,LL19 6LZ,Royal Glamorgan,Dermatology,D88,Dr. Davies,M54.5,Low back pain,Attended
+A1037,12/07/2025 08:01,P601,827449925,Steven,Evans,11/01/1986,LL28 4DL,University Hospital,Cardiology,D67,Dr. Williams,S82.1,Fracture of upper end of tibia,Attended
+A1038,12/07/2025 08:01,P512,7433553576,Joseph,Vlashi,22/10/1997,LL40 8LS,Royal Glamorgan,Dermatology,D33,Dr. Roberts,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1039,12/07/2025 08:01,P585,5181725570,Karen,Woolsey,04/07/1958,NP19 1ZF,Royal Glamorgan,Dermatology,D12,Dr. Thomas,M54.5,Low back pain,Attended
+A1040,12/07/2025 08:02,P593,2321818875,James,Vega,16/11/1949,LL12 5DK,University Hospital,Cardiology,D45,Dr. Jones,L20.9,"Atopic dermatitis, unspecified",Attended
+A1041,12/07/2025 08:02,P511,7973101497,Brian,Henderson,26/11/1959,LL30 3YQ,Royal Glamorgan,Gastroenterology,D21,Dr. Evans,S82.1,Fracture of upper end of tibia,Attended
+A1042,12/07/2025 08:02,P602,7590961736,Jeannette,Barry,06/09/1970,SA25 3GP,Singleton Hospital,Oncology,D88,Dr. Davies,M54.5,Low back pain,Attended
+A1043,12/07/2025 08:02,P630,4145185625,Jesse,Castillo,08/07/1975,LL21 6EI,Royal Glamorgan,Gastroenterology,D45,Dr. Jones,S82.1,Fracture of upper end of tibia,Attended
+A1044,12/07/2025 08:02,P587,6897290408,Mary,Strong,05/12/1946,CF34 5HH,Morriston Hospital,Neurology,D21,Dr. Evans,I10,Essential hypertension,Attended
+A1045,12/07/2025 08:02,P583,2509593560,Ashley,Begley,24/04/1975,SA12 4HV,Prince Charles,Orthopaedics,D45,Dr. Jones,L20.9,"Atopic dermatitis, unspecified",Attended
+A1046,12/07/2025 08:02,P584,8187728574,Paul,Sweeney,23/04/1982,SA13 4YY,Prince Charles,Orthopaedics,D88,Dr. Davies,I10,Essential hypertension,Attended
+A1047,12/07/2025 08:02,P591,3257192991,Raymond,Lee,17/11/1954,CF24 5MJ,Royal Glamorgan,Gastroenterology,D12,Dr. Thomas,J45.9,"Asthma, unspecified",DNA
+A1048,12/07/2025 08:02,P592,4757300123,Martina,Metzler,26/02/1957,CF36 1OI,Morriston Hospital,Neurology,D88,Dr. Davies,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1049,12/07/2025 08:02,P513,9301227452,Angela,Kasack,15/07/1987,NP29 2SO,Royal Glamorgan,Gastroenterology,D21,Dr. Evans,S82.1,Fracture of upper end of tibia,Attended
+A1050,12/07/2025 08:02,P523,7931708075,Kenneth,Valenti,28/12/2009,NP40 6OR,Prince Charles,Orthopaedics,D12,Dr. Thomas,M54.5,Low back pain,Attended
+A1051,12/07/2025 08:02,P543,4974808842,Shay,Ketterman,22/06/1942,NP11 8UI,Singleton Hospital,Oncology,D88,Dr. Davies,L20.9,"Atopic dermatitis, unspecified",DNA
+A1052,12/07/2025 08:03,P504,8245767859,Lois,Mckinney,10/10/1940,NP31 8PL,University Hospital,Cardiology,D67,Dr. Williams,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1053,12/07/2025 08:03,P631,976469405,Princess,Danforth,16/04/1963,SA16 1KQ,Morriston Hospital,Neurology,D67,Dr. Williams,K21.9,Gastro-oesophageal reflux disease,Attended
+A1054,12/07/2025 08:03,P621,2822217912,Eunice,Terrell,17/12/1951,NP32 6TP,Morriston Hospital,Neurology,D88,Dr. Davies,M54.5,Low back pain,DNA
+A1055,12/07/2025 08:03,P620,8452565682,John,Burk,23/02/1943,CF19 7ZU,Royal Glamorgan,Dermatology,D12,Dr. Thomas,S82.1,Fracture of upper end of tibia,Attended
+A1056,12/07/2025 08:03,P595,9026757298,Inez,Riley,19/05/2002,LL25 5ZB,Morriston Hospital,Neurology,D21,Dr. Evans,L20.9,"Atopic dermatitis, unspecified",Attended
+A1057,12/07/2025 08:03,P517,2822421706,Chelsea,Steward,07/09/1981,CF35 6KW,Morriston Hospital,Neurology,D88,Dr. Davies,K21.9,Gastro-oesophageal reflux disease,Attended
+A1058,12/07/2025 08:03,P572,1306852110,Stanley,Potter,16/04/1944,CF35 2QI,University Hospital,Cardiology,D21,Dr. Evans,S82.1,Fracture of upper end of tibia,DNA
+A1059,12/07/2025 08:03,P600,5642730460,Jacquelyn,Garcia,19/11/1970,SA28 6EE,Morriston Hospital,Neurology,D67,Dr. Williams,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1060,12/07/2025 08:03,P590,855246952,Alta,Corley,24/11/1993,LL15 4KD,Singleton Hospital,Oncology,D67,Dr. Williams,S82.1,Fracture of upper end of tibia,DNA
+A1061,12/07/2025 08:03,P507,2951544375,Henry,Engle,08/01/1953,NP15 1CC,Morriston Hospital,Neurology,D33,Dr. Roberts,J45.9,"Asthma, unspecified",Attended
+A1062,12/07/2025 08:03,P624,3291026586,Christopher,Singletary,20/09/1967,LL13 8JN,Singleton Hospital,Oncology,D12,Dr. Thomas,J45.9,"Asthma, unspecified",DNA
+A1063,12/07/2025 08:03,P615,8723236981,Monique,Stewart,11/05/1948,CF10 2JM,Morriston Hospital,Neurology,D33,Dr. Roberts,K21.9,Gastro-oesophageal reflux disease,Attended
+A1064,12/07/2025 08:04,P580,9701599314,Henry,Hatfield,06/04/1999,NP18 5KP,Morriston Hospital,Neurology,D45,Dr. Jones,K21.9,Gastro-oesophageal reflux disease,Attended
+A1065,12/07/2025 08:04,P632,8796758546,Ralph,Merkerson,17/10/1970,CF35 1MV,Morriston Hospital,Neurology,D88,Dr. Davies,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1066,12/07/2025 08:04,P617,3021611419,Charles,Payne,04/12/1984,SA39 3MB,Singleton Hospital,Oncology,D21,Dr. Evans,S82.1,Fracture of upper end of tibia,DNA
+A1067,12/07/2025 08:04,P503,9979306688,Duane,Mckoy,21/06/1950,CF14 4QW,University Hospital,Cardiology,D12,Dr. Thomas,L20.9,"Atopic dermatitis, unspecified",DNA
+A1068,12/07/2025 08:04,P641,2028242523,Hector,Somers,05/03/1946,NP10 9UI,Royal Glamorgan,Gastroenterology,D67,Dr. Williams,J45.9,"Asthma, unspecified",Attended
+A1069,12/07/2025 08:04,P601,827449925,Steven,Evans,11/01/1986,LL28 4DL,Singleton Hospital,Oncology,D45,Dr. Jones,J45.9,"Asthma, unspecified",Attended
+A1070,12/07/2025 08:04,P511,7973101497,Brian,Henderson,26/11/1959,LL30 3YQ,Prince Charles,Orthopaedics,D21,Dr. Evans,M54.5,Low back pain,Attended
+A1071,12/07/2025 08:04,P600,5642730460,Jacquelyn,Garcia,19/11/1970,SA28 6EE,Prince Charles,Orthopaedics,D88,Dr. Davies,L20.9,"Atopic dermatitis, unspecified",Attended
+A1072,12/07/2025 08:04,P618,4367970124,John,Byrd,09/06/2006,NP40 2TB,Royal Glamorgan,Dermatology,D33,Dr. Roberts,J45.9,"Asthma, unspecified",DNA
+A1073,12/07/2025 08:04,P583,2509593560,Ashley,Begley,24/04/1975,SA12 4HV,Prince Charles,Orthopaedics,D33,Dr. Roberts,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1074,12/07/2025 08:04,P511,7973101497,Brian,Henderson,26/11/1959,LL30 3YQ,Royal Glamorgan,Dermatology,D12,Dr. Thomas,K21.9,Gastro-oesophageal reflux disease,Attended
+A1075,12/07/2025 08:04,P591,3257192991,Raymond,Lee,17/11/1954,CF24 5MJ,University Hospital,Cardiology,D21,Dr. Evans,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1076,12/07/2025 08:05,P646,824745507,Billy,Freedman,02/11/2003,SA16 2EA,Morriston Hospital,Neurology,D33,Dr. Roberts,S82.1,Fracture of upper end of tibia,Attended
+A1077,12/07/2025 08:05,P589,974768847,Kathi,Valente,15/02/1958,CF17 1RK,Royal Glamorgan,Gastroenterology,D12,Dr. Thomas,S82.1,Fracture of upper end of tibia,Attended
+A1078,12/07/2025 08:05,P627,2147124745,Emma,Viola,09/02/1954,NP21 3TS,University Hospital,Cardiology,D12,Dr. Thomas,M54.5,Low back pain,Attended
+A1079,12/07/2025 08:05,P540,7807390581,Martha,Shuck,05/06/1978,LL11 3SR,Royal Glamorgan,Dermatology,D21,Dr. Evans,S82.1,Fracture of upper end of tibia,Attended
+A1080,12/07/2025 08:05,P500,8309129815,Jeff,Stachura,01/10/1943,CF29 5IE,Morriston Hospital,Neurology,D21,Dr. Evans,M54.5,Low back pain,Attended
+A1081,12/07/2025 08:05,P559,6256726596,Anthony,Jenkins,09/10/1963,CF16 9VX,Morriston Hospital,Neurology,D67,Dr. Williams,L20.9,"Atopic dermatitis, unspecified",Attended
+A1082,12/07/2025 08:05,P605,8137629831,Marie,Andaya,02/01/1965,LL33 7BE,Royal Glamorgan,Gastroenterology,D21,Dr. Evans,S82.1,Fracture of upper end of tibia,DNA
+A1083,12/07/2025 08:05,P640,2375880110,Michael,Weller,06/08/1971,CF36 8DI,University Hospital,Cardiology,D88,Dr. Davies,S82.1,Fracture of upper end of tibia,Attended
+A1084,12/07/2025 08:05,P526,1874814481,Joan,Dubose,19/11/1956,LL18 1GK,Morriston Hospital,Neurology,D33,Dr. Roberts,I10,Essential hypertension,Attended
+A1085,12/07/2025 08:05,P613,7784616562,Arthur,Parson,19/11/1958,LL40 3WD,Morriston Hospital,Neurology,D12,Dr. Thomas,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1086,12/07/2025 08:05,P601,827449925,Steven,Evans,11/01/1986,LL28 4DL,Royal Glamorgan,Gastroenterology,D33,Dr. Roberts,J45.9,"Asthma, unspecified",DNA
+A1087,12/07/2025 08:05,P645,5531756,Scott,Mccatty,04/01/1988,NP28 6FN,Royal Glamorgan,Gastroenterology,D21,Dr. Evans,L20.9,"Atopic dermatitis, unspecified",Attended
+A1088,12/07/2025 08:06,P519,6076995270,Enriqueta,Green,23/01/1957,LL37 1NX,Royal Glamorgan,Dermatology,D21,Dr. Evans,J45.9,"Asthma, unspecified",Attended
+A1089,12/07/2025 08:06,P620,8452565682,John,Burk,23/02/1943,CF19 7ZU,Singleton Hospital,Oncology,D67,Dr. Williams,M54.5,Low back pain,DNA
+A1090,12/07/2025 08:06,P500,8309129815,Jeff,Stachura,01/10/1943,CF29 5IE,Prince Charles,Orthopaedics,D21,Dr. Evans,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1091,12/07/2025 08:06,P537,7695140767,Michael,Hendrick,22/02/1948,NP20 9WE,University Hospital,Cardiology,D45,Dr. Jones,S82.1,Fracture of upper end of tibia,DNA
+A1092,12/07/2025 08:06,P501,8470876023,Ellen,Robinson,15/11/1993,NP38 4YS,Prince Charles,Orthopaedics,D67,Dr. Williams,I10,Essential hypertension,DNA
+A1093,12/07/2025 08:06,P512,7433553576,Joseph,Vlashi,22/10/1997,LL40 8LS,Morriston Hospital,Neurology,D88,Dr. Davies,L20.9,"Atopic dermatitis, unspecified",Attended
+A1094,12/07/2025 08:06,P545,8606298530,Roselyn,Hoeft,08/01/1960,NP27 7LN,Morriston Hospital,Neurology,D12,Dr. Thomas,J45.9,"Asthma, unspecified",Attended
+A1095,12/07/2025 08:06,P638,8151639571,Ada,Dietrich,10/03/1991,NP31 1OM,Morriston Hospital,Neurology,D12,Dr. Thomas,K21.9,Gastro-oesophageal reflux disease,DNA
+A1096,12/07/2025 08:06,P585,5181725570,Karen,Woolsey,04/07/1958,NP19 1ZF,Morriston Hospital,Neurology,D21,Dr. Evans,I10,Essential hypertension,Attended
+A1097,12/07/2025 08:06,P634,3966409496,Michael,Brooks,19/08/1970,LL11 6HL,Singleton Hospital,Oncology,D12,Dr. Thomas,J45.9,"Asthma, unspecified",Attended
+A1098,12/07/2025 08:06,P593,2321818875,James,Vega,16/11/1949,LL12 5DK,Morriston Hospital,Neurology,D33,Dr. Roberts,K21.9,Gastro-oesophageal reflux disease,Attended
+A1099,12/07/2025 08:06,P587,6897290408,Mary,Strong,05/12/1946,CF34 5HH,Singleton Hospital,Oncology,D45,Dr. Jones,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1100,12/07/2025 08:07,P536,6691186486,Rose,Parker,02/01/1956,SA16 7KW,Prince Charles,Orthopaedics,D45,Dr. Jones,S82.1,Fracture of upper end of tibia,Attended
+A1101,12/07/2025 08:07,P531,3900866457,Eugene,Rhodes,11/05/1965,CF30 6NZ,Singleton Hospital,Oncology,D21,Dr. Evans,K21.9,Gastro-oesophageal reflux disease,Attended
+A1102,12/07/2025 08:07,P577,4550488476,Lucio,Basso,04/12/1988,SA25 8FR,Royal Glamorgan,Gastroenterology,D45,Dr. Jones,M54.5,Low back pain,Attended
+A1103,12/07/2025 08:07,P594,9653540300,Marvin,Lara,04/01/1992,LL26 3LL,Singleton Hospital,Oncology,D12,Dr. Thomas,M54.5,Low back pain,Attended
+A1104,12/07/2025 08:07,P500,8309129815,Jeff,Stachura,01/10/1943,CF29 5IE,University Hospital,Cardiology,D21,Dr. Evans,M54.5,Low back pain,Attended
+A1105,12/07/2025 08:07,P628,6755009776,Mitchell,Cantrell,24/09/2010,CF32 5RW,Royal Glamorgan,Gastroenterology,D21,Dr. Evans,S82.1,Fracture of upper end of tibia,Attended
+A1106,12/07/2025 08:07,P586,8696567315,George,Nicholson,11/05/1989,CF21 5TY,Prince Charles,Orthopaedics,D12,Dr. Thomas,S82.1,Fracture of upper end of tibia,Attended
+A1107,12/07/2025 08:07,P530,29473128,Jason,Brady,02/10/2007,LL18 9EG,Royal Glamorgan,Gastroenterology,D21,Dr. Evans,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1108,12/07/2025 08:07,P617,3021611419,Charles,Payne,04/12/1984,SA39 3MB,Prince Charles,Orthopaedics,D88,Dr. Davies,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1109,12/07/2025 08:07,P518,2369184264,Mark,Scott,23/09/1990,CF38 6NR,Royal Glamorgan,Gastroenterology,D45,Dr. Jones,L20.9,"Atopic dermatitis, unspecified",Attended
+A1110,12/07/2025 08:07,P561,4898332501,Andreas,Hughey,02/08/1968,NP35 1LZ,Morriston Hospital,Neurology,D88,Dr. Davies,M54.5,Low back pain,Attended
+A1111,12/07/2025 08:07,P502,4495005286,Ruth,Nozum,26/01/1957,CF26 8DQ,Morriston Hospital,Neurology,D88,Dr. Davies,S82.1,Fracture of upper end of tibia,Attended
+A1112,12/07/2025 08:08,P513,9301227452,Angela,Kasack,15/07/1987,NP29 2SO,University Hospital,Cardiology,D21,Dr. Evans,S82.1,Fracture of upper end of tibia,Attended
+A1113,12/07/2025 08:08,P568,9819640601,Hilario,Laperle,18/10/1960,CF15 9QF,Morriston Hospital,Neurology,D67,Dr. Williams,J45.9,"Asthma, unspecified",DNA
+A1114,12/07/2025 08:08,P568,9819640601,Hilario,Laperle,18/10/1960,CF15 9QF,Prince Charles,Orthopaedics,D21,Dr. Evans,J45.9,"Asthma, unspecified",Attended
+A1115,12/07/2025 08:08,P564,6687662201,Jamie,Morris,09/09/2004,CF19 6UZ,Singleton Hospital,Oncology,D67,Dr. Williams,L20.9,"Atopic dermatitis, unspecified",Attended
+A1116,12/07/2025 08:08,P502,4495005286,Ruth,Nozum,26/01/1957,CF26 8DQ,Royal Glamorgan,Dermatology,D33,Dr. Roberts,J45.9,"Asthma, unspecified",DNA
+A1001,12/07/2025 08:10,P570,4609634104,Vivian,Wallace,04/11/1943,SA33 6CQ,University Hospital,Cardiology,D12,Dr. Thomas,E11.9,Type 2 diabetes mellitus without complications,DNA
+A1002,12/07/2025 08:10,P522,6694553803,Jim,Hanauer,11/07/1961,NP18 6SF,Royal Glamorgan,Dermatology,D45,Dr. Jones,J45.9,"Asthma, unspecified",Attended
+A1003,12/07/2025 08:10,P595,7351921202,Mark,Worek,21/06/1970,NP13 3BR,University Hospital,Cardiology,D67,Dr. Williams,L20.9,"Atopic dermatitis, unspecified",Attended
+A1004,12/07/2025 08:10,P633,3072400741,Jeffrey,Foslien,06/09/1996,LL14 5JD,University Hospital,Cardiology,D21,Dr. Evans,K21.9,Gastro-oesophageal reflux disease,Attended
+A1005,12/07/2025 08:10,P535,9542397879,Marilyn,Bell,08/09/2001,CF28 9YY,Royal Glamorgan,Dermatology,D88,Dr. Davies,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1006,12/07/2025 08:10,P506,8037975193,Elizabeth,Smith,01/05/1941,NP21 1WV,Singleton Hospital,Oncology,D88,Dr. Davies,M54.5,Low back pain,Attended
+A1007,12/07/2025 08:10,P579,3205357434,Ryan,Johnson,28/09/1953,LL10 7ZC,Royal Glamorgan,Dermatology,D88,Dr. Davies,L20.9,"Atopic dermatitis, unspecified",DNA
+A1008,12/07/2025 08:10,P510,8627669546,Michael,Rutter,21/11/1989,LL29 6QK,Royal Glamorgan,Gastroenterology,D67,Dr. Williams,I10,Essential hypertension,Attended
+A1009,12/07/2025 08:10,P578,5323181974,Mark,Anderson,07/07/1950,NP21 9WS,Royal Glamorgan,Gastroenterology,D21,Dr. Evans,I10,Essential hypertension,Attended
+A1010,12/07/2025 08:10,P521,6245283485,Peggy,Rumble,20/06/1948,LL20 6ZE,Singleton Hospital,Oncology,D67,Dr. Williams,J45.9,"Asthma, unspecified",Attended
+A1011,12/07/2025 08:10,P567,8860164907,Deanna,Tronaas,02/12/2003,NP18 6WW,Royal Glamorgan,Dermatology,D67,Dr. Williams,K21.9,Gastro-oesophageal reflux disease,Attended
+A1012,12/07/2025 08:10,P520,8146085482,Joshua,Jordan,20/03/2003,CF31 5NM,Royal Glamorgan,Dermatology,D21,Dr. Evans,S82.1,Fracture of upper end of tibia,Attended
+A1013,12/07/2025 08:10,P578,5323181974,Mark,Anderson,07/07/1950,NP21 9WS,Royal Glamorgan,Gastroenterology,D12,Dr. Thomas,M54.5,Low back pain,Attended
+A1014,12/07/2025 08:10,P614,6427198327,Dave,Rupp,28/11/1952,CF11 8GL,Prince Charles,Orthopaedics,D12,Dr. Thomas,J45.9,"Asthma, unspecified",DNA
+A1015,12/07/2025 08:10,P563,8722401334,Mabel,Conrad,06/07/1950,NP38 3YR,Singleton Hospital,Oncology,D45,Dr. Jones,I10,Essential hypertension,Attended
+A1016,12/07/2025 08:10,P528,4400238679,Jamie,Griffis,01/11/1967,NP21 6TT,University Hospital,Cardiology,D45,Dr. Jones,I10,Essential hypertension,Attended
+A1017,12/07/2025 08:10,P619,490375316,Lynn,Mclaughlin,22/01/1988,SA23 1UP,Prince Charles,Orthopaedics,D88,Dr. Davies,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1018,12/07/2025 08:10,P562,3557059626,Betty,Kaur,12/12/1988,CF37 6BB,Morriston Hospital,Neurology,D45,Dr. Jones,S82.1,Fracture of upper end of tibia,Attended
+A1019,12/07/2025 08:10,P599,2454405946,Sarah,Powers,28/07/1966,NP28 8QF,Prince Charles,Orthopaedics,D12,Dr. Thomas,K21.9,Gastro-oesophageal reflux disease,Attended
+A1020,12/07/2025 08:10,P649,9904870438,Danny,Noland,26/11/1973,NP38 3HP,Royal Glamorgan,Gastroenterology,D33,Dr. Roberts,I10,Essential hypertension,Attended
+A1021,12/07/2025 08:10,P542,9117640423,Brenda,Marshall,04/06/1988,LL10 3GF,University Hospital,Cardiology,D88,Dr. Davies,J45.9,"Asthma, unspecified",Attended
+A1022,12/07/2025 08:10,P620,1350082724,William,Bradley,05/06/1957,NP19 7JG,Royal Glamorgan,Dermatology,D21,Dr. Evans,L20.9,"Atopic dermatitis, unspecified",Attended
+A1023,12/07/2025 08:10,P575,8334569416,Ted,Wright,08/01/1950,SA36 2EY,Morriston Hospital,Neurology,D21,Dr. Evans,E11.9,Type 2 diabetes mellitus without complications,DNA
+A1024,12/07/2025 08:10,P562,3557059626,Betty,Kaur,12/12/1988,CF37 6BB,Prince Charles,Orthopaedics,D21,Dr. Evans,M54.5,Low back pain,DNA
+A1025,12/07/2025 08:10,P633,3072400741,Jeffrey,Foslien,06/09/1996,LL14 5JD,Morriston Hospital,Neurology,D21,Dr. Evans,I10,Essential hypertension,Attended
+A1026,12/07/2025 08:10,P502,9623650574,Kim,Szala,11/02/1968,LL37 2PY,Singleton Hospital,Oncology,D12,Dr. Thomas,M54.5,Low back pain,Attended
+A1027,12/07/2025 08:10,P596,522780253,Lillian,Pearson,27/10/1987,NP33 4YB,University Hospital,Cardiology,D45,Dr. Jones,J45.9,"Asthma, unspecified",Attended
+A1028,12/07/2025 08:10,P573,497824280,Samuel,Madera,01/03/1988,CF21 8SE,Morriston Hospital,Neurology,D33,Dr. Roberts,S82.1,Fracture of upper end of tibia,DNA
+A1029,12/07/2025 08:10,P532,2683198396,Myra,Mcclure,08/05/1969,SA15 3VX,Royal Glamorgan,Dermatology,D67,Dr. Williams,J45.9,"Asthma, unspecified",Attended
+A1030,12/07/2025 08:10,P620,1350082724,William,Bradley,05/06/1957,NP19 7JG,University Hospital,Cardiology,D21,Dr. Evans,L20.9,"Atopic dermatitis, unspecified",Attended
+A1031,12/07/2025 08:10,P514,1511617829,Jessica,Butler,09/12/1951,NP35 7SC,Royal Glamorgan,Gastroenterology,D33,Dr. Roberts,E11.9,Type 2 diabetes mellitus without complications,DNA
+A1032,12/07/2025 08:10,P546,5132570801,Glenn,Barnett,01/05/1968,LL36 2BX,Prince Charles,Orthopaedics,D67,Dr. Williams,S82.1,Fracture of upper end of tibia,Attended
+A1033,12/07/2025 08:10,P543,8932821836,Billie,Ebert,10/09/2003,CF36 4BY,Royal Glamorgan,Dermatology,D88,Dr. Davies,L20.9,"Atopic dermatitis, unspecified",Attended
+A1034,12/07/2025 08:10,P602,115740902,Belinda,Marvin,19/12/1979,LL37 1DM,Royal Glamorgan,Dermatology,D67,Dr. Williams,M54.5,Low back pain,Attended
+A1035,12/07/2025 08:10,P539,9747347725,Chase,Reynolds,02/01/1955,NP22 6RJ,Royal Glamorgan,Gastroenterology,D12,Dr. Thomas,I10,Essential hypertension,Attended
+A1036,12/07/2025 08:10,P569,430702019,John,Bonney,18/03/2002,LL33 9SF,Morriston Hospital,Neurology,D12,Dr. Thomas,M54.5,Low back pain,DNA
+A1037,12/07/2025 08:10,P538,1201773687,Michael,Fender,18/06/1961,CF30 3XM,Singleton Hospital,Oncology,D12,Dr. Thomas,I10,Essential hypertension,Attended
+A1038,12/07/2025 08:10,P606,292636466,Franklin,Baine,20/06/1989,CF27 1RF,Royal Glamorgan,Gastroenterology,D67,Dr. Williams,L20.9,"Atopic dermatitis, unspecified",Attended
+A1039,12/07/2025 08:10,P617,9352052633,Jonathan,Guillotte,14/07/1953,SA34 3ML,Prince Charles,Orthopaedics,D21,Dr. Evans,M54.5,Low back pain,Attended
+A1040,12/07/2025 08:10,P606,292636466,Franklin,Baine,20/06/1989,CF27 1RF,Royal Glamorgan,Gastroenterology,D45,Dr. Jones,E11.9,Type 2 diabetes mellitus without complications,DNA
+A1041,12/07/2025 08:10,P594,7528997382,Ray,Lebeau,04/12/1967,SA21 1XK,Prince Charles,Orthopaedics,D33,Dr. Roberts,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1042,12/07/2025 08:10,P549,2825104442,Nydia,Fleshman,26/04/2005,CF23 4HH,Prince Charles,Orthopaedics,D21,Dr. Evans,I10,Essential hypertension,Attended
+A1043,12/07/2025 08:10,P616,3446346015,Joel,Clawson,20/09/1948,NP34 3XN,Prince Charles,Orthopaedics,D33,Dr. Roberts,S82.1,Fracture of upper end of tibia,DNA
+A1044,12/07/2025 08:10,P648,5540486900,Jeffrey,Longoria,01/10/1949,NP21 5SO,Royal Glamorgan,Gastroenterology,D33,Dr. Roberts,K21.9,Gastro-oesophageal reflux disease,DNA
+A1045,12/07/2025 08:10,P601,9744420626,Christopher,Webb,23/02/1972,LL15 2KG,Singleton Hospital,Oncology,D45,Dr. Jones,L20.9,"Atopic dermatitis, unspecified",Attended
+A1046,12/07/2025 08:10,P608,3920111346,Roosevelt,Schulze,07/01/2006,LL27 5SH,Royal Glamorgan,Dermatology,D12,Dr. Thomas,I10,Essential hypertension,Attended
+A1047,12/07/2025 08:10,P556,7153427422,Tracy,Clarkson,07/05/1959,LL35 9TI,Prince Charles,Orthopaedics,D12,Dr. Thomas,J45.9,"Asthma, unspecified",Attended
+A1048,12/07/2025 08:10,P615,6540640056,Beatrice,Allen,16/07/1959,CF12 1CK,Royal Glamorgan,Gastroenterology,D21,Dr. Evans,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1049,12/07/2025 08:10,P536,4964774724,Jamie,Weeks,11/10/1997,SA25 5SE,Singleton Hospital,Oncology,D12,Dr. Thomas,J45.9,"Asthma, unspecified",Attended
+A1050,12/07/2025 08:10,P579,3205357434,Ryan,Johnson,28/09/1953,LL10 7ZC,Royal Glamorgan,Dermatology,D21,Dr. Evans,L20.9,"Atopic dermatitis, unspecified",Attended
+A1051,12/07/2025 08:10,P525,8526432982,Alene,Gooding,09/05/1987,SA35 2GY,Royal Glamorgan,Dermatology,D33,Dr. Roberts,E11.9,Type 2 diabetes mellitus without complications,DNA
+A1052,12/07/2025 08:10,P577,6291719010,Ruth,Hinkle,01/12/1966,SA27 5DY,Prince Charles,Orthopaedics,D12,Dr. Thomas,K21.9,Gastro-oesophageal reflux disease,DNA
+A1053,12/07/2025 08:10,P517,5661049129,Mariann,Carter,22/12/1965,LL35 5XF,Singleton Hospital,Oncology,D45,Dr. Jones,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1054,12/07/2025 08:10,P616,3446346015,Joel,Clawson,20/09/1948,NP34 3XN,University Hospital,Cardiology,D88,Dr. Davies,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1055,12/07/2025 08:10,P550,2600993797,Ryan,Winn,10/12/1948,SA32 1ZJ,Singleton Hospital,Oncology,D88,Dr. Davies,I10,Essential hypertension,Attended
+A1056,12/07/2025 08:10,P538,1201773687,Michael,Fender,18/06/1961,CF30 3XM,University Hospital,Cardiology,D45,Dr. Jones,S82.1,Fracture of upper end of tibia,DNA
+A1057,12/07/2025 08:10,P546,5132570801,Glenn,Barnett,01/05/1968,LL36 2BX,Royal Glamorgan,Dermatology,D21,Dr. Evans,M54.5,Low back pain,Attended
+A1058,12/07/2025 08:10,P524,148573762,Helen,Sharrer,11/10/2008,CF30 2PB,Prince Charles,Orthopaedics,D67,Dr. Williams,J45.9,"Asthma, unspecified",Attended
+A1059,12/07/2025 08:10,P587,535215401,Jose,Gill,28/04/1958,NP26 2IZ,Prince Charles,Orthopaedics,D88,Dr. Davies,I10,Essential hypertension,Attended
+A1060,12/07/2025 08:10,P588,9081949284,Donald,Roberts,23/01/1962,LL12 3SF,Singleton Hospital,Oncology,D45,Dr. Jones,M54.5,Low back pain,Attended
+A1061,12/07/2025 08:10,P558,1254273158,Esther,Tucci,07/02/1941,NP33 4XF,Prince Charles,Orthopaedics,D33,Dr. Roberts,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1062,12/07/2025 08:10,P573,497824280,Samuel,Madera,01/03/1988,CF21 8SE,Prince Charles,Orthopaedics,D33,Dr. Roberts,K21.9,Gastro-oesophageal reflux disease,Attended
+A1063,12/07/2025 08:10,P591,6016868965,Shelby,Hammon,20/01/2001,LL25 7ZC,Morriston Hospital,Neurology,D88,Dr. Davies,J45.9,"Asthma, unspecified",Attended
+A1064,12/07/2025 08:10,P560,3598836171,Bryan,Allen,03/01/2008,LL37 9TZ,Prince Charles,Orthopaedics,D21,Dr. Evans,K21.9,Gastro-oesophageal reflux disease,Attended
+A1065,12/07/2025 08:10,P586,8600932777,Alexander,Mcfadden,24/11/1967,LL18 4WD,Prince Charles,Orthopaedics,D45,Dr. Jones,S82.1,Fracture of upper end of tibia,Attended
+A1066,12/07/2025 08:10,P566,6598774578,Tiffany,Ward,27/03/2002,CF21 5ZR,Royal Glamorgan,Dermatology,D67,Dr. Williams,E11.9,Type 2 diabetes mellitus without complications,DNA
+A1067,12/07/2025 08:10,P532,2683198396,Myra,Mcclure,08/05/1969,SA15 3VX,Royal Glamorgan,Gastroenterology,D67,Dr. Williams,I10,Essential hypertension,Attended
+A1068,12/07/2025 08:10,P576,4770471416,Corinne,Mendoza,21/03/2006,LL28 2CM,Morriston Hospital,Neurology,D67,Dr. Williams,K21.9,Gastro-oesophageal reflux disease,Attended
+A1069,12/07/2025 08:10,P540,720356083,Francis,Goodwin,09/12/1967,SA26 9RM,Royal Glamorgan,Gastroenterology,D67,Dr. Williams,J45.9,"Asthma, unspecified",Attended
+A1070,12/07/2025 08:10,P531,283802200,Michael,Stevenson,19/02/1967,CF24 2HI,Royal Glamorgan,Dermatology,D88,Dr. Davies,L20.9,"Atopic dermatitis, unspecified",Attended
+A1071,12/07/2025 08:10,P505,6552352735,Anita,Ashby,07/04/1960,CF15 1CV,Prince Charles,Orthopaedics,D45,Dr. Jones,K21.9,Gastro-oesophageal reflux disease,Attended
+A1072,12/07/2025 08:10,P626,2684191468,Karl,Moran,22/10/1952,CF39 6KO,Royal Glamorgan,Dermatology,D33,Dr. Roberts,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1073,12/07/2025 08:10,P632,9386510693,Julie,Lewis,06/05/2005,SA18 3VP,Royal Glamorgan,Dermatology,D88,Dr. Davies,K21.9,Gastro-oesophageal reflux disease,Attended
+A1074,12/07/2025 08:10,P602,115740902,Belinda,Marvin,19/12/1979,LL37 1DM,Prince Charles,Orthopaedics,D12,Dr. Thomas,K21.9,Gastro-oesophageal reflux disease,Attended
+A1075,12/07/2025 08:10,P596,522780253,Lillian,Pearson,27/10/1987,NP33 4YB,Royal Glamorgan,Dermatology,D88,Dr. Davies,S82.1,Fracture of upper end of tibia,Attended
+A1076,12/07/2025 08:10,P509,9788282938,Carolyn,King,01/11/1944,SA17 3EK,University Hospital,Cardiology,D33,Dr. Roberts,K21.9,Gastro-oesophageal reflux disease,Attended
+A1077,12/07/2025 08:10,P512,4971158170,Clarence,Sweeny,16/03/1994,SA30 4GW,Prince Charles,Orthopaedics,D88,Dr. Davies,K21.9,Gastro-oesophageal reflux disease,Attended
+A1078,12/07/2025 08:10,P527,6906091948,Florrie,Duncan,07/04/2004,SA36 8TW,Prince Charles,Orthopaedics,D88,Dr. Davies,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1079,12/07/2025 08:10,P557,945058632,Connie,Savini,04/09/2001,CF22 8RU,University Hospital,Cardiology,D33,Dr. Roberts,M54.5,Low back pain,Attended
+A1080,12/07/2025 08:10,P576,4770471416,Corinne,Mendoza,21/03/2006,LL28 2CM,University Hospital,Cardiology,D33,Dr. Roberts,M54.5,Low back pain,Attended
+A1081,12/07/2025 08:10,P613,7723271123,Dario,Allen,07/11/1990,NP21 8DL,Royal Glamorgan,Gastroenterology,D12,Dr. Thomas,L20.9,"Atopic dermatitis, unspecified",DNA
+A1082,12/07/2025 08:10,P543,8932821836,Billie,Ebert,10/09/2003,CF36 4BY,Royal Glamorgan,Gastroenterology,D33,Dr. Roberts,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1083,12/07/2025 08:10,P605,5423142598,Thomas,Spicer,07/05/1985,CF18 5LV,Singleton Hospital,Oncology,D67,Dr. Williams,I10,Essential hypertension,DNA
+A1084,12/07/2025 08:10,P525,8526432982,Alene,Gooding,09/05/1987,SA35 2GY,Royal Glamorgan,Dermatology,D67,Dr. Williams,J45.9,"Asthma, unspecified",Attended
+A1085,12/07/2025 08:10,P560,3598836171,Bryan,Allen,03/01/2008,LL37 9TZ,Morriston Hospital,Neurology,D67,Dr. Williams,I10,Essential hypertension,Attended
+A1086,12/07/2025 08:10,P520,8146085482,Joshua,Jordan,20/03/2003,CF31 5NM,Royal Glamorgan,Dermatology,D21,Dr. Evans,I10,Essential hypertension,Attended
+A1087,12/07/2025 08:10,P619,490375316,Lynn,Mclaughlin,22/01/1988,SA23 1UP,Morriston Hospital,Neurology,D33,Dr. Roberts,L20.9,"Atopic dermatitis, unspecified",Attended
+A1088,12/07/2025 08:10,P641,4095691077,Carol,Dugan,10/10/1986,SA34 1ZE,University Hospital,Cardiology,D88,Dr. Davies,S82.1,Fracture of upper end of tibia,Attended
+A1089,12/07/2025 08:10,P518,735554943,Maria,Knight,26/11/1948,SA18 5KE,Singleton Hospital,Oncology,D33,Dr. Roberts,M54.5,Low back pain,Attended
+A1090,12/07/2025 08:10,P572,756696364,Dennis,Tays,20/12/1992,CF16 5TK,Royal Glamorgan,Dermatology,D45,Dr. Jones,S82.1,Fracture of upper end of tibia,Attended
+A1091,12/07/2025 08:10,P559,3050717335,Wayne,Kershaw,04/02/2008,NP36 8OQ,Singleton Hospital,Oncology,D21,Dr. Evans,K21.9,Gastro-oesophageal reflux disease,DNA
+A1092,12/07/2025 08:10,P536,4964774724,Jamie,Weeks,11/10/1997,SA25 5SE,Royal Glamorgan,Dermatology,D12,Dr. Thomas,L20.9,"Atopic dermatitis, unspecified",Attended
+A1093,12/07/2025 08:10,P529,164103708,Roman,Gilson,21/03/1994,NP13 2GW,University Hospital,Cardiology,D67,Dr. Williams,M54.5,Low back pain,Attended
+A1094,12/07/2025 08:10,P563,8722401334,Mabel,Conrad,06/07/1950,NP38 3YR,Singleton Hospital,Oncology,D45,Dr. Jones,K21.9,Gastro-oesophageal reflux disease,DNA
+A1095,12/07/2025 08:10,P562,3557059626,Betty,Kaur,12/12/1988,CF37 6BB,Royal Glamorgan,Dermatology,D67,Dr. Williams,M54.5,Low back pain,Attended
+A1096,12/07/2025 08:10,P640,4792665310,Robert,Marsh,06/04/2002,SA28 5NV,University Hospital,Cardiology,D45,Dr. Jones,J45.9,"Asthma, unspecified",DNA
+A1097,12/07/2025 08:10,P639,8682902893,Maureen,Hackney,19/09/1943,NP20 2QL,Royal Glamorgan,Gastroenterology,D45,Dr. Jones,L20.9,"Atopic dermatitis, unspecified",Attended
+A1098,12/07/2025 08:10,P592,2149967278,Earl,Wolf,05/03/1957,LL33 5UA,Prince Charles,Orthopaedics,D21,Dr. Evans,I10,Essential hypertension,Attended
+A1099,12/07/2025 08:10,P522,6694553803,Jim,Hanauer,11/07/1961,NP18 6SF,Royal Glamorgan,Gastroenterology,D12,Dr. Thomas,I10,Essential hypertension,Attended
+A1100,12/07/2025 08:10,P598,5364032167,Mary,Morales,26/03/1962,SA22 5MC,Morriston Hospital,Neurology,D12,Dr. Thomas,L20.9,"Atopic dermatitis, unspecified",Attended
+A1101,12/07/2025 08:10,P529,164103708,Roman,Gilson,21/03/1994,NP13 2GW,Morriston Hospital,Neurology,D12,Dr. Thomas,K21.9,Gastro-oesophageal reflux disease,Attended
+A1102,12/07/2025 08:10,P513,6340341071,Malena,Snider,20/01/1989,LL18 9HI,University Hospital,Cardiology,D33,Dr. Roberts,K21.9,Gastro-oesophageal reflux disease,DNA
+A1103,12/07/2025 08:10,P636,9285632378,Robert,Konrad,24/11/1980,SA18 1XO,Morriston Hospital,Neurology,D33,Dr. Roberts,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1104,12/07/2025 08:10,P519,3171093324,Tiffany,Brafford,10/04/1959,NP32 4AB,Morriston Hospital,Neurology,D33,Dr. Roberts,J45.9,"Asthma, unspecified",DNA
+A1105,12/07/2025 08:10,P538,1201773687,Michael,Fender,18/06/1961,CF30 3XM,Royal Glamorgan,Dermatology,D33,Dr. Roberts,J45.9,"Asthma, unspecified",Attended
+A1106,12/07/2025 08:10,P604,5982643394,Beverly,Gering,28/10/1992,CF19 5XV,Royal Glamorgan,Gastroenterology,D45,Dr. Jones,L20.9,"Atopic dermatitis, unspecified",Attended
+A1107,12/07/2025 08:10,P600,5862702520,Rhoda,Luna,04/11/1946,NP28 3MK,Prince Charles,Orthopaedics,D67,Dr. Williams,I10,Essential hypertension,DNA
+A1108,12/07/2025 08:10,P606,292636466,Franklin,Baine,20/06/1989,CF27 1RF,Royal Glamorgan,Dermatology,D33,Dr. Roberts,S82.1,Fracture of upper end of tibia,Attended
+A1109,12/07/2025 08:10,P556,7153427422,Tracy,Clarkson,07/05/1959,LL35 9TI,University Hospital,Cardiology,D12,Dr. Thomas,M54.5,Low back pain,DNA
+A1110,12/07/2025 08:10,P573,497824280,Samuel,Madera,01/03/1988,CF21 8SE,Morriston Hospital,Neurology,D12,Dr. Thomas,L20.9,"Atopic dermatitis, unspecified",Attended
+A1111,12/07/2025 08:10,P558,1254273158,Esther,Tucci,07/02/1941,NP33 4XF,Royal Glamorgan,Dermatology,D67,Dr. Williams,M54.5,Low back pain,DNA
+A1112,12/07/2025 08:10,P648,5540486900,Jeffrey,Longoria,01/10/1949,NP21 5SO,Singleton Hospital,Oncology,D88,Dr. Davies,J45.9,"Asthma, unspecified",Attended
+A1113,12/07/2025 08:10,P599,2454405946,Sarah,Powers,28/07/1966,NP28 8QF,Royal Glamorgan,Gastroenterology,D45,Dr. Jones,S82.1,Fracture of upper end of tibia,DNA
+A1114,12/07/2025 08:10,P545,4622334623,David,Ashpole,13/05/1945,LL12 2SV,University Hospital,Cardiology,D45,Dr. Jones,I10,Essential hypertension,DNA
+A1115,12/07/2025 08:10,P633,3072400741,Jeffrey,Foslien,06/09/1996,LL14 5JD,Royal Glamorgan,Gastroenterology,D33,Dr. Roberts,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1116,12/07/2025 08:10,P601,9744420626,Christopher,Webb,23/02/1972,LL15 2KG,Morriston Hospital,Neurology,D45,Dr. Jones,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1117,12/07/2025 08:10,P529,164103708,Roman,Gilson,21/03/1994,NP13 2GW,Singleton Hospital,Oncology,D33,Dr. Roberts,L20.9,"Atopic dermatitis, unspecified",Attended
+A1118,12/07/2025 08:10,P536,4964774724,Jamie,Weeks,11/10/1997,SA25 5SE,Morriston Hospital,Neurology,D21,Dr. Evans,K21.9,Gastro-oesophageal reflux disease,Attended
+A1119,12/07/2025 08:10,P564,2312161559,Paul,Dickerson,17/07/2008,SA29 5JO,Royal Glamorgan,Dermatology,D67,Dr. Williams,M54.5,Low back pain,Attended
+A1120,12/07/2025 08:10,P574,3367895326,Holly,Krell,02/01/1944,NP26 9XQ,Singleton Hospital,Oncology,D88,Dr. Davies,E11.9,Type 2 diabetes mellitus without complications,DNA
+A1121,12/07/2025 08:10,P538,1201773687,Michael,Fender,18/06/1961,CF30 3XM,Royal Glamorgan,Dermatology,D12,Dr. Thomas,I10,Essential hypertension,DNA
+A1122,12/07/2025 08:10,P568,5900540227,David,Caplinger,06/03/1950,SA31 9DI,University Hospital,Cardiology,D67,Dr. Williams,L20.9,"Atopic dermatitis, unspecified",Attended
+A1123,12/07/2025 08:10,P636,9285632378,Robert,Konrad,24/11/1980,SA18 1XO,Royal Glamorgan,Dermatology,D45,Dr. Jones,M54.5,Low back pain,Attended
+A1124,12/07/2025 08:10,P543,8932821836,Billie,Ebert,10/09/2003,CF36 4BY,Royal Glamorgan,Gastroenterology,D21,Dr. Evans,K21.9,Gastro-oesophageal reflux disease,Attended
+A1125,12/07/2025 08:10,P626,2684191468,Karl,Moran,22/10/1952,CF39 6KO,University Hospital,Cardiology,D88,Dr. Davies,J45.9,"Asthma, unspecified",Attended
+A1126,12/07/2025 08:10,P630,8668713787,Charlotte,Hamilton,24/12/2003,SA14 4WK,University Hospital,Cardiology,D12,Dr. Thomas,L20.9,"Atopic dermatitis, unspecified",Attended
+A1127,12/07/2025 08:10,P616,3446346015,Joel,Clawson,20/09/1948,NP34 3XN,Prince Charles,Orthopaedics,D67,Dr. Williams,K21.9,Gastro-oesophageal reflux disease,Attended
+A1128,12/07/2025 08:10,P542,9117640423,Brenda,Marshall,04/06/1988,LL10 3GF,Morriston Hospital,Neurology,D67,Dr. Williams,L20.9,"Atopic dermatitis, unspecified",Attended
+A1129,12/07/2025 08:10,P548,8210029819,William,Snyder,27/03/1976,CF22 2XX,Singleton Hospital,Oncology,D88,Dr. Davies,K21.9,Gastro-oesophageal reflux disease,Attended
+A1130,12/07/2025 08:10,P547,4578225062,Michael,Reyna,15/06/1969,SA28 3PI,Royal Glamorgan,Gastroenterology,D67,Dr. Williams,I10,Essential hypertension,Attended
+A1131,12/07/2025 08:10,P536,4964774724,Jamie,Weeks,11/10/1997,SA25 5SE,Morriston Hospital,Neurology,D12,Dr. Thomas,K21.9,Gastro-oesophageal reflux disease,Attended
+A1132,12/07/2025 08:10,P556,7153427422,Tracy,Clarkson,07/05/1959,LL35 9TI,Royal Glamorgan,Gastroenterology,D33,Dr. Roberts,K21.9,Gastro-oesophageal reflux disease,Attended
+A1133,12/07/2025 08:10,P602,115740902,Belinda,Marvin,19/12/1979,LL37 1DM,Singleton Hospital,Oncology,D12,Dr. Thomas,S82.1,Fracture of upper end of tibia,Attended
+A1134,12/07/2025 08:10,P574,3367895326,Holly,Krell,02/01/1944,NP26 9XQ,Singleton Hospital,Oncology,D21,Dr. Evans,J45.9,"Asthma, unspecified",Attended
+A1135,12/07/2025 08:10,P513,6340341071,Malena,Snider,20/01/1989,LL18 9HI,Royal Glamorgan,Dermatology,D67,Dr. Williams,M54.5,Low back pain,DNA
+A1136,12/07/2025 08:10,P561,9815283804,Jerome,Hamilton,12/07/1960,CF26 3PP,Singleton Hospital,Oncology,D45,Dr. Jones,M54.5,Low back pain,DNA
+A1137,12/07/2025 08:10,P622,2055099469,Roberta,Pena,17/01/1947,NP25 7PQ,University Hospital,Cardiology,D21,Dr. Evans,M54.5,Low back pain,Attended
+A1138,12/07/2025 08:10,P539,9747347725,Chase,Reynolds,02/01/1955,NP22 6RJ,Singleton Hospital,Oncology,D88,Dr. Davies,L20.9,"Atopic dermatitis, unspecified",Attended
+A1139,12/07/2025 08:10,P577,6291719010,Ruth,Hinkle,01/12/1966,SA27 5DY,Morriston Hospital,Neurology,D33,Dr. Roberts,S82.1,Fracture of upper end of tibia,Attended
+A1140,12/07/2025 08:10,P509,9788282938,Carolyn,King,01/11/1944,SA17 3EK,Royal Glamorgan,Gastroenterology,D45,Dr. Jones,S82.1,Fracture of upper end of tibia,Attended
+A1141,12/07/2025 08:10,P574,3367895326,Holly,Krell,02/01/1944,NP26 9XQ,Prince Charles,Orthopaedics,D21,Dr. Evans,M54.5,Low back pain,Attended
+A1142,12/07/2025 08:10,P562,3557059626,Betty,Kaur,12/12/1988,CF37 6BB,Prince Charles,Orthopaedics,D45,Dr. Jones,K21.9,Gastro-oesophageal reflux disease,Attended
+A1143,12/07/2025 08:10,P625,2591940991,Sammie,Malkani,23/03/1942,LL23 6IH,Royal Glamorgan,Gastroenterology,D67,Dr. Williams,I10,Essential hypertension,Attended
+A1144,12/07/2025 08:10,P647,8622752879,Ronald,Canizales,24/02/1980,NP18 3KV,Prince Charles,Orthopaedics,D21,Dr. Evans,I10,Essential hypertension,DNA
+A1145,12/07/2025 08:10,P539,9747347725,Chase,Reynolds,02/01/1955,NP22 6RJ,University Hospital,Cardiology,D33,Dr. Roberts,M54.5,Low back pain,Attended
+A1146,12/07/2025 08:10,P639,8682902893,Maureen,Hackney,19/09/1943,NP20 2QL,Morriston Hospital,Neurology,D21,Dr. Evans,I10,Essential hypertension,Attended
+A1147,12/07/2025 08:10,P527,6906091948,Florrie,Duncan,07/04/2004,SA36 8TW,Morriston Hospital,Neurology,D33,Dr. Roberts,J45.9,"Asthma, unspecified",Attended
+A1148,12/07/2025 08:10,P573,497824280,Samuel,Madera,01/03/1988,CF21 8SE,Royal Glamorgan,Gastroenterology,D12,Dr. Thomas,S82.1,Fracture of upper end of tibia,Attended
+A1149,12/07/2025 08:10,P550,2600993797,Ryan,Winn,10/12/1948,SA32 1ZJ,University Hospital,Cardiology,D33,Dr. Roberts,K21.9,Gastro-oesophageal reflux disease,DNA
+A1150,12/07/2025 08:10,P519,3171093324,Tiffany,Brafford,10/04/1959,NP32 4AB,Morriston Hospital,Neurology,D33,Dr. Roberts,S82.1,Fracture of upper end of tibia,Attended
+A1151,12/07/2025 08:10,P602,115740902,Belinda,Marvin,19/12/1979,LL37 1DM,Royal Glamorgan,Gastroenterology,D33,Dr. Roberts,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1152,12/07/2025 08:10,P532,2683198396,Myra,Mcclure,08/05/1969,SA15 3VX,University Hospital,Cardiology,D67,Dr. Williams,L20.9,"Atopic dermatitis, unspecified",Attended
+A1153,12/07/2025 08:10,P584,2661527591,Johnny,Viloria,09/04/1968,CF10 3LE,Prince Charles,Orthopaedics,D67,Dr. Williams,S82.1,Fracture of upper end of tibia,Attended
+A1154,12/07/2025 08:10,P595,7351921202,Mark,Worek,21/06/1970,NP13 3BR,Morriston Hospital,Neurology,D33,Dr. Roberts,L20.9,"Atopic dermatitis, unspecified",Attended
+A1155,12/07/2025 08:10,P503,573635722,Lindsay,Eskew,28/04/2006,LL11 3BW,Royal Glamorgan,Dermatology,D88,Dr. Davies,S82.1,Fracture of upper end of tibia,Attended
+A1156,12/07/2025 08:10,P561,9815283804,Jerome,Hamilton,12/07/1960,CF26 3PP,University Hospital,Cardiology,D12,Dr. Thomas,K21.9,Gastro-oesophageal reflux disease,Attended
+A1157,12/07/2025 08:10,P576,4770471416,Corinne,Mendoza,21/03/2006,LL28 2CM,Morriston Hospital,Neurology,D45,Dr. Jones,I10,Essential hypertension,Attended
+A1158,12/07/2025 08:10,P609,8429081410,Rachel,Lopez,17/12/1941,CF37 8DY,Morriston Hospital,Neurology,D45,Dr. Jones,I10,Essential hypertension,DNA
+A1159,12/07/2025 08:10,P643,1111506353,Patricia,Barlow,08/03/2005,NP25 4DR,Singleton Hospital,Oncology,D33,Dr. Roberts,S82.1,Fracture of upper end of tibia,DNA
+A1160,12/07/2025 08:10,P577,6291719010,Ruth,Hinkle,01/12/1966,SA27 5DY,Prince Charles,Orthopaedics,D45,Dr. Jones,K21.9,Gastro-oesophageal reflux disease,Attended
+A1161,12/07/2025 08:10,P620,1350082724,William,Bradley,05/06/1957,NP19 7JG,Singleton Hospital,Oncology,D21,Dr. Evans,S82.1,Fracture of upper end of tibia,DNA
+A1162,12/07/2025 08:10,P599,2454405946,Sarah,Powers,28/07/1966,NP28 8QF,Prince Charles,Orthopaedics,D45,Dr. Jones,L20.9,"Atopic dermatitis, unspecified",Attended
+A1163,12/07/2025 08:10,P562,3557059626,Betty,Kaur,12/12/1988,CF37 6BB,Prince Charles,Orthopaedics,D88,Dr. Davies,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1164,12/07/2025 08:10,P589,6943257137,Arnold,Horton,19/08/1977,SA22 2WT,Royal Glamorgan,Dermatology,D12,Dr. Thomas,K21.9,Gastro-oesophageal reflux disease,Attended
+A1165,12/07/2025 08:10,P594,7528997382,Ray,Lebeau,04/12/1967,SA21 1XK,Singleton Hospital,Oncology,D67,Dr. Williams,M54.5,Low back pain,Attended
+A1166,12/07/2025 08:10,P519,3171093324,Tiffany,Brafford,10/04/1959,NP32 4AB,Prince Charles,Orthopaedics,D12,Dr. Thomas,K21.9,Gastro-oesophageal reflux disease,Attended
+A1167,12/07/2025 08:10,P618,1323896783,Becky,Vallejos,25/06/2003,CF36 4PA,Royal Glamorgan,Dermatology,D33,Dr. Roberts,K21.9,Gastro-oesophageal reflux disease,Attended
+A1168,12/07/2025 08:10,P592,2149967278,Earl,Wolf,05/03/1957,LL33 5UA,Royal Glamorgan,Gastroenterology,D67,Dr. Williams,K21.9,Gastro-oesophageal reflux disease,DNA
+A1169,12/07/2025 08:10,P647,8622752879,Ronald,Canizales,24/02/1980,NP18 3KV,Royal Glamorgan,Dermatology,D88,Dr. Davies,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1170,12/07/2025 08:10,P568,5900540227,David,Caplinger,06/03/1950,SA31 9DI,Singleton Hospital,Oncology,D88,Dr. Davies,L20.9,"Atopic dermatitis, unspecified",Attended
+A1171,12/07/2025 08:10,P529,164103708,Roman,Gilson,21/03/1994,NP13 2GW,Royal Glamorgan,Gastroenterology,D33,Dr. Roberts,K21.9,Gastro-oesophageal reflux disease,Attended
+A1172,12/07/2025 08:10,P615,6540640056,Beatrice,Allen,16/07/1959,CF12 1CK,Royal Glamorgan,Dermatology,D33,Dr. Roberts,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1173,12/07/2025 08:10,P574,3367895326,Holly,Krell,02/01/1944,NP26 9XQ,Royal Glamorgan,Gastroenterology,D12,Dr. Thomas,M54.5,Low back pain,DNA
+A1174,12/07/2025 08:10,P598,5364032167,Mary,Morales,26/03/1962,SA22 5MC,Prince Charles,Orthopaedics,D12,Dr. Thomas,M54.5,Low back pain,DNA
+A1175,12/07/2025 08:10,P559,3050717335,Wayne,Kershaw,04/02/2008,NP36 8OQ,Royal Glamorgan,Gastroenterology,D67,Dr. Williams,I10,Essential hypertension,Attended
+A1176,12/07/2025 08:10,P604,5982643394,Beverly,Gering,28/10/1992,CF19 5XV,Morriston Hospital,Neurology,D67,Dr. Williams,M54.5,Low back pain,Attended
+A1177,12/07/2025 08:10,P622,2055099469,Roberta,Pena,17/01/1947,NP25 7PQ,Royal Glamorgan,Dermatology,D88,Dr. Davies,J45.9,"Asthma, unspecified",Attended
+A1178,12/07/2025 08:10,P618,1323896783,Becky,Vallejos,25/06/2003,CF36 4PA,Prince Charles,Orthopaedics,D21,Dr. Evans,L20.9,"Atopic dermatitis, unspecified",Attended
+A1179,12/07/2025 08:10,P575,8334569416,Ted,Wright,08/01/1950,SA36 2EY,Morriston Hospital,Neurology,D67,Dr. Williams,S82.1,Fracture of upper end of tibia,DNA
+A1180,12/07/2025 08:10,P528,4400238679,Jamie,Griffis,01/11/1967,NP21 6TT,Royal Glamorgan,Dermatology,D12,Dr. Thomas,K21.9,Gastro-oesophageal reflux disease,DNA
+A1181,12/07/2025 08:10,P603,9283097505,Sandra,Perkins,04/03/1981,LL26 7QL,University Hospital,Cardiology,D67,Dr. Williams,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1182,12/07/2025 08:10,P632,9386510693,Julie,Lewis,06/05/2005,SA18 3VP,Singleton Hospital,Oncology,D33,Dr. Roberts,L20.9,"Atopic dermatitis, unspecified",DNA
+A1183,12/07/2025 08:10,P527,6906091948,Florrie,Duncan,07/04/2004,SA36 8TW,Prince Charles,Orthopaedics,D21,Dr. Evans,J45.9,"Asthma, unspecified",DNA
+A1184,12/07/2025 08:10,P553,8111006888,Jill,Bachman,04/05/1988,LL11 5KL,Singleton Hospital,Oncology,D33,Dr. Roberts,I10,Essential hypertension,Attended
+A1185,12/07/2025 08:10,P643,1111506353,Patricia,Barlow,08/03/2005,NP25 4DR,Prince Charles,Orthopaedics,D67,Dr. Williams,M54.5,Low back pain,Attended
+A1186,12/07/2025 08:10,P637,6133299738,David,Eagle,14/11/1985,NP36 7AV,University Hospital,Cardiology,D33,Dr. Roberts,I10,Essential hypertension,Attended
+A1187,12/07/2025 08:10,P592,2149967278,Earl,Wolf,05/03/1957,LL33 5UA,Singleton Hospital,Oncology,D33,Dr. Roberts,J45.9,"Asthma, unspecified",Attended
+A1188,12/07/2025 08:10,P506,8037975193,Elizabeth,Smith,01/05/1941,NP21 1WV,Singleton Hospital,Oncology,D45,Dr. Jones,J45.9,"Asthma, unspecified",Attended
+A1189,12/07/2025 08:10,P534,3840117496,Fern,Christian,26/04/1990,CF12 7CF,Singleton Hospital,Oncology,D88,Dr. Davies,L20.9,"Atopic dermatitis, unspecified",Attended
+A1190,12/07/2025 08:10,P554,9042835877,David,Oakden,23/11/1944,NP32 5NF,Prince Charles,Orthopaedics,D45,Dr. Jones,I10,Essential hypertension,Attended
+A1191,12/07/2025 08:10,P626,2684191468,Karl,Moran,22/10/1952,CF39 6KO,Singleton Hospital,Oncology,D88,Dr. Davies,S82.1,Fracture of upper end of tibia,Attended
+A1192,12/07/2025 08:10,P520,8146085482,Joshua,Jordan,20/03/2003,CF31 5NM,Royal Glamorgan,Dermatology,D88,Dr. Davies,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1193,12/07/2025 08:10,P634,4716065103,Jose,Delgado,18/12/1949,SA20 6YW,Royal Glamorgan,Dermatology,D88,Dr. Davies,I10,Essential hypertension,Attended
+A1194,12/07/2025 08:10,P533,6863164418,Walter,Day,04/12/1981,CF32 7JX,University Hospital,Cardiology,D33,Dr. Roberts,J45.9,"Asthma, unspecified",Attended
+A1195,12/07/2025 08:10,P550,2600993797,Ryan,Winn,10/12/1948,SA32 1ZJ,University Hospital,Cardiology,D12,Dr. Thomas,L20.9,"Atopic dermatitis, unspecified",Attended
+A1196,12/07/2025 08:10,P647,8622752879,Ronald,Canizales,24/02/1980,NP18 3KV,Prince Charles,Orthopaedics,D12,Dr. Thomas,I10,Essential hypertension,DNA
+A1197,12/07/2025 08:10,P644,2326057104,Ella,Hodge,12/09/1972,CF35 4GW,Royal Glamorgan,Gastroenterology,D21,Dr. Evans,J45.9,"Asthma, unspecified",Attended
+A1198,12/07/2025 08:10,P560,3598836171,Bryan,Allen,03/01/2008,LL37 9TZ,Singleton Hospital,Oncology,D12,Dr. Thomas,M54.5,Low back pain,Attended
+A1199,12/07/2025 08:10,P640,4792665310,Robert,Marsh,06/04/2002,SA28 5NV,University Hospital,Cardiology,D67,Dr. Williams,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1200,12/07/2025 08:10,P559,3050717335,Wayne,Kershaw,04/02/2008,NP36 8OQ,Prince Charles,Orthopaedics,D21,Dr. Evans,K21.9,Gastro-oesophageal reflux disease,Attended
+A1201,12/07/2025 08:10,P617,9352052633,Jonathan,Guillotte,14/07/1953,SA34 3ML,University Hospital,Cardiology,D67,Dr. Williams,M54.5,Low back pain,DNA
+A1202,12/07/2025 08:10,P629,5931937641,Eleanore,Chouinard,17/04/1971,NP17 7MJ,Royal Glamorgan,Dermatology,D67,Dr. Williams,I10,Essential hypertension,Attended
+A1203,12/07/2025 08:10,P637,6133299738,David,Eagle,14/11/1985,NP36 7AV,University Hospital,Cardiology,D21,Dr. Evans,L20.9,"Atopic dermatitis, unspecified",Attended
+A1204,12/07/2025 08:10,P622,2055099469,Roberta,Pena,17/01/1947,NP25 7PQ,University Hospital,Cardiology,D67,Dr. Williams,J45.9,"Asthma, unspecified",DNA
+A1205,12/07/2025 08:10,P622,2055099469,Roberta,Pena,17/01/1947,NP25 7PQ,Royal Glamorgan,Gastroenterology,D67,Dr. Williams,I10,Essential hypertension,Attended
+A1206,12/07/2025 08:10,P621,7724738483,Porter,Babino,04/06/1959,SA12 4PK,Royal Glamorgan,Gastroenterology,D21,Dr. Evans,J45.9,"Asthma, unspecified",Attended
+A1207,12/07/2025 08:10,P604,5982643394,Beverly,Gering,28/10/1992,CF19 5XV,University Hospital,Cardiology,D67,Dr. Williams,S82.1,Fracture of upper end of tibia,Attended
+A1208,12/07/2025 08:10,P502,9623650574,Kim,Szala,11/02/1968,LL37 2PY,University Hospital,Cardiology,D33,Dr. Roberts,S82.1,Fracture of upper end of tibia,Attended
+A1209,12/07/2025 08:10,P574,3367895326,Holly,Krell,02/01/1944,NP26 9XQ,Royal Glamorgan,Gastroenterology,D33,Dr. Roberts,K21.9,Gastro-oesophageal reflux disease,Attended
+A1210,12/07/2025 08:10,P621,7724738483,Porter,Babino,04/06/1959,SA12 4PK,Morriston Hospital,Neurology,D88,Dr. Davies,J45.9,"Asthma, unspecified",DNA
+A1211,12/07/2025 08:10,P581,843268050,Eleanor,Monahan,12/01/2009,LL31 3EC,Singleton Hospital,Oncology,D12,Dr. Thomas,J45.9,"Asthma, unspecified",DNA
+A1212,12/07/2025 08:10,P560,3598836171,Bryan,Allen,03/01/2008,LL37 9TZ,Singleton Hospital,Oncology,D45,Dr. Jones,M54.5,Low back pain,Attended
+A1213,12/07/2025 08:10,P591,6016868965,Shelby,Hammon,20/01/2001,LL25 7ZC,Morriston Hospital,Neurology,D45,Dr. Jones,L20.9,"Atopic dermatitis, unspecified",Attended
+A1214,12/07/2025 08:10,P618,1323896783,Becky,Vallejos,25/06/2003,CF36 4PA,Royal Glamorgan,Dermatology,D45,Dr. Jones,K21.9,Gastro-oesophageal reflux disease,Attended
+A1215,12/07/2025 08:10,P530,5927478522,Susan,Collins,27/02/1941,CF23 6EG,Morriston Hospital,Neurology,D88,Dr. Davies,L20.9,"Atopic dermatitis, unspecified",DNA
+A1216,12/07/2025 08:10,P641,4095691077,Carol,Dugan,10/10/1986,SA34 1ZE,Singleton Hospital,Oncology,D45,Dr. Jones,S82.1,Fracture of upper end of tibia,Attended
+A1217,12/07/2025 08:10,P525,8526432982,Alene,Gooding,09/05/1987,SA35 2GY,Singleton Hospital,Oncology,D45,Dr. Jones,S82.1,Fracture of upper end of tibia,Attended
+A1218,12/07/2025 08:10,P631,9407957845,Francisco,Wakefield,05/01/1975,SA14 6WV,Singleton Hospital,Oncology,D88,Dr. Davies,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1219,12/07/2025 08:10,P591,6016868965,Shelby,Hammon,20/01/2001,LL25 7ZC,Royal Glamorgan,Gastroenterology,D67,Dr. Williams,J45.9,"Asthma, unspecified",Attended
+A1220,12/07/2025 08:10,P635,3903915688,Vickie,Cullum,24/10/1979,CF21 4WI,Royal Glamorgan,Gastroenterology,D33,Dr. Roberts,I10,Essential hypertension,Attended
+A1221,12/07/2025 08:10,P605,5423142598,Thomas,Spicer,07/05/1985,CF18 5LV,Singleton Hospital,Oncology,D12,Dr. Thomas,M54.5,Low back pain,DNA
+A1222,12/07/2025 08:10,P603,9283097505,Sandra,Perkins,04/03/1981,LL26 7QL,Royal Glamorgan,Gastroenterology,D21,Dr. Evans,I10,Essential hypertension,Attended
+A1223,12/07/2025 08:10,P528,4400238679,Jamie,Griffis,01/11/1967,NP21 6TT,Royal Glamorgan,Gastroenterology,D12,Dr. Thomas,K21.9,Gastro-oesophageal reflux disease,Attended
+A1224,12/07/2025 08:10,P585,1702998959,Yolanda,Brown,13/04/1949,CF26 9DX,University Hospital,Cardiology,D21,Dr. Evans,K21.9,Gastro-oesophageal reflux disease,Attended
+A1225,12/07/2025 08:10,P587,535215401,Jose,Gill,28/04/1958,NP26 2IZ,Royal Glamorgan,Gastroenterology,D21,Dr. Evans,I10,Essential hypertension,Attended
+A1226,12/07/2025 08:10,P598,5364032167,Mary,Morales,26/03/1962,SA22 5MC,Royal Glamorgan,Gastroenterology,D67,Dr. Williams,J45.9,"Asthma, unspecified",Attended
+A1227,12/07/2025 08:10,P570,4609634104,Vivian,Wallace,04/11/1943,SA33 6CQ,Royal Glamorgan,Dermatology,D45,Dr. Jones,L20.9,"Atopic dermatitis, unspecified",DNA
+A1228,12/07/2025 08:10,P539,9747347725,Chase,Reynolds,02/01/1955,NP22 6RJ,Royal Glamorgan,Gastroenterology,D67,Dr. Williams,K21.9,Gastro-oesophageal reflux disease,DNA
+A1229,12/07/2025 08:10,P528,4400238679,Jamie,Griffis,01/11/1967,NP21 6TT,University Hospital,Cardiology,D33,Dr. Roberts,S82.1,Fracture of upper end of tibia,Attended
+A1230,12/07/2025 08:10,P578,5323181974,Mark,Anderson,07/07/1950,NP21 9WS,Royal Glamorgan,Gastroenterology,D33,Dr. Roberts,M54.5,Low back pain,Attended
+A1231,12/07/2025 08:10,P615,6540640056,Beatrice,Allen,16/07/1959,CF12 1CK,Singleton Hospital,Oncology,D33,Dr. Roberts,S82.1,Fracture of upper end of tibia,Attended
+A1232,12/07/2025 08:10,P529,164103708,Roman,Gilson,21/03/1994,NP13 2GW,University Hospital,Cardiology,D45,Dr. Jones,L20.9,"Atopic dermatitis, unspecified",Attended
+A1233,12/07/2025 08:10,P647,8622752879,Ronald,Canizales,24/02/1980,NP18 3KV,Prince Charles,Orthopaedics,D12,Dr. Thomas,S82.1,Fracture of upper end of tibia,Attended
+A1234,12/07/2025 08:10,P613,7723271123,Dario,Allen,07/11/1990,NP21 8DL,Royal Glamorgan,Gastroenterology,D21,Dr. Evans,S82.1,Fracture of upper end of tibia,DNA
+A1235,12/07/2025 08:10,P603,9283097505,Sandra,Perkins,04/03/1981,LL26 7QL,Morriston Hospital,Neurology,D12,Dr. Thomas,I10,Essential hypertension,Attended
+A1236,12/07/2025 08:10,P596,522780253,Lillian,Pearson,27/10/1987,NP33 4YB,Morriston Hospital,Neurology,D12,Dr. Thomas,I10,Essential hypertension,Attended
+A1237,12/07/2025 08:10,P571,591065215,Roy,Foutch,02/03/1992,SA38 9EZ,Singleton Hospital,Oncology,D12,Dr. Thomas,I10,Essential hypertension,Attended
+A1238,12/07/2025 08:10,P572,756696364,Dennis,Tays,20/12/1992,CF16 5TK,Morriston Hospital,Neurology,D12,Dr. Thomas,S82.1,Fracture of upper end of tibia,Attended
+A1239,12/07/2025 08:10,P542,9117640423,Brenda,Marshall,04/06/1988,LL10 3GF,Prince Charles,Orthopaedics,D45,Dr. Jones,S82.1,Fracture of upper end of tibia,DNA
+A1240,12/07/2025 08:10,P578,5323181974,Mark,Anderson,07/07/1950,NP21 9WS,Royal Glamorgan,Gastroenterology,D21,Dr. Evans,J45.9,"Asthma, unspecified",DNA
+A1241,12/07/2025 08:10,P524,148573762,Helen,Sharrer,11/10/2008,CF30 2PB,Prince Charles,Orthopaedics,D33,Dr. Roberts,S82.1,Fracture of upper end of tibia,Attended
+A1242,12/07/2025 08:10,P604,5982643394,Beverly,Gering,28/10/1992,CF19 5XV,Royal Glamorgan,Dermatology,D21,Dr. Evans,K21.9,Gastro-oesophageal reflux disease,DNA
+A1243,12/07/2025 08:10,P552,7717048590,Georgia,Spears,02/10/1956,CF15 4DF,University Hospital,Cardiology,D45,Dr. Jones,S82.1,Fracture of upper end of tibia,Attended
+A1244,12/07/2025 08:10,P544,2523754207,Douglas,Davis,25/12/1992,CF28 1CZ,Royal Glamorgan,Dermatology,D45,Dr. Jones,L20.9,"Atopic dermatitis, unspecified",Attended
+A1245,12/07/2025 08:10,P569,430702019,John,Bonney,18/03/2002,LL33 9SF,Prince Charles,Orthopaedics,D45,Dr. Jones,I10,Essential hypertension,Attended
+A1246,12/07/2025 08:10,P574,3367895326,Holly,Krell,02/01/1944,NP26 9XQ,Singleton Hospital,Oncology,D21,Dr. Evans,I10,Essential hypertension,Attended
+A1247,12/07/2025 08:10,P648,5540486900,Jeffrey,Longoria,01/10/1949,NP21 5SO,Royal Glamorgan,Gastroenterology,D88,Dr. Davies,E11.9,Type 2 diabetes mellitus without complications,DNA
+A1248,12/07/2025 08:10,P640,4792665310,Robert,Marsh,06/04/2002,SA28 5NV,Singleton Hospital,Oncology,D12,Dr. Thomas,M54.5,Low back pain,Attended
+A1249,12/07/2025 08:10,P539,9747347725,Chase,Reynolds,02/01/1955,NP22 6RJ,Prince Charles,Orthopaedics,D21,Dr. Evans,L20.9,"Atopic dermatitis, unspecified",Attended
+A1250,12/07/2025 08:10,P643,1111506353,Patricia,Barlow,08/03/2005,NP25 4DR,Royal Glamorgan,Gastroenterology,D21,Dr. Evans,K21.9,Gastro-oesophageal reflux disease,Attended
+A1251,12/07/2025 08:10,P502,9623650574,Kim,Szala,11/02/1968,LL37 2PY,University Hospital,Cardiology,D33,Dr. Roberts,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1252,12/07/2025 08:10,P617,9352052633,Jonathan,Guillotte,14/07/1953,SA34 3ML,Morriston Hospital,Neurology,D67,Dr. Williams,S82.1,Fracture of upper end of tibia,DNA
+A1253,12/07/2025 08:10,P541,832854360,Marvin,Milliken,27/02/1982,CF29 7VF,University Hospital,Cardiology,D12,Dr. Thomas,K21.9,Gastro-oesophageal reflux disease,Attended
+A1254,12/07/2025 08:10,P507,2757465864,Michael,Woolem,25/09/1960,CF15 8LY,Royal Glamorgan,Gastroenterology,D88,Dr. Davies,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1255,12/07/2025 08:10,P633,3072400741,Jeffrey,Foslien,06/09/1996,LL14 5JD,Royal Glamorgan,Dermatology,D67,Dr. Williams,K21.9,Gastro-oesophageal reflux disease,Attended
+A1256,12/07/2025 08:10,P550,2600993797,Ryan,Winn,10/12/1948,SA32 1ZJ,Singleton Hospital,Oncology,D67,Dr. Williams,L20.9,"Atopic dermatitis, unspecified",Attended
+A1257,12/07/2025 08:10,P511,1258494795,Samuel,Cavanaugh,27/09/1979,SA35 3JT,University Hospital,Cardiology,D12,Dr. Thomas,S82.1,Fracture of upper end of tibia,Attended
+A1258,12/07/2025 08:10,P534,3840117496,Fern,Christian,26/04/1990,CF12 7CF,Singleton Hospital,Oncology,D33,Dr. Roberts,L20.9,"Atopic dermatitis, unspecified",Attended
+A1259,12/07/2025 08:10,P604,5982643394,Beverly,Gering,28/10/1992,CF19 5XV,Royal Glamorgan,Dermatology,D33,Dr. Roberts,S82.1,Fracture of upper end of tibia,Attended
+A1260,12/07/2025 08:10,P626,2684191468,Karl,Moran,22/10/1952,CF39 6KO,Singleton Hospital,Oncology,D67,Dr. Williams,L20.9,"Atopic dermatitis, unspecified",DNA
+A1261,12/07/2025 08:10,P620,1350082724,William,Bradley,05/06/1957,NP19 7JG,Royal Glamorgan,Gastroenterology,D21,Dr. Evans,M54.5,Low back pain,Attended
+A1262,12/07/2025 08:10,P533,6863164418,Walter,Day,04/12/1981,CF32 7JX,Prince Charles,Orthopaedics,D45,Dr. Jones,E11.9,Type 2 diabetes mellitus without complications,DNA
+A1263,12/07/2025 08:10,P584,2661527591,Johnny,Viloria,09/04/1968,CF10 3LE,Royal Glamorgan,Gastroenterology,D33,Dr. Roberts,J45.9,"Asthma, unspecified",Attended
+A1264,12/07/2025 08:10,P578,5323181974,Mark,Anderson,07/07/1950,NP21 9WS,Morriston Hospital,Neurology,D21,Dr. Evans,K21.9,Gastro-oesophageal reflux disease,Attended
+A1265,12/07/2025 08:10,P592,2149967278,Earl,Wolf,05/03/1957,LL33 5UA,Prince Charles,Orthopaedics,D88,Dr. Davies,L20.9,"Atopic dermatitis, unspecified",Attended
+A1266,12/07/2025 08:10,P553,8111006888,Jill,Bachman,04/05/1988,LL11 5KL,Morriston Hospital,Neurology,D67,Dr. Williams,K21.9,Gastro-oesophageal reflux disease,Attended
+A1267,12/07/2025 08:10,P636,9285632378,Robert,Konrad,24/11/1980,SA18 1XO,Royal Glamorgan,Gastroenterology,D21,Dr. Evans,I10,Essential hypertension,Attended
+A1268,12/07/2025 08:10,P510,8627669546,Michael,Rutter,21/11/1989,LL29 6QK,University Hospital,Cardiology,D21,Dr. Evans,L20.9,"Atopic dermatitis, unspecified",Attended
+A1269,12/07/2025 08:10,P627,4196208495,Emma,Flora,28/04/1996,SA17 9VJ,Royal Glamorgan,Gastroenterology,D45,Dr. Jones,K21.9,Gastro-oesophageal reflux disease,Attended
+A1270,12/07/2025 08:10,P556,7153427422,Tracy,Clarkson,07/05/1959,LL35 9TI,Prince Charles,Orthopaedics,D12,Dr. Thomas,M54.5,Low back pain,Attended
+A1271,12/07/2025 08:10,P574,3367895326,Holly,Krell,02/01/1944,NP26 9XQ,Morriston Hospital,Neurology,D21,Dr. Evans,K21.9,Gastro-oesophageal reflux disease,Attended
+A1272,12/07/2025 08:10,P524,148573762,Helen,Sharrer,11/10/2008,CF30 2PB,Royal Glamorgan,Dermatology,D67,Dr. Williams,I10,Essential hypertension,Attended
+A1273,12/07/2025 08:10,P545,4622334623,David,Ashpole,13/05/1945,LL12 2SV,Prince Charles,Orthopaedics,D21,Dr. Evans,J45.9,"Asthma, unspecified",DNA
+A1274,12/07/2025 08:10,P616,3446346015,Joel,Clawson,20/09/1948,NP34 3XN,Royal Glamorgan,Gastroenterology,D21,Dr. Evans,I10,Essential hypertension,DNA
+A1275,12/07/2025 08:10,P620,1350082724,William,Bradley,05/06/1957,NP19 7JG,Singleton Hospital,Oncology,D45,Dr. Jones,L20.9,"Atopic dermatitis, unspecified",Attended
+A1276,12/07/2025 08:10,P558,1254273158,Esther,Tucci,07/02/1941,NP33 4XF,Prince Charles,Orthopaedics,D88,Dr. Davies,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1277,12/07/2025 08:10,P572,756696364,Dennis,Tays,20/12/1992,CF16 5TK,Royal Glamorgan,Dermatology,D12,Dr. Thomas,L20.9,"Atopic dermatitis, unspecified",Attended
+A1278,12/07/2025 08:10,P561,9815283804,Jerome,Hamilton,12/07/1960,CF26 3PP,Singleton Hospital,Oncology,D21,Dr. Evans,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1279,12/07/2025 08:10,P592,2149967278,Earl,Wolf,05/03/1957,LL33 5UA,Prince Charles,Orthopaedics,D45,Dr. Jones,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1280,12/07/2025 08:10,P630,8668713787,Charlotte,Hamilton,24/12/2003,SA14 4WK,Royal Glamorgan,Dermatology,D21,Dr. Evans,J45.9,"Asthma, unspecified",Attended
+A1281,12/07/2025 08:10,P583,2745052071,Romeo,Mack,03/01/1981,SA38 5QE,Royal Glamorgan,Dermatology,D88,Dr. Davies,M54.5,Low back pain,Attended
+A1282,12/07/2025 08:10,P590,9592834881,Mary,Mahoney,01/11/2009,NP39 3WR,Singleton Hospital,Oncology,D88,Dr. Davies,J45.9,"Asthma, unspecified",Attended
+A1283,12/07/2025 08:10,P644,2326057104,Ella,Hodge,12/09/1972,CF35 4GW,University Hospital,Cardiology,D12,Dr. Thomas,M54.5,Low back pain,DNA
+A1284,12/07/2025 08:10,P559,3050717335,Wayne,Kershaw,04/02/2008,NP36 8OQ,Singleton Hospital,Oncology,D33,Dr. Roberts,L20.9,"Atopic dermatitis, unspecified",Attended
+A1285,12/07/2025 08:10,P510,8627669546,Michael,Rutter,21/11/1989,LL29 6QK,Morriston Hospital,Neurology,D67,Dr. Williams,K21.9,Gastro-oesophageal reflux disease,Attended
+A1286,12/07/2025 08:10,P643,1111506353,Patricia,Barlow,08/03/2005,NP25 4DR,Singleton Hospital,Oncology,D21,Dr. Evans,S82.1,Fracture of upper end of tibia,Attended
+A1287,12/07/2025 08:10,P609,8429081410,Rachel,Lopez,17/12/1941,CF37 8DY,Prince Charles,Orthopaedics,D45,Dr. Jones,M54.5,Low back pain,Attended
+A1288,12/07/2025 08:10,P559,3050717335,Wayne,Kershaw,04/02/2008,NP36 8OQ,Royal Glamorgan,Gastroenterology,D88,Dr. Davies,M54.5,Low back pain,Attended
+A1289,12/07/2025 08:10,P567,8860164907,Deanna,Tronaas,02/12/2003,NP18 6WW,University Hospital,Cardiology,D33,Dr. Roberts,K21.9,Gastro-oesophageal reflux disease,Attended
+A1290,12/07/2025 08:10,P522,6694553803,Jim,Hanauer,11/07/1961,NP18 6SF,Morriston Hospital,Neurology,D33,Dr. Roberts,J45.9,"Asthma, unspecified",DNA
+A1291,12/07/2025 08:10,P509,9788282938,Carolyn,King,01/11/1944,SA17 3EK,Morriston Hospital,Neurology,D45,Dr. Jones,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1292,12/07/2025 08:10,P605,5423142598,Thomas,Spicer,07/05/1985,CF18 5LV,Royal Glamorgan,Dermatology,D21,Dr. Evans,L20.9,"Atopic dermatitis, unspecified",Attended
+A1293,12/07/2025 08:10,P641,4095691077,Carol,Dugan,10/10/1986,SA34 1ZE,Royal Glamorgan,Gastroenterology,D45,Dr. Jones,S82.1,Fracture of upper end of tibia,Attended
+A1294,12/07/2025 08:10,P629,5931937641,Eleanore,Chouinard,17/04/1971,NP17 7MJ,Prince Charles,Orthopaedics,D33,Dr. Roberts,I10,Essential hypertension,Attended
+A1295,12/07/2025 08:10,P604,5982643394,Beverly,Gering,28/10/1992,CF19 5XV,Prince Charles,Orthopaedics,D88,Dr. Davies,L20.9,"Atopic dermatitis, unspecified",Attended
+A1296,12/07/2025 08:10,P611,6791575603,John,Schoberg,06/01/1958,CF15 9RJ,Royal Glamorgan,Dermatology,D12,Dr. Thomas,J45.9,"Asthma, unspecified",DNA
+A1297,12/07/2025 08:10,P546,5132570801,Glenn,Barnett,01/05/1968,LL36 2BX,Singleton Hospital,Oncology,D67,Dr. Williams,I10,Essential hypertension,DNA
+A1298,12/07/2025 08:10,P642,5297254205,Francis,Spencer,12/12/1968,SA21 3IV,University Hospital,Cardiology,D88,Dr. Davies,K21.9,Gastro-oesophageal reflux disease,Attended
+A1299,12/07/2025 08:10,P604,5982643394,Beverly,Gering,28/10/1992,CF19 5XV,Royal Glamorgan,Gastroenterology,D33,Dr. Roberts,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1300,12/07/2025 08:10,P542,9117640423,Brenda,Marshall,04/06/1988,LL10 3GF,Morriston Hospital,Neurology,D12,Dr. Thomas,J45.9,"Asthma, unspecified",Attended
+A1301,12/07/2025 08:10,P583,2745052071,Romeo,Mack,03/01/1981,SA38 5QE,Morriston Hospital,Neurology,D67,Dr. Williams,L20.9,"Atopic dermatitis, unspecified",DNA
+A1302,12/07/2025 08:10,P514,1511617829,Jessica,Butler,09/12/1951,NP35 7SC,Royal Glamorgan,Gastroenterology,D12,Dr. Thomas,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1303,12/07/2025 08:10,P646,4369609879,Esther,Jessup,19/12/1975,SA25 9CR,University Hospital,Cardiology,D33,Dr. Roberts,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1304,12/07/2025 08:10,P597,558100317,George,Williams,12/06/1964,LL39 6MN,Prince Charles,Orthopaedics,D88,Dr. Davies,I10,Essential hypertension,DNA
+A1305,12/07/2025 08:10,P602,115740902,Belinda,Marvin,19/12/1979,LL37 1DM,Morriston Hospital,Neurology,D67,Dr. Williams,I10,Essential hypertension,Attended
+A1306,12/07/2025 08:10,P551,2003100571,Herlinda,Womack,10/04/2008,CF20 7PV,Prince Charles,Orthopaedics,D21,Dr. Evans,I10,Essential hypertension,DNA
+A1307,12/07/2025 08:10,P554,9042835877,David,Oakden,23/11/1944,NP32 5NF,University Hospital,Cardiology,D33,Dr. Roberts,M54.5,Low back pain,Attended
+A1308,12/07/2025 08:10,P509,9788282938,Carolyn,King,01/11/1944,SA17 3EK,Morriston Hospital,Neurology,D45,Dr. Jones,L20.9,"Atopic dermatitis, unspecified",DNA
+A1309,12/07/2025 08:10,P576,4770471416,Corinne,Mendoza,21/03/2006,LL28 2CM,Royal Glamorgan,Dermatology,D12,Dr. Thomas,L20.9,"Atopic dermatitis, unspecified",Attended
+A1310,12/07/2025 08:10,P511,1258494795,Samuel,Cavanaugh,27/09/1979,SA35 3JT,Royal Glamorgan,Dermatology,D12,Dr. Thomas,I10,Essential hypertension,Attended
+A1311,12/07/2025 08:10,P582,5367215947,Karen,Rutledge,08/01/1957,NP16 4ZT,Royal Glamorgan,Dermatology,D33,Dr. Roberts,K21.9,Gastro-oesophageal reflux disease,Attended
+A1312,12/07/2025 08:10,P542,9117640423,Brenda,Marshall,04/06/1988,LL10 3GF,University Hospital,Cardiology,D21,Dr. Evans,E11.9,Type 2 diabetes mellitus without complications,DNA
+A1313,12/07/2025 08:10,P541,832854360,Marvin,Milliken,27/02/1982,CF29 7VF,Singleton Hospital,Oncology,D67,Dr. Williams,L20.9,"Atopic dermatitis, unspecified",Attended
+A1314,12/07/2025 08:10,P514,1511617829,Jessica,Butler,09/12/1951,NP35 7SC,Prince Charles,Orthopaedics,D12,Dr. Thomas,L20.9,"Atopic dermatitis, unspecified",Attended
+A1315,12/07/2025 08:10,P526,9469169603,Leslie,Ringgold,28/10/1983,SA21 4NV,Morriston Hospital,Neurology,D45,Dr. Jones,I10,Essential hypertension,Attended
+A1316,12/07/2025 08:10,P514,1511617829,Jessica,Butler,09/12/1951,NP35 7SC,Royal Glamorgan,Gastroenterology,D45,Dr. Jones,M54.5,Low back pain,DNA
+A1317,12/07/2025 08:10,P600,5862702520,Rhoda,Luna,04/11/1946,NP28 3MK,University Hospital,Cardiology,D45,Dr. Jones,E11.9,Type 2 diabetes mellitus without complications,DNA
+A1318,12/07/2025 08:10,P571,591065215,Roy,Foutch,02/03/1992,SA38 9EZ,Royal Glamorgan,Gastroenterology,D88,Dr. Davies,E11.9,Type 2 diabetes mellitus without complications,DNA
+A1319,12/07/2025 08:10,P607,2563666201,Adrianne,Roll,27/06/1943,NP38 2NT,Royal Glamorgan,Gastroenterology,D67,Dr. Williams,I10,Essential hypertension,Attended
+A1320,12/07/2025 08:10,P548,8210029819,William,Snyder,27/03/1976,CF22 2XX,Royal Glamorgan,Dermatology,D67,Dr. Williams,I10,Essential hypertension,Attended
+A1321,12/07/2025 08:10,P620,1350082724,William,Bradley,05/06/1957,NP19 7JG,Morriston Hospital,Neurology,D12,Dr. Thomas,L20.9,"Atopic dermatitis, unspecified",Attended
+A1322,12/07/2025 08:10,P567,8860164907,Deanna,Tronaas,02/12/2003,NP18 6WW,Prince Charles,Orthopaedics,D45,Dr. Jones,L20.9,"Atopic dermatitis, unspecified",Attended
+A1323,12/07/2025 08:10,P542,9117640423,Brenda,Marshall,04/06/1988,LL10 3GF,Royal Glamorgan,Dermatology,D21,Dr. Evans,L20.9,"Atopic dermatitis, unspecified",DNA
+A1324,12/07/2025 08:10,P527,6906091948,Florrie,Duncan,07/04/2004,SA36 8TW,Royal Glamorgan,Gastroenterology,D45,Dr. Jones,S82.1,Fracture of upper end of tibia,Attended
+A1325,12/07/2025 08:10,P610,4355503771,Everett,Lopez,08/06/1968,CF14 2WD,Royal Glamorgan,Gastroenterology,D33,Dr. Roberts,K21.9,Gastro-oesophageal reflux disease,DNA
+A1326,12/07/2025 08:10,P578,5323181974,Mark,Anderson,07/07/1950,NP21 9WS,University Hospital,Cardiology,D88,Dr. Davies,M54.5,Low back pain,Attended
+A1327,12/07/2025 08:10,P549,2825104442,Nydia,Fleshman,26/04/2005,CF23 4HH,Royal Glamorgan,Gastroenterology,D12,Dr. Thomas,J45.9,"Asthma, unspecified",Attended
+A1328,12/07/2025 08:10,P620,1350082724,William,Bradley,05/06/1957,NP19 7JG,Prince Charles,Orthopaedics,D88,Dr. Davies,I10,Essential hypertension,DNA
+A1329,12/07/2025 08:10,P627,4196208495,Emma,Flora,28/04/1996,SA17 9VJ,Singleton Hospital,Oncology,D45,Dr. Jones,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1330,12/07/2025 08:10,P626,2684191468,Karl,Moran,22/10/1952,CF39 6KO,University Hospital,Cardiology,D45,Dr. Jones,I10,Essential hypertension,Attended
+A1331,12/07/2025 08:10,P512,4971158170,Clarence,Sweeny,16/03/1994,SA30 4GW,Prince Charles,Orthopaedics,D88,Dr. Davies,I10,Essential hypertension,Attended
+A1332,12/07/2025 08:10,P547,4578225062,Michael,Reyna,15/06/1969,SA28 3PI,Singleton Hospital,Oncology,D33,Dr. Roberts,S82.1,Fracture of upper end of tibia,Attended
+A1333,12/07/2025 08:10,P593,8538152823,William,Duck,08/11/1947,LL22 8NE,University Hospital,Cardiology,D33,Dr. Roberts,S82.1,Fracture of upper end of tibia,Attended
+A1334,12/07/2025 08:10,P612,1786193175,Connie,Simpson,14/04/1974,LL11 7CP,Morriston Hospital,Neurology,D88,Dr. Davies,I10,Essential hypertension,Attended
+A1335,12/07/2025 08:10,P604,5982643394,Beverly,Gering,28/10/1992,CF19 5XV,Morriston Hospital,Neurology,D88,Dr. Davies,I10,Essential hypertension,Attended
+A1336,12/07/2025 08:10,P573,497824280,Samuel,Madera,01/03/1988,CF21 8SE,Royal Glamorgan,Dermatology,D21,Dr. Evans,M54.5,Low back pain,Attended
+A1337,12/07/2025 08:10,P553,8111006888,Jill,Bachman,04/05/1988,LL11 5KL,Singleton Hospital,Oncology,D12,Dr. Thomas,S82.1,Fracture of upper end of tibia,Attended
+A1338,12/07/2025 08:10,P526,9469169603,Leslie,Ringgold,28/10/1983,SA21 4NV,Singleton Hospital,Oncology,D33,Dr. Roberts,S82.1,Fracture of upper end of tibia,Attended
+A1339,12/07/2025 08:10,P531,283802200,Michael,Stevenson,19/02/1967,CF24 2HI,Royal Glamorgan,Gastroenterology,D33,Dr. Roberts,I10,Essential hypertension,Attended
+A1340,12/07/2025 08:10,P625,2591940991,Sammie,Malkani,23/03/1942,LL23 6IH,Morriston Hospital,Neurology,D33,Dr. Roberts,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1341,12/07/2025 08:10,P583,2745052071,Romeo,Mack,03/01/1981,SA38 5QE,University Hospital,Cardiology,D67,Dr. Williams,L20.9,"Atopic dermatitis, unspecified",DNA
+A1342,12/07/2025 08:10,P543,8932821836,Billie,Ebert,10/09/2003,CF36 4BY,Singleton Hospital,Oncology,D88,Dr. Davies,L20.9,"Atopic dermatitis, unspecified",Attended
+A1343,12/07/2025 08:10,P547,4578225062,Michael,Reyna,15/06/1969,SA28 3PI,Prince Charles,Orthopaedics,D21,Dr. Evans,L20.9,"Atopic dermatitis, unspecified",Attended
+A1344,12/07/2025 08:10,P618,1323896783,Becky,Vallejos,25/06/2003,CF36 4PA,Morriston Hospital,Neurology,D88,Dr. Davies,K21.9,Gastro-oesophageal reflux disease,Attended
+A1345,12/07/2025 08:10,P557,945058632,Connie,Savini,04/09/2001,CF22 8RU,University Hospital,Cardiology,D67,Dr. Williams,I10,Essential hypertension,DNA
+A1346,12/07/2025 08:10,P572,756696364,Dennis,Tays,20/12/1992,CF16 5TK,Singleton Hospital,Oncology,D45,Dr. Jones,J45.9,"Asthma, unspecified",DNA
+A1347,12/07/2025 08:10,P544,2523754207,Douglas,Davis,25/12/1992,CF28 1CZ,University Hospital,Cardiology,D67,Dr. Williams,J45.9,"Asthma, unspecified",DNA
+A1348,12/07/2025 08:10,P546,5132570801,Glenn,Barnett,01/05/1968,LL36 2BX,Royal Glamorgan,Dermatology,D67,Dr. Williams,S82.1,Fracture of upper end of tibia,Attended
+A1349,12/07/2025 08:10,P591,6016868965,Shelby,Hammon,20/01/2001,LL25 7ZC,Singleton Hospital,Oncology,D88,Dr. Davies,J45.9,"Asthma, unspecified",Attended
+A1350,12/07/2025 08:11,P563,8722401334,Mabel,Conrad,06/07/1950,NP38 3YR,Prince Charles,Orthopaedics,D67,Dr. Williams,M54.5,Low back pain,Attended
+A1351,12/07/2025 08:11,P522,6694553803,Jim,Hanauer,11/07/1961,NP18 6SF,Singleton Hospital,Oncology,D21,Dr. Evans,K21.9,Gastro-oesophageal reflux disease,Attended
+A1352,12/07/2025 08:11,P505,6552352735,Anita,Ashby,07/04/1960,CF15 1CV,Singleton Hospital,Oncology,D45,Dr. Jones,K21.9,Gastro-oesophageal reflux disease,Attended
+A1353,12/07/2025 08:11,P572,756696364,Dennis,Tays,20/12/1992,CF16 5TK,Royal Glamorgan,Gastroenterology,D21,Dr. Evans,L20.9,"Atopic dermatitis, unspecified",Attended
+A1354,12/07/2025 08:11,P535,9542397879,Marilyn,Bell,08/09/2001,CF28 9YY,Royal Glamorgan,Dermatology,D45,Dr. Jones,M54.5,Low back pain,DNA
+A1355,12/07/2025 08:11,P505,6552352735,Anita,Ashby,07/04/1960,CF15 1CV,Singleton Hospital,Oncology,D67,Dr. Williams,J45.9,"Asthma, unspecified",Attended
+A1356,12/07/2025 08:11,P632,9386510693,Julie,Lewis,06/05/2005,SA18 3VP,Prince Charles,Orthopaedics,D88,Dr. Davies,M54.5,Low back pain,Attended
+A1357,12/07/2025 08:11,P578,5323181974,Mark,Anderson,07/07/1950,NP21 9WS,Morriston Hospital,Neurology,D33,Dr. Roberts,K21.9,Gastro-oesophageal reflux disease,Attended
+A1358,12/07/2025 08:11,P634,4716065103,Jose,Delgado,18/12/1949,SA20 6YW,Morriston Hospital,Neurology,D12,Dr. Thomas,I10,Essential hypertension,DNA
+A1359,12/07/2025 08:11,P617,9352052633,Jonathan,Guillotte,14/07/1953,SA34 3ML,Singleton Hospital,Oncology,D12,Dr. Thomas,M54.5,Low back pain,Attended
+A1360,12/07/2025 08:11,P636,9285632378,Robert,Konrad,24/11/1980,SA18 1XO,Royal Glamorgan,Gastroenterology,D12,Dr. Thomas,K21.9,Gastro-oesophageal reflux disease,Attended
+A1361,12/07/2025 08:11,P512,4971158170,Clarence,Sweeny,16/03/1994,SA30 4GW,Royal Glamorgan,Dermatology,D88,Dr. Davies,L20.9,"Atopic dermatitis, unspecified",Attended
+A1362,12/07/2025 08:11,P646,4369609879,Esther,Jessup,19/12/1975,SA25 9CR,Royal Glamorgan,Gastroenterology,D88,Dr. Davies,I10,Essential hypertension,Attended
+A1363,12/07/2025 08:11,P505,6552352735,Anita,Ashby,07/04/1960,CF15 1CV,University Hospital,Cardiology,D33,Dr. Roberts,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1364,12/07/2025 08:11,P531,283802200,Michael,Stevenson,19/02/1967,CF24 2HI,University Hospital,Cardiology,D45,Dr. Jones,J45.9,"Asthma, unspecified",Attended
+A1365,12/07/2025 08:11,P524,148573762,Helen,Sharrer,11/10/2008,CF30 2PB,Prince Charles,Orthopaedics,D12,Dr. Thomas,L20.9,"Atopic dermatitis, unspecified",Attended
+A1366,12/07/2025 08:11,P599,2454405946,Sarah,Powers,28/07/1966,NP28 8QF,University Hospital,Cardiology,D88,Dr. Davies,M54.5,Low back pain,Attended
+A1367,12/07/2025 08:11,P576,4770471416,Corinne,Mendoza,21/03/2006,LL28 2CM,Royal Glamorgan,Gastroenterology,D45,Dr. Jones,L20.9,"Atopic dermatitis, unspecified",Attended
+A1368,12/07/2025 08:11,P594,7528997382,Ray,Lebeau,04/12/1967,SA21 1XK,Royal Glamorgan,Dermatology,D45,Dr. Jones,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1369,12/07/2025 08:11,P580,5920814357,Julie,Potter,03/12/1978,NP31 9DK,Prince Charles,Orthopaedics,D33,Dr. Roberts,I10,Essential hypertension,DNA
+A1370,12/07/2025 08:11,P639,8682902893,Maureen,Hackney,19/09/1943,NP20 2QL,Royal Glamorgan,Dermatology,D33,Dr. Roberts,I10,Essential hypertension,DNA
+A1371,12/07/2025 08:11,P594,7528997382,Ray,Lebeau,04/12/1967,SA21 1XK,University Hospital,Cardiology,D21,Dr. Evans,J45.9,"Asthma, unspecified",Attended
+A1372,12/07/2025 08:11,P574,3367895326,Holly,Krell,02/01/1944,NP26 9XQ,University Hospital,Cardiology,D21,Dr. Evans,L20.9,"Atopic dermatitis, unspecified",Attended
+A1373,12/07/2025 08:11,P629,5931937641,Eleanore,Chouinard,17/04/1971,NP17 7MJ,Prince Charles,Orthopaedics,D12,Dr. Thomas,L20.9,"Atopic dermatitis, unspecified",Attended
+A1374,12/07/2025 08:11,P577,6291719010,Ruth,Hinkle,01/12/1966,SA27 5DY,Morriston Hospital,Neurology,D21,Dr. Evans,I10,Essential hypertension,Attended
+A1375,12/07/2025 08:11,P643,1111506353,Patricia,Barlow,08/03/2005,NP25 4DR,University Hospital,Cardiology,D21,Dr. Evans,J45.9,"Asthma, unspecified",Attended
+A1376,12/07/2025 08:11,P501,1639707557,Christine,Morey,01/01/1969,CF39 9YJ,Morriston Hospital,Neurology,D12,Dr. Thomas,J45.9,"Asthma, unspecified",DNA
+A1377,12/07/2025 08:11,P515,2035388708,Brent,Stowell,01/11/1973,CF26 7LB,Royal Glamorgan,Dermatology,D88,Dr. Davies,E11.9,Type 2 diabetes mellitus without complications,DNA
+A1378,12/07/2025 08:11,P567,8860164907,Deanna,Tronaas,02/12/2003,NP18 6WW,Royal Glamorgan,Gastroenterology,D45,Dr. Jones,M54.5,Low back pain,Attended
+A1379,12/07/2025 08:11,P585,1702998959,Yolanda,Brown,13/04/1949,CF26 9DX,Royal Glamorgan,Gastroenterology,D67,Dr. Williams,L20.9,"Atopic dermatitis, unspecified",Attended
+A1380,12/07/2025 08:11,P530,5927478522,Susan,Collins,27/02/1941,CF23 6EG,Royal Glamorgan,Dermatology,D88,Dr. Davies,K21.9,Gastro-oesophageal reflux disease,Attended
+A1381,12/07/2025 08:11,P619,490375316,Lynn,Mclaughlin,22/01/1988,SA23 1UP,Singleton Hospital,Oncology,D67,Dr. Williams,S82.1,Fracture of upper end of tibia,Attended
+A1382,12/07/2025 08:11,P545,4622334623,David,Ashpole,13/05/1945,LL12 2SV,Prince Charles,Orthopaedics,D33,Dr. Roberts,K21.9,Gastro-oesophageal reflux disease,Attended
+A1383,12/07/2025 08:11,P567,8860164907,Deanna,Tronaas,02/12/2003,NP18 6WW,Royal Glamorgan,Gastroenterology,D45,Dr. Jones,J45.9,"Asthma, unspecified",Attended
+A1384,12/07/2025 08:11,P529,164103708,Roman,Gilson,21/03/1994,NP13 2GW,Royal Glamorgan,Dermatology,D33,Dr. Roberts,S82.1,Fracture of upper end of tibia,Attended
+A1385,12/07/2025 08:11,P587,535215401,Jose,Gill,28/04/1958,NP26 2IZ,Royal Glamorgan,Gastroenterology,D12,Dr. Thomas,M54.5,Low back pain,DNA
+A1386,12/07/2025 08:11,P554,9042835877,David,Oakden,23/11/1944,NP32 5NF,University Hospital,Cardiology,D45,Dr. Jones,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1387,12/07/2025 08:11,P647,8622752879,Ronald,Canizales,24/02/1980,NP18 3KV,Morriston Hospital,Neurology,D33,Dr. Roberts,K21.9,Gastro-oesophageal reflux disease,DNA
+A1388,12/07/2025 08:11,P627,4196208495,Emma,Flora,28/04/1996,SA17 9VJ,Royal Glamorgan,Gastroenterology,D21,Dr. Evans,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1389,12/07/2025 08:11,P599,2454405946,Sarah,Powers,28/07/1966,NP28 8QF,Singleton Hospital,Oncology,D33,Dr. Roberts,L20.9,"Atopic dermatitis, unspecified",Attended
+A1390,12/07/2025 08:11,P595,7351921202,Mark,Worek,21/06/1970,NP13 3BR,Royal Glamorgan,Dermatology,D12,Dr. Thomas,K21.9,Gastro-oesophageal reflux disease,DNA
+A1391,12/07/2025 08:11,P605,5423142598,Thomas,Spicer,07/05/1985,CF18 5LV,Singleton Hospital,Oncology,D67,Dr. Williams,L20.9,"Atopic dermatitis, unspecified",DNA
+A1392,12/07/2025 08:11,P505,6552352735,Anita,Ashby,07/04/1960,CF15 1CV,Prince Charles,Orthopaedics,D67,Dr. Williams,S82.1,Fracture of upper end of tibia,Attended
+A1393,12/07/2025 08:11,P508,7632470530,Jeffrey,Iuliucci,01/02/1996,CF22 9WS,Morriston Hospital,Neurology,D12,Dr. Thomas,I10,Essential hypertension,DNA
+A1394,12/07/2025 08:11,P597,558100317,George,Williams,12/06/1964,LL39 6MN,University Hospital,Cardiology,D21,Dr. Evans,S82.1,Fracture of upper end of tibia,Attended
+A1395,12/07/2025 08:11,P545,4622334623,David,Ashpole,13/05/1945,LL12 2SV,Royal Glamorgan,Gastroenterology,D12,Dr. Thomas,K21.9,Gastro-oesophageal reflux disease,Attended
+A1396,12/07/2025 08:11,P638,1195530927,Mark,Martin,04/08/1942,NP34 3WH,Morriston Hospital,Neurology,D67,Dr. Williams,I10,Essential hypertension,Attended
+A1397,12/07/2025 08:11,P604,5982643394,Beverly,Gering,28/10/1992,CF19 5XV,University Hospital,Cardiology,D45,Dr. Jones,K21.9,Gastro-oesophageal reflux disease,Attended
+A1398,12/07/2025 08:11,P533,6863164418,Walter,Day,04/12/1981,CF32 7JX,Morriston Hospital,Neurology,D67,Dr. Williams,L20.9,"Atopic dermatitis, unspecified",Attended
+A1399,12/07/2025 08:11,P613,7723271123,Dario,Allen,07/11/1990,NP21 8DL,Morriston Hospital,Neurology,D88,Dr. Davies,K21.9,Gastro-oesophageal reflux disease,Attended
+A1400,12/07/2025 08:11,P616,3446346015,Joel,Clawson,20/09/1948,NP34 3XN,Singleton Hospital,Oncology,D88,Dr. Davies,J45.9,"Asthma, unspecified",Attended
+A1401,12/07/2025 08:11,P630,8668713787,Charlotte,Hamilton,24/12/2003,SA14 4WK,Prince Charles,Orthopaedics,D88,Dr. Davies,I10,Essential hypertension,DNA
+A1402,12/07/2025 08:11,P601,9744420626,Christopher,Webb,23/02/1972,LL15 2KG,Royal Glamorgan,Gastroenterology,D45,Dr. Jones,I10,Essential hypertension,Attended
+A1403,12/07/2025 08:11,P547,4578225062,Michael,Reyna,15/06/1969,SA28 3PI,Prince Charles,Orthopaedics,D33,Dr. Roberts,J45.9,"Asthma, unspecified",DNA
+A1404,12/07/2025 08:11,P594,7528997382,Ray,Lebeau,04/12/1967,SA21 1XK,Morriston Hospital,Neurology,D21,Dr. Evans,J45.9,"Asthma, unspecified",DNA
+A1405,12/07/2025 08:11,P573,497824280,Samuel,Madera,01/03/1988,CF21 8SE,Royal Glamorgan,Gastroenterology,D45,Dr. Jones,S82.1,Fracture of upper end of tibia,Attended
+A1406,12/07/2025 08:11,P649,9904870438,Danny,Noland,26/11/1973,NP38 3HP,Prince Charles,Orthopaedics,D12,Dr. Thomas,J45.9,"Asthma, unspecified",Attended
+A1407,12/07/2025 08:11,P572,756696364,Dennis,Tays,20/12/1992,CF16 5TK,Morriston Hospital,Neurology,D21,Dr. Evans,I10,Essential hypertension,DNA
+A1408,12/07/2025 08:11,P554,9042835877,David,Oakden,23/11/1944,NP32 5NF,University Hospital,Cardiology,D21,Dr. Evans,I10,Essential hypertension,Attended
+A1409,12/07/2025 08:11,P604,5982643394,Beverly,Gering,28/10/1992,CF19 5XV,Royal Glamorgan,Dermatology,D33,Dr. Roberts,L20.9,"Atopic dermatitis, unspecified",Attended
+A1410,12/07/2025 08:11,P557,945058632,Connie,Savini,04/09/2001,CF22 8RU,University Hospital,Cardiology,D67,Dr. Williams,K21.9,Gastro-oesophageal reflux disease,DNA
+A1411,12/07/2025 08:11,P609,8429081410,Rachel,Lopez,17/12/1941,CF37 8DY,Morriston Hospital,Neurology,D45,Dr. Jones,L20.9,"Atopic dermatitis, unspecified",Attended
+A1412,12/07/2025 08:11,P550,2600993797,Ryan,Winn,10/12/1948,SA32 1ZJ,Royal Glamorgan,Dermatology,D12,Dr. Thomas,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1413,12/07/2025 08:11,P642,5297254205,Francis,Spencer,12/12/1968,SA21 3IV,University Hospital,Cardiology,D88,Dr. Davies,L20.9,"Atopic dermatitis, unspecified",DNA
+A1414,12/07/2025 08:11,P582,5367215947,Karen,Rutledge,08/01/1957,NP16 4ZT,Singleton Hospital,Oncology,D21,Dr. Evans,I10,Essential hypertension,Attended
+A1415,12/07/2025 08:11,P517,5661049129,Mariann,Carter,22/12/1965,LL35 5XF,Singleton Hospital,Oncology,D45,Dr. Jones,K21.9,Gastro-oesophageal reflux disease,Attended
+A1416,12/07/2025 08:11,P561,9815283804,Jerome,Hamilton,12/07/1960,CF26 3PP,Morriston Hospital,Neurology,D67,Dr. Williams,J45.9,"Asthma, unspecified",Attended
+A1417,12/07/2025 08:11,P590,9592834881,Mary,Mahoney,01/11/2009,NP39 3WR,Prince Charles,Orthopaedics,D21,Dr. Evans,J45.9,"Asthma, unspecified",Attended
+A1418,12/07/2025 08:11,P583,2745052071,Romeo,Mack,03/01/1981,SA38 5QE,Morriston Hospital,Neurology,D67,Dr. Williams,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1419,12/07/2025 08:11,P540,720356083,Francis,Goodwin,09/12/1967,SA26 9RM,Singleton Hospital,Oncology,D67,Dr. Williams,L20.9,"Atopic dermatitis, unspecified",DNA
+A1420,12/07/2025 08:11,P549,2825104442,Nydia,Fleshman,26/04/2005,CF23 4HH,University Hospital,Cardiology,D88,Dr. Davies,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1421,12/07/2025 08:11,P606,292636466,Franklin,Baine,20/06/1989,CF27 1RF,Royal Glamorgan,Dermatology,D67,Dr. Williams,S82.1,Fracture of upper end of tibia,Attended
+A1422,12/07/2025 08:11,P546,5132570801,Glenn,Barnett,01/05/1968,LL36 2BX,Morriston Hospital,Neurology,D88,Dr. Davies,K21.9,Gastro-oesophageal reflux disease,DNA
+A1423,12/07/2025 08:11,P506,8037975193,Elizabeth,Smith,01/05/1941,NP21 1WV,University Hospital,Cardiology,D45,Dr. Jones,L20.9,"Atopic dermatitis, unspecified",Attended
+A1424,12/07/2025 08:11,P504,1560423757,Michelle,Love,14/07/1995,SA19 7XC,University Hospital,Cardiology,D33,Dr. Roberts,J45.9,"Asthma, unspecified",Attended
+A1425,12/07/2025 08:11,P630,8668713787,Charlotte,Hamilton,24/12/2003,SA14 4WK,Prince Charles,Orthopaedics,D88,Dr. Davies,S82.1,Fracture of upper end of tibia,Attended
+A1426,12/07/2025 08:11,P542,9117640423,Brenda,Marshall,04/06/1988,LL10 3GF,Singleton Hospital,Oncology,D67,Dr. Williams,I10,Essential hypertension,Attended
+A1427,12/07/2025 08:11,P649,9904870438,Danny,Noland,26/11/1973,NP38 3HP,Royal Glamorgan,Dermatology,D45,Dr. Jones,K21.9,Gastro-oesophageal reflux disease,Attended
+A1428,12/07/2025 08:11,P529,164103708,Roman,Gilson,21/03/1994,NP13 2GW,University Hospital,Cardiology,D67,Dr. Williams,M54.5,Low back pain,Attended
+A1429,12/07/2025 08:11,P639,8682902893,Maureen,Hackney,19/09/1943,NP20 2QL,Prince Charles,Orthopaedics,D67,Dr. Williams,L20.9,"Atopic dermatitis, unspecified",Attended
+A1430,12/07/2025 08:11,P594,7528997382,Ray,Lebeau,04/12/1967,SA21 1XK,Royal Glamorgan,Dermatology,D21,Dr. Evans,E11.9,Type 2 diabetes mellitus without complications,DNA
+A1431,12/07/2025 08:11,P562,3557059626,Betty,Kaur,12/12/1988,CF37 6BB,Royal Glamorgan,Dermatology,D88,Dr. Davies,K21.9,Gastro-oesophageal reflux disease,Attended
+A1432,12/07/2025 08:11,P647,8622752879,Ronald,Canizales,24/02/1980,NP18 3KV,Prince Charles,Orthopaedics,D88,Dr. Davies,L20.9,"Atopic dermatitis, unspecified",Attended
+A1433,12/07/2025 08:11,P555,3130247866,Michael,Smallwood,08/05/2006,LL36 7RM,Morriston Hospital,Neurology,D21,Dr. Evans,J45.9,"Asthma, unspecified",DNA
+A1434,12/07/2025 08:11,P564,2312161559,Paul,Dickerson,17/07/2008,SA29 5JO,Singleton Hospital,Oncology,D21,Dr. Evans,M54.5,Low back pain,Attended
+A1435,12/07/2025 08:11,P557,945058632,Connie,Savini,04/09/2001,CF22 8RU,Singleton Hospital,Oncology,D21,Dr. Evans,K21.9,Gastro-oesophageal reflux disease,Attended
+A1436,12/07/2025 08:11,P513,6340341071,Malena,Snider,20/01/1989,LL18 9HI,Royal Glamorgan,Dermatology,D12,Dr. Thomas,S82.1,Fracture of upper end of tibia,Attended
+A1437,12/07/2025 08:11,P540,720356083,Francis,Goodwin,09/12/1967,SA26 9RM,Royal Glamorgan,Dermatology,D88,Dr. Davies,J45.9,"Asthma, unspecified",Attended
+A1438,12/07/2025 08:11,P640,4792665310,Robert,Marsh,06/04/2002,SA28 5NV,Morriston Hospital,Neurology,D88,Dr. Davies,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1439,12/07/2025 08:11,P548,8210029819,William,Snyder,27/03/1976,CF22 2XX,Royal Glamorgan,Dermatology,D33,Dr. Roberts,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1440,12/07/2025 08:11,P628,5947328151,Ronald,Collinsworth,05/06/1994,LL25 7LO,Morriston Hospital,Neurology,D12,Dr. Thomas,M54.5,Low back pain,Attended
+A1441,12/07/2025 08:11,P532,2683198396,Myra,Mcclure,08/05/1969,SA15 3VX,Morriston Hospital,Neurology,D88,Dr. Davies,I10,Essential hypertension,Attended
+A1442,12/07/2025 08:11,P619,490375316,Lynn,Mclaughlin,22/01/1988,SA23 1UP,Morriston Hospital,Neurology,D12,Dr. Thomas,I10,Essential hypertension,Attended
+A1443,12/07/2025 08:11,P607,2563666201,Adrianne,Roll,27/06/1943,NP38 2NT,University Hospital,Cardiology,D45,Dr. Jones,S82.1,Fracture of upper end of tibia,Attended
+A1444,12/07/2025 08:11,P524,148573762,Helen,Sharrer,11/10/2008,CF30 2PB,Royal Glamorgan,Gastroenterology,D67,Dr. Williams,L20.9,"Atopic dermatitis, unspecified",Attended
+A1445,12/07/2025 08:11,P619,490375316,Lynn,Mclaughlin,22/01/1988,SA23 1UP,University Hospital,Cardiology,D67,Dr. Williams,I10,Essential hypertension,Attended
+A1446,12/07/2025 08:11,P625,2591940991,Sammie,Malkani,23/03/1942,LL23 6IH,Singleton Hospital,Oncology,D67,Dr. Williams,S82.1,Fracture of upper end of tibia,DNA
+A1447,12/07/2025 08:11,P513,6340341071,Malena,Snider,20/01/1989,LL18 9HI,Prince Charles,Orthopaedics,D45,Dr. Jones,I10,Essential hypertension,Attended
+A1448,12/07/2025 08:11,P509,9788282938,Carolyn,King,01/11/1944,SA17 3EK,University Hospital,Cardiology,D33,Dr. Roberts,L20.9,"Atopic dermatitis, unspecified",Attended
+A1449,12/07/2025 08:11,P608,3920111346,Roosevelt,Schulze,07/01/2006,LL27 5SH,Prince Charles,Orthopaedics,D21,Dr. Evans,M54.5,Low back pain,Attended
+A1450,12/07/2025 08:11,P590,9592834881,Mary,Mahoney,01/11/2009,NP39 3WR,Morriston Hospital,Neurology,D88,Dr. Davies,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1451,12/07/2025 08:11,P597,558100317,George,Williams,12/06/1964,LL39 6MN,Singleton Hospital,Oncology,D12,Dr. Thomas,J45.9,"Asthma, unspecified",DNA
+A1452,12/07/2025 08:11,P647,8622752879,Ronald,Canizales,24/02/1980,NP18 3KV,Prince Charles,Orthopaedics,D21,Dr. Evans,S82.1,Fracture of upper end of tibia,Attended
+A1453,12/07/2025 08:11,P506,8037975193,Elizabeth,Smith,01/05/1941,NP21 1WV,Morriston Hospital,Neurology,D45,Dr. Jones,J45.9,"Asthma, unspecified",Attended
+A1454,12/07/2025 08:11,P574,3367895326,Holly,Krell,02/01/1944,NP26 9XQ,Royal Glamorgan,Dermatology,D21,Dr. Evans,K21.9,Gastro-oesophageal reflux disease,Attended
+A1455,12/07/2025 08:11,P616,3446346015,Joel,Clawson,20/09/1948,NP34 3XN,Royal Glamorgan,Dermatology,D12,Dr. Thomas,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1456,12/07/2025 08:11,P524,148573762,Helen,Sharrer,11/10/2008,CF30 2PB,University Hospital,Cardiology,D33,Dr. Roberts,M54.5,Low back pain,Attended
+A1457,12/07/2025 08:11,P525,8526432982,Alene,Gooding,09/05/1987,SA35 2GY,Morriston Hospital,Neurology,D12,Dr. Thomas,M54.5,Low back pain,DNA
+A1458,12/07/2025 08:11,P556,7153427422,Tracy,Clarkson,07/05/1959,LL35 9TI,Royal Glamorgan,Dermatology,D33,Dr. Roberts,J45.9,"Asthma, unspecified",Attended
+A1459,12/07/2025 08:11,P552,7717048590,Georgia,Spears,02/10/1956,CF15 4DF,Royal Glamorgan,Gastroenterology,D12,Dr. Thomas,S82.1,Fracture of upper end of tibia,Attended
+A1460,12/07/2025 08:11,P522,6694553803,Jim,Hanauer,11/07/1961,NP18 6SF,University Hospital,Cardiology,D12,Dr. Thomas,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1461,12/07/2025 08:11,P568,5900540227,David,Caplinger,06/03/1950,SA31 9DI,Royal Glamorgan,Gastroenterology,D21,Dr. Evans,J45.9,"Asthma, unspecified",Attended
+A1462,12/07/2025 08:11,P593,8538152823,William,Duck,08/11/1947,LL22 8NE,Morriston Hospital,Neurology,D88,Dr. Davies,I10,Essential hypertension,Attended
+A1463,12/07/2025 08:11,P596,522780253,Lillian,Pearson,27/10/1987,NP33 4YB,Royal Glamorgan,Gastroenterology,D45,Dr. Jones,K21.9,Gastro-oesophageal reflux disease,Attended
+A1464,12/07/2025 08:11,P592,2149967278,Earl,Wolf,05/03/1957,LL33 5UA,Royal Glamorgan,Dermatology,D88,Dr. Davies,L20.9,"Atopic dermatitis, unspecified",Attended
+A1465,12/07/2025 08:11,P521,6245283485,Peggy,Rumble,20/06/1948,LL20 6ZE,University Hospital,Cardiology,D21,Dr. Evans,M54.5,Low back pain,Attended
+A1466,12/07/2025 08:11,P519,3171093324,Tiffany,Brafford,10/04/1959,NP32 4AB,Singleton Hospital,Oncology,D12,Dr. Thomas,S82.1,Fracture of upper end of tibia,DNA
+A1467,12/07/2025 08:11,P508,7632470530,Jeffrey,Iuliucci,01/02/1996,CF22 9WS,University Hospital,Cardiology,D88,Dr. Davies,J45.9,"Asthma, unspecified",Attended
+A1468,12/07/2025 08:11,P596,522780253,Lillian,Pearson,27/10/1987,NP33 4YB,Morriston Hospital,Neurology,D33,Dr. Roberts,L20.9,"Atopic dermatitis, unspecified",Attended
+A1469,12/07/2025 08:11,P513,6340341071,Malena,Snider,20/01/1989,LL18 9HI,University Hospital,Cardiology,D45,Dr. Jones,M54.5,Low back pain,DNA
+A1470,12/07/2025 08:11,P532,2683198396,Myra,Mcclure,08/05/1969,SA15 3VX,Morriston Hospital,Neurology,D21,Dr. Evans,K21.9,Gastro-oesophageal reflux disease,Attended
+A1471,12/07/2025 08:11,P566,6598774578,Tiffany,Ward,27/03/2002,CF21 5ZR,Morriston Hospital,Neurology,D21,Dr. Evans,K21.9,Gastro-oesophageal reflux disease,Attended
+A1472,12/07/2025 08:11,P623,3167396040,Anna,Perona,19/06/2000,CF10 1CE,University Hospital,Cardiology,D67,Dr. Williams,S82.1,Fracture of upper end of tibia,Attended
+A1473,12/07/2025 08:11,P522,6694553803,Jim,Hanauer,11/07/1961,NP18 6SF,Morriston Hospital,Neurology,D33,Dr. Roberts,J45.9,"Asthma, unspecified",DNA
+A1474,12/07/2025 08:11,P511,1258494795,Samuel,Cavanaugh,27/09/1979,SA35 3JT,Morriston Hospital,Neurology,D88,Dr. Davies,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1475,12/07/2025 08:11,P597,558100317,George,Williams,12/06/1964,LL39 6MN,Prince Charles,Orthopaedics,D12,Dr. Thomas,J45.9,"Asthma, unspecified",DNA
+A1476,12/07/2025 08:11,P633,3072400741,Jeffrey,Foslien,06/09/1996,LL14 5JD,Royal Glamorgan,Dermatology,D88,Dr. Davies,S82.1,Fracture of upper end of tibia,Attended
+A1477,12/07/2025 08:11,P534,3840117496,Fern,Christian,26/04/1990,CF12 7CF,Prince Charles,Orthopaedics,D45,Dr. Jones,L20.9,"Atopic dermatitis, unspecified",Attended
+A1478,12/07/2025 08:11,P504,1560423757,Michelle,Love,14/07/1995,SA19 7XC,Singleton Hospital,Oncology,D21,Dr. Evans,I10,Essential hypertension,Attended
+A1479,12/07/2025 08:11,P641,4095691077,Carol,Dugan,10/10/1986,SA34 1ZE,University Hospital,Cardiology,D33,Dr. Roberts,L20.9,"Atopic dermatitis, unspecified",Attended
+A1480,12/07/2025 08:11,P601,9744420626,Christopher,Webb,23/02/1972,LL15 2KG,University Hospital,Cardiology,D33,Dr. Roberts,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1481,12/07/2025 08:11,P519,3171093324,Tiffany,Brafford,10/04/1959,NP32 4AB,University Hospital,Cardiology,D67,Dr. Williams,I10,Essential hypertension,Attended
+A1482,12/07/2025 08:11,P528,4400238679,Jamie,Griffis,01/11/1967,NP21 6TT,University Hospital,Cardiology,D67,Dr. Williams,J45.9,"Asthma, unspecified",Attended
+A1483,12/07/2025 08:11,P568,5900540227,David,Caplinger,06/03/1950,SA31 9DI,Morriston Hospital,Neurology,D12,Dr. Thomas,L20.9,"Atopic dermatitis, unspecified",DNA
+A1484,12/07/2025 08:11,P579,3205357434,Ryan,Johnson,28/09/1953,LL10 7ZC,University Hospital,Cardiology,D45,Dr. Jones,J45.9,"Asthma, unspecified",Attended
+A1485,12/07/2025 08:11,P588,9081949284,Donald,Roberts,23/01/1962,LL12 3SF,University Hospital,Cardiology,D88,Dr. Davies,J45.9,"Asthma, unspecified",DNA
+A1486,12/07/2025 08:11,P567,8860164907,Deanna,Tronaas,02/12/2003,NP18 6WW,Royal Glamorgan,Dermatology,D12,Dr. Thomas,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1487,12/07/2025 08:11,P641,4095691077,Carol,Dugan,10/10/1986,SA34 1ZE,Morriston Hospital,Neurology,D12,Dr. Thomas,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1488,12/07/2025 08:11,P618,1323896783,Becky,Vallejos,25/06/2003,CF36 4PA,Singleton Hospital,Oncology,D21,Dr. Evans,K21.9,Gastro-oesophageal reflux disease,DNA
+A1489,12/07/2025 08:11,P512,4971158170,Clarence,Sweeny,16/03/1994,SA30 4GW,Royal Glamorgan,Dermatology,D12,Dr. Thomas,M54.5,Low back pain,Attended
+A1490,12/07/2025 08:11,P626,2684191468,Karl,Moran,22/10/1952,CF39 6KO,Singleton Hospital,Oncology,D21,Dr. Evans,I10,Essential hypertension,Attended
+A1491,12/07/2025 08:11,P644,2326057104,Ella,Hodge,12/09/1972,CF35 4GW,Morriston Hospital,Neurology,D21,Dr. Evans,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1492,12/07/2025 08:11,P514,1511617829,Jessica,Butler,09/12/1951,NP35 7SC,Singleton Hospital,Oncology,D12,Dr. Thomas,K21.9,Gastro-oesophageal reflux disease,DNA
+A1493,12/07/2025 08:11,P521,6245283485,Peggy,Rumble,20/06/1948,LL20 6ZE,Singleton Hospital,Oncology,D33,Dr. Roberts,S82.1,Fracture of upper end of tibia,Attended
+A1494,12/07/2025 08:11,P626,2684191468,Karl,Moran,22/10/1952,CF39 6KO,Singleton Hospital,Oncology,D21,Dr. Evans,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1495,12/07/2025 08:11,P619,490375316,Lynn,Mclaughlin,22/01/1988,SA23 1UP,Morriston Hospital,Neurology,D45,Dr. Jones,E11.9,Type 2 diabetes mellitus without complications,DNA
+A1496,12/07/2025 08:11,P606,292636466,Franklin,Baine,20/06/1989,CF27 1RF,University Hospital,Cardiology,D45,Dr. Jones,S82.1,Fracture of upper end of tibia,DNA
+A1497,12/07/2025 08:11,P513,6340341071,Malena,Snider,20/01/1989,LL18 9HI,University Hospital,Cardiology,D12,Dr. Thomas,L20.9,"Atopic dermatitis, unspecified",Attended
+A1498,12/07/2025 08:11,P518,735554943,Maria,Knight,26/11/1948,SA18 5KE,University Hospital,Cardiology,D88,Dr. Davies,S82.1,Fracture of upper end of tibia,Attended
+A1499,12/07/2025 08:11,P647,8622752879,Ronald,Canizales,24/02/1980,NP18 3KV,Prince Charles,Orthopaedics,D88,Dr. Davies,M54.5,Low back pain,DNA
+A1500,12/07/2025 08:11,P539,9747347725,Chase,Reynolds,02/01/1955,NP22 6RJ,Singleton Hospital,Oncology,D67,Dr. Williams,K21.9,Gastro-oesophageal reflux disease,Attended
+A1501,12/07/2025 08:11,P583,2745052071,Romeo,Mack,03/01/1981,SA38 5QE,University Hospital,Cardiology,D21,Dr. Evans,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1502,12/07/2025 08:11,P559,3050717335,Wayne,Kershaw,04/02/2008,NP36 8OQ,University Hospital,Cardiology,D88,Dr. Davies,K21.9,Gastro-oesophageal reflux disease,Attended
+A1503,12/07/2025 08:11,P618,1323896783,Becky,Vallejos,25/06/2003,CF36 4PA,University Hospital,Cardiology,D33,Dr. Roberts,S82.1,Fracture of upper end of tibia,Attended
+A1504,12/07/2025 08:11,P576,4770471416,Corinne,Mendoza,21/03/2006,LL28 2CM,Prince Charles,Orthopaedics,D21,Dr. Evans,I10,Essential hypertension,Attended
+A1505,12/07/2025 08:11,P520,8146085482,Joshua,Jordan,20/03/2003,CF31 5NM,Morriston Hospital,Neurology,D88,Dr. Davies,I10,Essential hypertension,Attended
+A1506,12/07/2025 08:11,P519,3171093324,Tiffany,Brafford,10/04/1959,NP32 4AB,University Hospital,Cardiology,D88,Dr. Davies,K21.9,Gastro-oesophageal reflux disease,Attended
+A1507,12/07/2025 08:11,P557,945058632,Connie,Savini,04/09/2001,CF22 8RU,University Hospital,Cardiology,D33,Dr. Roberts,K21.9,Gastro-oesophageal reflux disease,DNA
+A1508,12/07/2025 08:11,P550,2600993797,Ryan,Winn,10/12/1948,SA32 1ZJ,Prince Charles,Orthopaedics,D88,Dr. Davies,J45.9,"Asthma, unspecified",DNA
+A1509,12/07/2025 08:11,P610,4355503771,Everett,Lopez,08/06/1968,CF14 2WD,Royal Glamorgan,Gastroenterology,D12,Dr. Thomas,L20.9,"Atopic dermatitis, unspecified",Attended
+A1510,12/07/2025 08:11,P601,9744420626,Christopher,Webb,23/02/1972,LL15 2KG,Singleton Hospital,Oncology,D88,Dr. Davies,I10,Essential hypertension,Attended
+A1511,12/07/2025 08:11,P561,9815283804,Jerome,Hamilton,12/07/1960,CF26 3PP,Singleton Hospital,Oncology,D67,Dr. Williams,I10,Essential hypertension,Attended
+A1512,12/07/2025 08:11,P501,1639707557,Christine,Morey,01/01/1969,CF39 9YJ,Morriston Hospital,Neurology,D67,Dr. Williams,J45.9,"Asthma, unspecified",DNA
+A1513,12/07/2025 08:11,P528,4400238679,Jamie,Griffis,01/11/1967,NP21 6TT,Royal Glamorgan,Gastroenterology,D12,Dr. Thomas,L20.9,"Atopic dermatitis, unspecified",Attended
+A1514,12/07/2025 08:11,P646,4369609879,Esther,Jessup,19/12/1975,SA25 9CR,Singleton Hospital,Oncology,D21,Dr. Evans,L20.9,"Atopic dermatitis, unspecified",Attended
+A1515,12/07/2025 08:11,P508,7632470530,Jeffrey,Iuliucci,01/02/1996,CF22 9WS,Royal Glamorgan,Gastroenterology,D45,Dr. Jones,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1516,12/07/2025 08:11,P570,4609634104,Vivian,Wallace,04/11/1943,SA33 6CQ,Singleton Hospital,Oncology,D21,Dr. Evans,K21.9,Gastro-oesophageal reflux disease,DNA
+A1517,12/07/2025 08:11,P645,1292724676,Stephen,Steger,01/10/1983,SA19 2UV,Prince Charles,Orthopaedics,D21,Dr. Evans,J45.9,"Asthma, unspecified",DNA
+A1518,12/07/2025 08:11,P649,9904870438,Danny,Noland,26/11/1973,NP38 3HP,Singleton Hospital,Oncology,D33,Dr. Roberts,J45.9,"Asthma, unspecified",Attended
+A1519,12/07/2025 08:11,P526,9469169603,Leslie,Ringgold,28/10/1983,SA21 4NV,Royal Glamorgan,Gastroenterology,D33,Dr. Roberts,I10,Essential hypertension,Attended
+A1520,12/07/2025 08:11,P566,6598774578,Tiffany,Ward,27/03/2002,CF21 5ZR,Royal Glamorgan,Gastroenterology,D67,Dr. Williams,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1521,12/07/2025 08:11,P582,5367215947,Karen,Rutledge,08/01/1957,NP16 4ZT,Royal Glamorgan,Dermatology,D67,Dr. Williams,L20.9,"Atopic dermatitis, unspecified",DNA
+A1522,12/07/2025 08:11,P504,1560423757,Michelle,Love,14/07/1995,SA19 7XC,Morriston Hospital,Neurology,D21,Dr. Evans,K21.9,Gastro-oesophageal reflux disease,DNA
+A1523,12/07/2025 08:11,P513,6340341071,Malena,Snider,20/01/1989,LL18 9HI,Morriston Hospital,Neurology,D45,Dr. Jones,S82.1,Fracture of upper end of tibia,DNA
+A1524,12/07/2025 08:11,P570,4609634104,Vivian,Wallace,04/11/1943,SA33 6CQ,Prince Charles,Orthopaedics,D67,Dr. Williams,K21.9,Gastro-oesophageal reflux disease,DNA
+A1525,12/07/2025 08:11,P508,7632470530,Jeffrey,Iuliucci,01/02/1996,CF22 9WS,Prince Charles,Orthopaedics,D21,Dr. Evans,J45.9,"Asthma, unspecified",DNA
+A1526,12/07/2025 08:11,P611,6791575603,John,Schoberg,06/01/1958,CF15 9RJ,Singleton Hospital,Oncology,D67,Dr. Williams,K21.9,Gastro-oesophageal reflux disease,Attended
+A1527,12/07/2025 08:11,P576,4770471416,Corinne,Mendoza,21/03/2006,LL28 2CM,Morriston Hospital,Neurology,D45,Dr. Jones,L20.9,"Atopic dermatitis, unspecified",Attended
+A1528,12/07/2025 08:11,P635,3903915688,Vickie,Cullum,24/10/1979,CF21 4WI,Royal Glamorgan,Dermatology,D33,Dr. Roberts,M54.5,Low back pain,Attended
+A1529,12/07/2025 08:11,P515,2035388708,Brent,Stowell,01/11/1973,CF26 7LB,Singleton Hospital,Oncology,D67,Dr. Williams,L20.9,"Atopic dermatitis, unspecified",Attended
+A1530,12/07/2025 08:11,P529,164103708,Roman,Gilson,21/03/1994,NP13 2GW,Singleton Hospital,Oncology,D67,Dr. Williams,M54.5,Low back pain,Attended
+A1531,12/07/2025 08:11,P642,5297254205,Francis,Spencer,12/12/1968,SA21 3IV,Singleton Hospital,Oncology,D33,Dr. Roberts,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1532,12/07/2025 08:11,P554,9042835877,David,Oakden,23/11/1944,NP32 5NF,Singleton Hospital,Oncology,D21,Dr. Evans,M54.5,Low back pain,Attended
+A1533,12/07/2025 08:11,P545,4622334623,David,Ashpole,13/05/1945,LL12 2SV,University Hospital,Cardiology,D12,Dr. Thomas,I10,Essential hypertension,Attended
+A1534,12/07/2025 08:11,P579,3205357434,Ryan,Johnson,28/09/1953,LL10 7ZC,Morriston Hospital,Neurology,D88,Dr. Davies,I10,Essential hypertension,Attended
+A1535,12/07/2025 08:11,P581,843268050,Eleanor,Monahan,12/01/2009,LL31 3EC,Prince Charles,Orthopaedics,D67,Dr. Williams,I10,Essential hypertension,DNA
+A1536,12/07/2025 08:11,P533,6863164418,Walter,Day,04/12/1981,CF32 7JX,University Hospital,Cardiology,D12,Dr. Thomas,L20.9,"Atopic dermatitis, unspecified",Attended
+A1537,12/07/2025 08:11,P570,4609634104,Vivian,Wallace,04/11/1943,SA33 6CQ,Morriston Hospital,Neurology,D21,Dr. Evans,K21.9,Gastro-oesophageal reflux disease,Attended
+A1538,12/07/2025 08:11,P595,7351921202,Mark,Worek,21/06/1970,NP13 3BR,Royal Glamorgan,Dermatology,D67,Dr. Williams,K21.9,Gastro-oesophageal reflux disease,Attended
+A1539,12/07/2025 08:11,P566,6598774578,Tiffany,Ward,27/03/2002,CF21 5ZR,Prince Charles,Orthopaedics,D12,Dr. Thomas,K21.9,Gastro-oesophageal reflux disease,Attended
+A1540,12/07/2025 08:11,P545,4622334623,David,Ashpole,13/05/1945,LL12 2SV,Singleton Hospital,Oncology,D67,Dr. Williams,J45.9,"Asthma, unspecified",DNA
+A1541,12/07/2025 08:11,P639,8682902893,Maureen,Hackney,19/09/1943,NP20 2QL,Morriston Hospital,Neurology,D21,Dr. Evans,I10,Essential hypertension,Attended
+A1542,12/07/2025 08:11,P565,1035562804,James,Ovalle,04/04/1955,SA23 1EB,Prince Charles,Orthopaedics,D33,Dr. Roberts,I10,Essential hypertension,Attended
+A1543,12/07/2025 08:11,P511,1258494795,Samuel,Cavanaugh,27/09/1979,SA35 3JT,Singleton Hospital,Oncology,D45,Dr. Jones,E11.9,Type 2 diabetes mellitus without complications,DNA
+A1544,12/07/2025 08:11,P623,3167396040,Anna,Perona,19/06/2000,CF10 1CE,Morriston Hospital,Neurology,D45,Dr. Jones,I10,Essential hypertension,DNA
+A1545,12/07/2025 08:11,P570,4609634104,Vivian,Wallace,04/11/1943,SA33 6CQ,University Hospital,Cardiology,D12,Dr. Thomas,K21.9,Gastro-oesophageal reflux disease,Attended
+A1546,12/07/2025 08:11,P621,7724738483,Porter,Babino,04/06/1959,SA12 4PK,Prince Charles,Orthopaedics,D21,Dr. Evans,I10,Essential hypertension,DNA
+A1547,12/07/2025 08:11,P627,4196208495,Emma,Flora,28/04/1996,SA17 9VJ,Morriston Hospital,Neurology,D67,Dr. Williams,S82.1,Fracture of upper end of tibia,Attended
+A1548,12/07/2025 08:11,P631,9407957845,Francisco,Wakefield,05/01/1975,SA14 6WV,University Hospital,Cardiology,D67,Dr. Williams,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1549,12/07/2025 08:11,P531,283802200,Michael,Stevenson,19/02/1967,CF24 2HI,Singleton Hospital,Oncology,D45,Dr. Jones,L20.9,"Atopic dermatitis, unspecified",Attended
+A1550,12/07/2025 08:11,P553,8111006888,Jill,Bachman,04/05/1988,LL11 5KL,Royal Glamorgan,Dermatology,D12,Dr. Thomas,L20.9,"Atopic dermatitis, unspecified",Attended
+A1551,12/07/2025 08:11,P637,6133299738,David,Eagle,14/11/1985,NP36 7AV,Singleton Hospital,Oncology,D67,Dr. Williams,L20.9,"Atopic dermatitis, unspecified",Attended
+A1552,12/07/2025 08:11,P604,5982643394,Beverly,Gering,28/10/1992,CF19 5XV,Prince Charles,Orthopaedics,D33,Dr. Roberts,S82.1,Fracture of upper end of tibia,Attended
+A1553,12/07/2025 08:11,P536,4964774724,Jamie,Weeks,11/10/1997,SA25 5SE,Singleton Hospital,Oncology,D45,Dr. Jones,I10,Essential hypertension,Attended
+A1554,12/07/2025 08:11,P586,8600932777,Alexander,Mcfadden,24/11/1967,LL18 4WD,Royal Glamorgan,Dermatology,D21,Dr. Evans,I10,Essential hypertension,DNA
+A1555,12/07/2025 08:11,P518,735554943,Maria,Knight,26/11/1948,SA18 5KE,Royal Glamorgan,Gastroenterology,D67,Dr. Williams,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1556,12/07/2025 08:11,P646,4369609879,Esther,Jessup,19/12/1975,SA25 9CR,Prince Charles,Orthopaedics,D33,Dr. Roberts,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1557,12/07/2025 08:11,P642,5297254205,Francis,Spencer,12/12/1968,SA21 3IV,Morriston Hospital,Neurology,D67,Dr. Williams,I10,Essential hypertension,Attended
+A1558,12/07/2025 08:11,P541,832854360,Marvin,Milliken,27/02/1982,CF29 7VF,Morriston Hospital,Neurology,D88,Dr. Davies,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1559,12/07/2025 08:11,P600,5862702520,Rhoda,Luna,04/11/1946,NP28 3MK,Morriston Hospital,Neurology,D45,Dr. Jones,M54.5,Low back pain,Attended
+A1560,12/07/2025 08:11,P615,6540640056,Beatrice,Allen,16/07/1959,CF12 1CK,Prince Charles,Orthopaedics,D33,Dr. Roberts,S82.1,Fracture of upper end of tibia,Attended
+A1561,12/07/2025 08:11,P568,5900540227,David,Caplinger,06/03/1950,SA31 9DI,Prince Charles,Orthopaedics,D88,Dr. Davies,L20.9,"Atopic dermatitis, unspecified",Attended
+A1562,12/07/2025 08:11,P587,535215401,Jose,Gill,28/04/1958,NP26 2IZ,Royal Glamorgan,Gastroenterology,D88,Dr. Davies,K21.9,Gastro-oesophageal reflux disease,Attended
+A1563,12/07/2025 08:11,P579,3205357434,Ryan,Johnson,28/09/1953,LL10 7ZC,Singleton Hospital,Oncology,D45,Dr. Jones,S82.1,Fracture of upper end of tibia,Attended
+A1564,12/07/2025 08:11,P508,7632470530,Jeffrey,Iuliucci,01/02/1996,CF22 9WS,Prince Charles,Orthopaedics,D88,Dr. Davies,J45.9,"Asthma, unspecified",Attended
+A1565,12/07/2025 08:11,P584,2661527591,Johnny,Viloria,09/04/1968,CF10 3LE,University Hospital,Cardiology,D45,Dr. Jones,L20.9,"Atopic dermatitis, unspecified",DNA
+A1566,12/07/2025 08:11,P613,7723271123,Dario,Allen,07/11/1990,NP21 8DL,Morriston Hospital,Neurology,D67,Dr. Williams,J45.9,"Asthma, unspecified",Attended
+A1567,12/07/2025 08:11,P629,5931937641,Eleanore,Chouinard,17/04/1971,NP17 7MJ,Royal Glamorgan,Dermatology,D12,Dr. Thomas,K21.9,Gastro-oesophageal reflux disease,Attended
+A1568,12/07/2025 08:11,P579,3205357434,Ryan,Johnson,28/09/1953,LL10 7ZC,Royal Glamorgan,Gastroenterology,D21,Dr. Evans,J45.9,"Asthma, unspecified",Attended
+A1569,12/07/2025 08:11,P517,5661049129,Mariann,Carter,22/12/1965,LL35 5XF,Royal Glamorgan,Dermatology,D21,Dr. Evans,S82.1,Fracture of upper end of tibia,DNA
+A1570,12/07/2025 08:11,P515,2035388708,Brent,Stowell,01/11/1973,CF26 7LB,Morriston Hospital,Neurology,D67,Dr. Williams,S82.1,Fracture of upper end of tibia,Attended
+A1571,12/07/2025 08:11,P622,2055099469,Roberta,Pena,17/01/1947,NP25 7PQ,University Hospital,Cardiology,D88,Dr. Davies,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1572,12/07/2025 08:11,P634,4716065103,Jose,Delgado,18/12/1949,SA20 6YW,Royal Glamorgan,Dermatology,D12,Dr. Thomas,K21.9,Gastro-oesophageal reflux disease,Attended
+A1573,12/07/2025 08:11,P501,1639707557,Christine,Morey,01/01/1969,CF39 9YJ,Prince Charles,Orthopaedics,D12,Dr. Thomas,I10,Essential hypertension,Attended
+A1574,12/07/2025 08:11,P606,292636466,Franklin,Baine,20/06/1989,CF27 1RF,University Hospital,Cardiology,D12,Dr. Thomas,S82.1,Fracture of upper end of tibia,Attended
+A1575,12/07/2025 08:11,P569,430702019,John,Bonney,18/03/2002,LL33 9SF,Royal Glamorgan,Gastroenterology,D67,Dr. Williams,M54.5,Low back pain,Attended
+A1576,12/07/2025 08:11,P541,832854360,Marvin,Milliken,27/02/1982,CF29 7VF,Prince Charles,Orthopaedics,D21,Dr. Evans,J45.9,"Asthma, unspecified",Attended
+A1577,12/07/2025 08:11,P528,4400238679,Jamie,Griffis,01/11/1967,NP21 6TT,Royal Glamorgan,Dermatology,D88,Dr. Davies,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1578,12/07/2025 08:11,P595,7351921202,Mark,Worek,21/06/1970,NP13 3BR,Prince Charles,Orthopaedics,D12,Dr. Thomas,I10,Essential hypertension,Attended
+A1579,12/07/2025 08:11,P524,148573762,Helen,Sharrer,11/10/2008,CF30 2PB,Royal Glamorgan,Dermatology,D12,Dr. Thomas,M54.5,Low back pain,DNA
+A1580,12/07/2025 08:11,P592,2149967278,Earl,Wolf,05/03/1957,LL33 5UA,Royal Glamorgan,Gastroenterology,D33,Dr. Roberts,S82.1,Fracture of upper end of tibia,Attended
+A1581,12/07/2025 08:11,P528,4400238679,Jamie,Griffis,01/11/1967,NP21 6TT,Prince Charles,Orthopaedics,D67,Dr. Williams,I10,Essential hypertension,Attended
+A1582,12/07/2025 08:11,P593,8538152823,William,Duck,08/11/1947,LL22 8NE,University Hospital,Cardiology,D88,Dr. Davies,K21.9,Gastro-oesophageal reflux disease,Attended
+A1583,12/07/2025 08:11,P550,2600993797,Ryan,Winn,10/12/1948,SA32 1ZJ,Morriston Hospital,Neurology,D88,Dr. Davies,J45.9,"Asthma, unspecified",Attended
+A1584,12/07/2025 08:11,P597,558100317,George,Williams,12/06/1964,LL39 6MN,Singleton Hospital,Oncology,D21,Dr. Evans,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1585,12/07/2025 08:11,P582,5367215947,Karen,Rutledge,08/01/1957,NP16 4ZT,Prince Charles,Orthopaedics,D45,Dr. Jones,I10,Essential hypertension,Attended
+A1586,12/07/2025 08:11,P616,3446346015,Joel,Clawson,20/09/1948,NP34 3XN,Singleton Hospital,Oncology,D12,Dr. Thomas,S82.1,Fracture of upper end of tibia,Attended
+A1587,12/07/2025 08:11,P553,8111006888,Jill,Bachman,04/05/1988,LL11 5KL,Morriston Hospital,Neurology,D67,Dr. Williams,M54.5,Low back pain,Attended
+A1588,12/07/2025 08:11,P641,4095691077,Carol,Dugan,10/10/1986,SA34 1ZE,Royal Glamorgan,Gastroenterology,D21,Dr. Evans,S82.1,Fracture of upper end of tibia,Attended
+A1589,12/07/2025 08:11,P574,3367895326,Holly,Krell,02/01/1944,NP26 9XQ,Morriston Hospital,Neurology,D88,Dr. Davies,M54.5,Low back pain,Attended
+A1590,12/07/2025 08:11,P642,5297254205,Francis,Spencer,12/12/1968,SA21 3IV,Prince Charles,Orthopaedics,D12,Dr. Thomas,J45.9,"Asthma, unspecified",Attended
+A1591,12/07/2025 08:11,P554,9042835877,David,Oakden,23/11/1944,NP32 5NF,Royal Glamorgan,Gastroenterology,D12,Dr. Thomas,M54.5,Low back pain,Attended
+A1592,12/07/2025 08:11,P608,3920111346,Roosevelt,Schulze,07/01/2006,LL27 5SH,Morriston Hospital,Neurology,D33,Dr. Roberts,M54.5,Low back pain,Attended
+A1593,12/07/2025 08:11,P638,1195530927,Mark,Martin,04/08/1942,NP34 3WH,University Hospital,Cardiology,D67,Dr. Williams,J45.9,"Asthma, unspecified",Attended
+A1594,12/07/2025 08:11,P624,5377167236,Clementine,Beamon,18/12/1989,LL22 6EK,Royal Glamorgan,Gastroenterology,D21,Dr. Evans,K21.9,Gastro-oesophageal reflux disease,Attended
+A1595,12/07/2025 08:11,P595,7351921202,Mark,Worek,21/06/1970,NP13 3BR,Royal Glamorgan,Gastroenterology,D45,Dr. Jones,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1596,12/07/2025 08:11,P536,4964774724,Jamie,Weeks,11/10/1997,SA25 5SE,Singleton Hospital,Oncology,D88,Dr. Davies,I10,Essential hypertension,DNA
+A1597,12/07/2025 08:11,P528,4400238679,Jamie,Griffis,01/11/1967,NP21 6TT,University Hospital,Cardiology,D12,Dr. Thomas,J45.9,"Asthma, unspecified",Attended
+A1598,12/07/2025 08:11,P591,6016868965,Shelby,Hammon,20/01/2001,LL25 7ZC,Royal Glamorgan,Dermatology,D88,Dr. Davies,K21.9,Gastro-oesophageal reflux disease,Attended
+A1599,12/07/2025 08:11,P645,1292724676,Stephen,Steger,01/10/1983,SA19 2UV,Morriston Hospital,Neurology,D45,Dr. Jones,L20.9,"Atopic dermatitis, unspecified",Attended
+A1600,12/07/2025 08:11,P543,8932821836,Billie,Ebert,10/09/2003,CF36 4BY,University Hospital,Cardiology,D12,Dr. Thomas,M54.5,Low back pain,DNA
+A1601,12/07/2025 08:11,P606,292636466,Franklin,Baine,20/06/1989,CF27 1RF,Royal Glamorgan,Gastroenterology,D88,Dr. Davies,J45.9,"Asthma, unspecified",DNA
+A1602,12/07/2025 08:11,P566,6598774578,Tiffany,Ward,27/03/2002,CF21 5ZR,Morriston Hospital,Neurology,D88,Dr. Davies,M54.5,Low back pain,DNA
+A1603,12/07/2025 08:11,P603,9283097505,Sandra,Perkins,04/03/1981,LL26 7QL,University Hospital,Cardiology,D33,Dr. Roberts,J45.9,"Asthma, unspecified",DNA
+A1604,12/07/2025 08:11,P539,9747347725,Chase,Reynolds,02/01/1955,NP22 6RJ,Royal Glamorgan,Dermatology,D21,Dr. Evans,M54.5,Low back pain,DNA
+A1605,12/07/2025 08:11,P531,283802200,Michael,Stevenson,19/02/1967,CF24 2HI,Morriston Hospital,Neurology,D21,Dr. Evans,E11.9,Type 2 diabetes mellitus without complications,DNA
+A1606,12/07/2025 08:11,P609,8429081410,Rachel,Lopez,17/12/1941,CF37 8DY,Morriston Hospital,Neurology,D33,Dr. Roberts,M54.5,Low back pain,Attended
+A1607,12/07/2025 08:11,P565,1035562804,James,Ovalle,04/04/1955,SA23 1EB,Royal Glamorgan,Gastroenterology,D67,Dr. Williams,M54.5,Low back pain,DNA
+A1608,12/07/2025 08:11,P514,1511617829,Jessica,Butler,09/12/1951,NP35 7SC,Morriston Hospital,Neurology,D33,Dr. Roberts,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1609,12/07/2025 08:11,P637,6133299738,David,Eagle,14/11/1985,NP36 7AV,University Hospital,Cardiology,D12,Dr. Thomas,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1610,12/07/2025 08:11,P512,4971158170,Clarence,Sweeny,16/03/1994,SA30 4GW,Royal Glamorgan,Gastroenterology,D88,Dr. Davies,K21.9,Gastro-oesophageal reflux disease,Attended
+A1611,12/07/2025 08:11,P572,756696364,Dennis,Tays,20/12/1992,CF16 5TK,Morriston Hospital,Neurology,D21,Dr. Evans,J45.9,"Asthma, unspecified",DNA
+A1612,12/07/2025 08:11,P558,1254273158,Esther,Tucci,07/02/1941,NP33 4XF,Prince Charles,Orthopaedics,D67,Dr. Williams,L20.9,"Atopic dermatitis, unspecified",Attended
+A1613,12/07/2025 08:11,P526,9469169603,Leslie,Ringgold,28/10/1983,SA21 4NV,Morriston Hospital,Neurology,D45,Dr. Jones,M54.5,Low back pain,DNA
+A1614,12/07/2025 08:11,P506,8037975193,Elizabeth,Smith,01/05/1941,NP21 1WV,Prince Charles,Orthopaedics,D45,Dr. Jones,E11.9,Type 2 diabetes mellitus without complications,DNA
+A1615,12/07/2025 08:11,P593,8538152823,William,Duck,08/11/1947,LL22 8NE,Singleton Hospital,Oncology,D45,Dr. Jones,K21.9,Gastro-oesophageal reflux disease,Attended
+A1616,12/07/2025 08:11,P505,6552352735,Anita,Ashby,07/04/1960,CF15 1CV,Morriston Hospital,Neurology,D67,Dr. Williams,S82.1,Fracture of upper end of tibia,Attended
+A1617,12/07/2025 08:11,P635,3903915688,Vickie,Cullum,24/10/1979,CF21 4WI,University Hospital,Cardiology,D21,Dr. Evans,M54.5,Low back pain,Attended
+A1618,12/07/2025 08:11,P526,9469169603,Leslie,Ringgold,28/10/1983,SA21 4NV,Royal Glamorgan,Dermatology,D12,Dr. Thomas,S82.1,Fracture of upper end of tibia,Attended
+A1619,12/07/2025 08:11,P554,9042835877,David,Oakden,23/11/1944,NP32 5NF,Royal Glamorgan,Gastroenterology,D33,Dr. Roberts,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1620,12/07/2025 08:11,P541,832854360,Marvin,Milliken,27/02/1982,CF29 7VF,Morriston Hospital,Neurology,D12,Dr. Thomas,K21.9,Gastro-oesophageal reflux disease,Attended
+A1621,12/07/2025 08:11,P524,148573762,Helen,Sharrer,11/10/2008,CF30 2PB,Morriston Hospital,Neurology,D12,Dr. Thomas,J45.9,"Asthma, unspecified",DNA
+A1622,12/07/2025 08:11,P528,4400238679,Jamie,Griffis,01/11/1967,NP21 6TT,Singleton Hospital,Oncology,D12,Dr. Thomas,J45.9,"Asthma, unspecified",Attended
+A1623,12/07/2025 08:11,P644,2326057104,Ella,Hodge,12/09/1972,CF35 4GW,Morriston Hospital,Neurology,D21,Dr. Evans,K21.9,Gastro-oesophageal reflux disease,Attended
+A1624,12/07/2025 08:11,P502,9623650574,Kim,Szala,11/02/1968,LL37 2PY,Morriston Hospital,Neurology,D88,Dr. Davies,K21.9,Gastro-oesophageal reflux disease,DNA
+A1625,12/07/2025 08:11,P564,2312161559,Paul,Dickerson,17/07/2008,SA29 5JO,University Hospital,Cardiology,D12,Dr. Thomas,I10,Essential hypertension,DNA
+A1626,12/07/2025 08:11,P508,7632470530,Jeffrey,Iuliucci,01/02/1996,CF22 9WS,University Hospital,Cardiology,D21,Dr. Evans,K21.9,Gastro-oesophageal reflux disease,Attended
+A1627,12/07/2025 08:11,P510,8627669546,Michael,Rutter,21/11/1989,LL29 6QK,Royal Glamorgan,Dermatology,D88,Dr. Davies,S82.1,Fracture of upper end of tibia,Attended
+A1628,12/07/2025 08:11,P611,6791575603,John,Schoberg,06/01/1958,CF15 9RJ,Prince Charles,Orthopaedics,D67,Dr. Williams,J45.9,"Asthma, unspecified",Attended
+A1629,12/07/2025 08:11,P524,148573762,Helen,Sharrer,11/10/2008,CF30 2PB,Morriston Hospital,Neurology,D21,Dr. Evans,S82.1,Fracture of upper end of tibia,DNA
+A1630,12/07/2025 08:11,P528,4400238679,Jamie,Griffis,01/11/1967,NP21 6TT,Singleton Hospital,Oncology,D21,Dr. Evans,J45.9,"Asthma, unspecified",Attended
+A1631,12/07/2025 08:11,P509,9788282938,Carolyn,King,01/11/1944,SA17 3EK,Singleton Hospital,Oncology,D88,Dr. Davies,L20.9,"Atopic dermatitis, unspecified",Attended
+A1632,12/07/2025 08:11,P500,3077417944,Robert,Baker,04/02/1979,LL33 2ZZ,Singleton Hospital,Oncology,D33,Dr. Roberts,S82.1,Fracture of upper end of tibia,Attended
+A1633,12/07/2025 08:11,P630,8668713787,Charlotte,Hamilton,24/12/2003,SA14 4WK,University Hospital,Cardiology,D67,Dr. Williams,S82.1,Fracture of upper end of tibia,Attended
+A1634,12/07/2025 08:11,P554,9042835877,David,Oakden,23/11/1944,NP32 5NF,Singleton Hospital,Oncology,D88,Dr. Davies,M54.5,Low back pain,Attended
+A1635,12/07/2025 08:11,P609,8429081410,Rachel,Lopez,17/12/1941,CF37 8DY,Royal Glamorgan,Gastroenterology,D45,Dr. Jones,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1636,12/07/2025 08:11,P627,4196208495,Emma,Flora,28/04/1996,SA17 9VJ,Royal Glamorgan,Dermatology,D33,Dr. Roberts,M54.5,Low back pain,Attended
+A1637,12/07/2025 08:11,P581,843268050,Eleanor,Monahan,12/01/2009,LL31 3EC,University Hospital,Cardiology,D12,Dr. Thomas,K21.9,Gastro-oesophageal reflux disease,Attended
+A1638,12/07/2025 08:11,P575,8334569416,Ted,Wright,08/01/1950,SA36 2EY,Royal Glamorgan,Gastroenterology,D33,Dr. Roberts,M54.5,Low back pain,DNA
+A1639,12/07/2025 08:11,P573,497824280,Samuel,Madera,01/03/1988,CF21 8SE,Royal Glamorgan,Dermatology,D33,Dr. Roberts,E11.9,Type 2 diabetes mellitus without complications,DNA
+A1640,12/07/2025 08:11,P623,3167396040,Anna,Perona,19/06/2000,CF10 1CE,Morriston Hospital,Neurology,D67,Dr. Williams,L20.9,"Atopic dermatitis, unspecified",Attended
+A1641,12/07/2025 08:11,P569,430702019,John,Bonney,18/03/2002,LL33 9SF,Royal Glamorgan,Dermatology,D21,Dr. Evans,L20.9,"Atopic dermatitis, unspecified",Attended
+A1642,12/07/2025 08:11,P542,9117640423,Brenda,Marshall,04/06/1988,LL10 3GF,Singleton Hospital,Oncology,D21,Dr. Evans,S82.1,Fracture of upper end of tibia,Attended
+A1643,12/07/2025 08:11,P616,3446346015,Joel,Clawson,20/09/1948,NP34 3XN,University Hospital,Cardiology,D12,Dr. Thomas,K21.9,Gastro-oesophageal reflux disease,DNA
+A1644,12/07/2025 08:11,P612,1786193175,Connie,Simpson,14/04/1974,LL11 7CP,Morriston Hospital,Neurology,D67,Dr. Williams,L20.9,"Atopic dermatitis, unspecified",DNA
+A1645,12/07/2025 08:11,P514,1511617829,Jessica,Butler,09/12/1951,NP35 7SC,University Hospital,Cardiology,D33,Dr. Roberts,J45.9,"Asthma, unspecified",Attended
+A1646,12/07/2025 08:11,P631,9407957845,Francisco,Wakefield,05/01/1975,SA14 6WV,University Hospital,Cardiology,D45,Dr. Jones,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1647,12/07/2025 08:11,P619,490375316,Lynn,Mclaughlin,22/01/1988,SA23 1UP,University Hospital,Cardiology,D45,Dr. Jones,J45.9,"Asthma, unspecified",DNA
+A1648,12/07/2025 08:11,P515,2035388708,Brent,Stowell,01/11/1973,CF26 7LB,Singleton Hospital,Oncology,D45,Dr. Jones,L20.9,"Atopic dermatitis, unspecified",Attended
+A1649,12/07/2025 08:11,P540,720356083,Francis,Goodwin,09/12/1967,SA26 9RM,Morriston Hospital,Neurology,D21,Dr. Evans,I10,Essential hypertension,DNA
+A1650,12/07/2025 08:11,P574,3367895326,Holly,Krell,02/01/1944,NP26 9XQ,Singleton Hospital,Oncology,D33,Dr. Roberts,S82.1,Fracture of upper end of tibia,Attended
+A1651,12/07/2025 08:11,P605,5423142598,Thomas,Spicer,07/05/1985,CF18 5LV,Singleton Hospital,Oncology,D45,Dr. Jones,L20.9,"Atopic dermatitis, unspecified",DNA
+A1652,12/07/2025 08:11,P511,1258494795,Samuel,Cavanaugh,27/09/1979,SA35 3JT,Singleton Hospital,Oncology,D45,Dr. Jones,J45.9,"Asthma, unspecified",Attended
+A1653,12/07/2025 08:11,P575,8334569416,Ted,Wright,08/01/1950,SA36 2EY,University Hospital,Cardiology,D21,Dr. Evans,K21.9,Gastro-oesophageal reflux disease,DNA
+A1654,12/07/2025 08:11,P594,7528997382,Ray,Lebeau,04/12/1967,SA21 1XK,University Hospital,Cardiology,D45,Dr. Jones,L20.9,"Atopic dermatitis, unspecified",DNA
+A1655,12/07/2025 08:11,P533,6863164418,Walter,Day,04/12/1981,CF32 7JX,Royal Glamorgan,Dermatology,D12,Dr. Thomas,J45.9,"Asthma, unspecified",Attended
+A1656,12/07/2025 08:11,P525,8526432982,Alene,Gooding,09/05/1987,SA35 2GY,Prince Charles,Orthopaedics,D21,Dr. Evans,I10,Essential hypertension,Attended
+A1657,12/07/2025 08:11,P536,4964774724,Jamie,Weeks,11/10/1997,SA25 5SE,Royal Glamorgan,Dermatology,D12,Dr. Thomas,L20.9,"Atopic dermatitis, unspecified",Attended
+A1658,12/07/2025 08:11,P612,1786193175,Connie,Simpson,14/04/1974,LL11 7CP,Royal Glamorgan,Gastroenterology,D88,Dr. Davies,K21.9,Gastro-oesophageal reflux disease,Attended
+A1659,12/07/2025 08:11,P613,7723271123,Dario,Allen,07/11/1990,NP21 8DL,Royal Glamorgan,Dermatology,D67,Dr. Williams,K21.9,Gastro-oesophageal reflux disease,Attended
+A1660,12/07/2025 08:11,P556,7153427422,Tracy,Clarkson,07/05/1959,LL35 9TI,Morriston Hospital,Neurology,D45,Dr. Jones,J45.9,"Asthma, unspecified",Attended
+A1661,12/07/2025 08:11,P525,8526432982,Alene,Gooding,09/05/1987,SA35 2GY,Morriston Hospital,Neurology,D12,Dr. Thomas,L20.9,"Atopic dermatitis, unspecified",DNA
+A1662,12/07/2025 08:11,P564,2312161559,Paul,Dickerson,17/07/2008,SA29 5JO,Prince Charles,Orthopaedics,D45,Dr. Jones,M54.5,Low back pain,Attended
+A1663,12/07/2025 08:11,P585,1702998959,Yolanda,Brown,13/04/1949,CF26 9DX,Royal Glamorgan,Gastroenterology,D33,Dr. Roberts,L20.9,"Atopic dermatitis, unspecified",Attended
+A1664,12/07/2025 08:11,P597,558100317,George,Williams,12/06/1964,LL39 6MN,University Hospital,Cardiology,D88,Dr. Davies,S82.1,Fracture of upper end of tibia,Attended
+A1665,12/07/2025 08:11,P586,8600932777,Alexander,Mcfadden,24/11/1967,LL18 4WD,Royal Glamorgan,Dermatology,D33,Dr. Roberts,L20.9,"Atopic dermatitis, unspecified",DNA
+A1666,12/07/2025 08:11,P599,2454405946,Sarah,Powers,28/07/1966,NP28 8QF,University Hospital,Cardiology,D12,Dr. Thomas,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1667,12/07/2025 08:11,P584,2661527591,Johnny,Viloria,09/04/1968,CF10 3LE,Prince Charles,Orthopaedics,D12,Dr. Thomas,L20.9,"Atopic dermatitis, unspecified",Attended
+A1668,12/07/2025 08:11,P647,8622752879,Ronald,Canizales,24/02/1980,NP18 3KV,Prince Charles,Orthopaedics,D45,Dr. Jones,M54.5,Low back pain,Attended
+A1669,12/07/2025 08:11,P530,5927478522,Susan,Collins,27/02/1941,CF23 6EG,Morriston Hospital,Neurology,D21,Dr. Evans,J45.9,"Asthma, unspecified",DNA
+A1670,12/07/2025 08:11,P531,283802200,Michael,Stevenson,19/02/1967,CF24 2HI,Prince Charles,Orthopaedics,D88,Dr. Davies,K21.9,Gastro-oesophageal reflux disease,Attended
+A1671,12/07/2025 08:11,P511,1258494795,Samuel,Cavanaugh,27/09/1979,SA35 3JT,Morriston Hospital,Neurology,D12,Dr. Thomas,S82.1,Fracture of upper end of tibia,Attended
+A1672,12/07/2025 08:11,P594,7528997382,Ray,Lebeau,04/12/1967,SA21 1XK,Prince Charles,Orthopaedics,D45,Dr. Jones,S82.1,Fracture of upper end of tibia,Attended
+A1673,12/07/2025 08:11,P511,1258494795,Samuel,Cavanaugh,27/09/1979,SA35 3JT,Royal Glamorgan,Dermatology,D33,Dr. Roberts,S82.1,Fracture of upper end of tibia,Attended
+A1674,12/07/2025 08:11,P601,9744420626,Christopher,Webb,23/02/1972,LL15 2KG,University Hospital,Cardiology,D33,Dr. Roberts,M54.5,Low back pain,Attended
+A1675,12/07/2025 08:11,P602,115740902,Belinda,Marvin,19/12/1979,LL37 1DM,Royal Glamorgan,Gastroenterology,D45,Dr. Jones,J45.9,"Asthma, unspecified",Attended
+A1676,12/07/2025 08:11,P594,7528997382,Ray,Lebeau,04/12/1967,SA21 1XK,Royal Glamorgan,Dermatology,D67,Dr. Williams,K21.9,Gastro-oesophageal reflux disease,Attended
+A1677,12/07/2025 08:11,P563,8722401334,Mabel,Conrad,06/07/1950,NP38 3YR,Royal Glamorgan,Gastroenterology,D33,Dr. Roberts,M54.5,Low back pain,Attended
+A1678,12/07/2025 08:11,P608,3920111346,Roosevelt,Schulze,07/01/2006,LL27 5SH,University Hospital,Cardiology,D45,Dr. Jones,J45.9,"Asthma, unspecified",DNA
+A1679,12/07/2025 08:11,P533,6863164418,Walter,Day,04/12/1981,CF32 7JX,Prince Charles,Orthopaedics,D21,Dr. Evans,J45.9,"Asthma, unspecified",Attended
+A1680,12/07/2025 08:11,P572,756696364,Dennis,Tays,20/12/1992,CF16 5TK,Morriston Hospital,Neurology,D88,Dr. Davies,S82.1,Fracture of upper end of tibia,Attended
+A1681,12/07/2025 08:11,P603,9283097505,Sandra,Perkins,04/03/1981,LL26 7QL,University Hospital,Cardiology,D45,Dr. Jones,K21.9,Gastro-oesophageal reflux disease,Attended
+A1682,12/07/2025 08:11,P564,2312161559,Paul,Dickerson,17/07/2008,SA29 5JO,University Hospital,Cardiology,D12,Dr. Thomas,K21.9,Gastro-oesophageal reflux disease,Attended
+A1683,12/07/2025 08:11,P582,5367215947,Karen,Rutledge,08/01/1957,NP16 4ZT,Royal Glamorgan,Dermatology,D12,Dr. Thomas,K21.9,Gastro-oesophageal reflux disease,Attended
+A1684,12/07/2025 08:11,P504,1560423757,Michelle,Love,14/07/1995,SA19 7XC,Royal Glamorgan,Gastroenterology,D12,Dr. Thomas,J45.9,"Asthma, unspecified",Attended
+A1685,12/07/2025 08:11,P618,1323896783,Becky,Vallejos,25/06/2003,CF36 4PA,Singleton Hospital,Oncology,D88,Dr. Davies,J45.9,"Asthma, unspecified",DNA
+A1686,12/07/2025 08:11,P610,4355503771,Everett,Lopez,08/06/1968,CF14 2WD,Singleton Hospital,Oncology,D33,Dr. Roberts,S82.1,Fracture of upper end of tibia,DNA
+A1687,12/07/2025 08:11,P514,1511617829,Jessica,Butler,09/12/1951,NP35 7SC,Morriston Hospital,Neurology,D88,Dr. Davies,K21.9,Gastro-oesophageal reflux disease,Attended
+A1688,12/07/2025 08:11,P619,490375316,Lynn,Mclaughlin,22/01/1988,SA23 1UP,Royal Glamorgan,Gastroenterology,D88,Dr. Davies,K21.9,Gastro-oesophageal reflux disease,Attended
+A1689,12/07/2025 08:11,P620,1350082724,William,Bradley,05/06/1957,NP19 7JG,Morriston Hospital,Neurology,D12,Dr. Thomas,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1690,12/07/2025 08:11,P565,1035562804,James,Ovalle,04/04/1955,SA23 1EB,Singleton Hospital,Oncology,D33,Dr. Roberts,L20.9,"Atopic dermatitis, unspecified",Attended
+A1691,12/07/2025 08:11,P579,3205357434,Ryan,Johnson,28/09/1953,LL10 7ZC,Singleton Hospital,Oncology,D67,Dr. Williams,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1692,12/07/2025 08:11,P603,9283097505,Sandra,Perkins,04/03/1981,LL26 7QL,Royal Glamorgan,Gastroenterology,D88,Dr. Davies,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1693,12/07/2025 08:11,P507,2757465864,Michael,Woolem,25/09/1960,CF15 8LY,University Hospital,Cardiology,D12,Dr. Thomas,L20.9,"Atopic dermatitis, unspecified",Attended
+A1694,12/07/2025 08:11,P587,535215401,Jose,Gill,28/04/1958,NP26 2IZ,Royal Glamorgan,Gastroenterology,D12,Dr. Thomas,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1695,12/07/2025 08:11,P591,6016868965,Shelby,Hammon,20/01/2001,LL25 7ZC,Morriston Hospital,Neurology,D33,Dr. Roberts,L20.9,"Atopic dermatitis, unspecified",Attended
+A1696,12/07/2025 08:11,P630,8668713787,Charlotte,Hamilton,24/12/2003,SA14 4WK,Prince Charles,Orthopaedics,D21,Dr. Evans,M54.5,Low back pain,Attended
+A1697,12/07/2025 08:11,P602,115740902,Belinda,Marvin,19/12/1979,LL37 1DM,Royal Glamorgan,Dermatology,D45,Dr. Jones,K21.9,Gastro-oesophageal reflux disease,DNA
+A1698,12/07/2025 08:11,P581,843268050,Eleanor,Monahan,12/01/2009,LL31 3EC,University Hospital,Cardiology,D33,Dr. Roberts,J45.9,"Asthma, unspecified",Attended
+A1699,12/07/2025 08:11,P638,1195530927,Mark,Martin,04/08/1942,NP34 3WH,Royal Glamorgan,Gastroenterology,D12,Dr. Thomas,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1700,12/07/2025 08:11,P640,4792665310,Robert,Marsh,06/04/2002,SA28 5NV,Singleton Hospital,Oncology,D45,Dr. Jones,S82.1,Fracture of upper end of tibia,DNA
+A1701,12/07/2025 08:11,P636,9285632378,Robert,Konrad,24/11/1980,SA18 1XO,Royal Glamorgan,Gastroenterology,D12,Dr. Thomas,S82.1,Fracture of upper end of tibia,Attended
+A1702,12/07/2025 08:11,P552,7717048590,Georgia,Spears,02/10/1956,CF15 4DF,Singleton Hospital,Oncology,D67,Dr. Williams,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1703,12/07/2025 08:11,P597,558100317,George,Williams,12/06/1964,LL39 6MN,Royal Glamorgan,Gastroenterology,D67,Dr. Williams,L20.9,"Atopic dermatitis, unspecified",Attended
+A1704,12/07/2025 08:11,P501,1639707557,Christine,Morey,01/01/1969,CF39 9YJ,Royal Glamorgan,Gastroenterology,D88,Dr. Davies,J45.9,"Asthma, unspecified",Attended
+A1705,12/07/2025 08:11,P576,4770471416,Corinne,Mendoza,21/03/2006,LL28 2CM,Morriston Hospital,Neurology,D33,Dr. Roberts,S82.1,Fracture of upper end of tibia,Attended
+A1706,12/07/2025 08:11,P568,5900540227,David,Caplinger,06/03/1950,SA31 9DI,Morriston Hospital,Neurology,D67,Dr. Williams,K21.9,Gastro-oesophageal reflux disease,DNA
+A1707,12/07/2025 08:11,P620,1350082724,William,Bradley,05/06/1957,NP19 7JG,Royal Glamorgan,Gastroenterology,D12,Dr. Thomas,K21.9,Gastro-oesophageal reflux disease,Attended
+A1708,12/07/2025 08:11,P565,1035562804,James,Ovalle,04/04/1955,SA23 1EB,Royal Glamorgan,Dermatology,D67,Dr. Williams,L20.9,"Atopic dermatitis, unspecified",Attended
+A1709,12/07/2025 08:11,P594,7528997382,Ray,Lebeau,04/12/1967,SA21 1XK,University Hospital,Cardiology,D45,Dr. Jones,S82.1,Fracture of upper end of tibia,Attended
+A1710,12/07/2025 08:11,P572,756696364,Dennis,Tays,20/12/1992,CF16 5TK,Singleton Hospital,Oncology,D33,Dr. Roberts,J45.9,"Asthma, unspecified",Attended
+A1711,12/07/2025 08:11,P551,2003100571,Herlinda,Womack,10/04/2008,CF20 7PV,Royal Glamorgan,Dermatology,D88,Dr. Davies,L20.9,"Atopic dermatitis, unspecified",DNA
+A1712,12/07/2025 08:11,P648,5540486900,Jeffrey,Longoria,01/10/1949,NP21 5SO,Prince Charles,Orthopaedics,D45,Dr. Jones,S82.1,Fracture of upper end of tibia,Attended
+A1713,12/07/2025 08:11,P644,2326057104,Ella,Hodge,12/09/1972,CF35 4GW,Royal Glamorgan,Dermatology,D45,Dr. Jones,J45.9,"Asthma, unspecified",Attended
+A1714,12/07/2025 08:11,P530,5927478522,Susan,Collins,27/02/1941,CF23 6EG,Morriston Hospital,Neurology,D12,Dr. Thomas,S82.1,Fracture of upper end of tibia,Attended
+A1715,12/07/2025 08:11,P633,3072400741,Jeffrey,Foslien,06/09/1996,LL14 5JD,Morriston Hospital,Neurology,D67,Dr. Williams,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1716,12/07/2025 08:11,P555,3130247866,Michael,Smallwood,08/05/2006,LL36 7RM,Royal Glamorgan,Dermatology,D45,Dr. Jones,S82.1,Fracture of upper end of tibia,DNA
+A1717,12/07/2025 08:11,P506,8037975193,Elizabeth,Smith,01/05/1941,NP21 1WV,Royal Glamorgan,Dermatology,D88,Dr. Davies,L20.9,"Atopic dermatitis, unspecified",Attended
+A1718,12/07/2025 08:11,P553,8111006888,Jill,Bachman,04/05/1988,LL11 5KL,Prince Charles,Orthopaedics,D12,Dr. Thomas,K21.9,Gastro-oesophageal reflux disease,Attended
+A1719,12/07/2025 08:11,P615,6540640056,Beatrice,Allen,16/07/1959,CF12 1CK,Morriston Hospital,Neurology,D88,Dr. Davies,M54.5,Low back pain,Attended
+A1720,12/07/2025 08:11,P622,2055099469,Roberta,Pena,17/01/1947,NP25 7PQ,Morriston Hospital,Neurology,D88,Dr. Davies,J45.9,"Asthma, unspecified",DNA
+A1721,12/07/2025 08:11,P543,8932821836,Billie,Ebert,10/09/2003,CF36 4BY,Royal Glamorgan,Gastroenterology,D33,Dr. Roberts,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1722,12/07/2025 08:11,P567,8860164907,Deanna,Tronaas,02/12/2003,NP18 6WW,Royal Glamorgan,Gastroenterology,D21,Dr. Evans,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1723,12/07/2025 08:11,P556,7153427422,Tracy,Clarkson,07/05/1959,LL35 9TI,University Hospital,Cardiology,D67,Dr. Williams,M54.5,Low back pain,Attended
+A1724,12/07/2025 08:11,P556,7153427422,Tracy,Clarkson,07/05/1959,LL35 9TI,Royal Glamorgan,Gastroenterology,D67,Dr. Williams,J45.9,"Asthma, unspecified",Attended
+A1725,12/07/2025 08:11,P627,4196208495,Emma,Flora,28/04/1996,SA17 9VJ,Morriston Hospital,Neurology,D67,Dr. Williams,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1726,12/07/2025 08:11,P617,9352052633,Jonathan,Guillotte,14/07/1953,SA34 3ML,Royal Glamorgan,Gastroenterology,D88,Dr. Davies,I10,Essential hypertension,Attended
+A1727,12/07/2025 08:11,P596,522780253,Lillian,Pearson,27/10/1987,NP33 4YB,Singleton Hospital,Oncology,D88,Dr. Davies,K21.9,Gastro-oesophageal reflux disease,Attended
+A1728,12/07/2025 08:11,P599,2454405946,Sarah,Powers,28/07/1966,NP28 8QF,University Hospital,Cardiology,D21,Dr. Evans,K21.9,Gastro-oesophageal reflux disease,Attended
+A1729,12/07/2025 08:11,P570,4609634104,Vivian,Wallace,04/11/1943,SA33 6CQ,Royal Glamorgan,Dermatology,D45,Dr. Jones,K21.9,Gastro-oesophageal reflux disease,Attended
+A1730,12/07/2025 08:11,P537,390631620,Charles,Maldonado,13/07/1989,NP29 1XR,Royal Glamorgan,Gastroenterology,D33,Dr. Roberts,M54.5,Low back pain,Attended
+A1731,12/07/2025 08:11,P616,3446346015,Joel,Clawson,20/09/1948,NP34 3XN,Morriston Hospital,Neurology,D21,Dr. Evans,K21.9,Gastro-oesophageal reflux disease,Attended
+A1732,12/07/2025 08:11,P617,9352052633,Jonathan,Guillotte,14/07/1953,SA34 3ML,Royal Glamorgan,Gastroenterology,D45,Dr. Jones,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1733,12/07/2025 08:11,P503,573635722,Lindsay,Eskew,28/04/2006,LL11 3BW,Prince Charles,Orthopaedics,D67,Dr. Williams,M54.5,Low back pain,Attended
+A1734,12/07/2025 08:11,P502,9623650574,Kim,Szala,11/02/1968,LL37 2PY,Royal Glamorgan,Gastroenterology,D33,Dr. Roberts,K21.9,Gastro-oesophageal reflux disease,Attended
+A1735,12/07/2025 08:11,P573,497824280,Samuel,Madera,01/03/1988,CF21 8SE,Morriston Hospital,Neurology,D33,Dr. Roberts,K21.9,Gastro-oesophageal reflux disease,Attended
+A1736,12/07/2025 08:11,P576,4770471416,Corinne,Mendoza,21/03/2006,LL28 2CM,Prince Charles,Orthopaedics,D21,Dr. Evans,I10,Essential hypertension,Attended
+A1737,12/07/2025 08:11,P648,5540486900,Jeffrey,Longoria,01/10/1949,NP21 5SO,Morriston Hospital,Neurology,D88,Dr. Davies,I10,Essential hypertension,DNA
+A1738,12/07/2025 08:11,P537,390631620,Charles,Maldonado,13/07/1989,NP29 1XR,University Hospital,Cardiology,D21,Dr. Evans,L20.9,"Atopic dermatitis, unspecified",Attended
+A1739,12/07/2025 08:11,P634,4716065103,Jose,Delgado,18/12/1949,SA20 6YW,Royal Glamorgan,Gastroenterology,D45,Dr. Jones,I10,Essential hypertension,Attended
+A1740,12/07/2025 08:11,P513,6340341071,Malena,Snider,20/01/1989,LL18 9HI,Morriston Hospital,Neurology,D45,Dr. Jones,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1741,12/07/2025 08:11,P648,5540486900,Jeffrey,Longoria,01/10/1949,NP21 5SO,Morriston Hospital,Neurology,D45,Dr. Jones,K21.9,Gastro-oesophageal reflux disease,DNA
+A1742,12/07/2025 08:11,P583,2745052071,Romeo,Mack,03/01/1981,SA38 5QE,Royal Glamorgan,Dermatology,D67,Dr. Williams,I10,Essential hypertension,Attended
+A1743,12/07/2025 08:11,P512,4971158170,Clarence,Sweeny,16/03/1994,SA30 4GW,Singleton Hospital,Oncology,D45,Dr. Jones,M54.5,Low back pain,DNA
+A1744,12/07/2025 08:11,P536,4964774724,Jamie,Weeks,11/10/1997,SA25 5SE,Prince Charles,Orthopaedics,D45,Dr. Jones,M54.5,Low back pain,Attended
+A1745,12/07/2025 08:11,P534,3840117496,Fern,Christian,26/04/1990,CF12 7CF,Prince Charles,Orthopaedics,D21,Dr. Evans,S82.1,Fracture of upper end of tibia,Attended
+A1746,12/07/2025 08:11,P515,2035388708,Brent,Stowell,01/11/1973,CF26 7LB,Prince Charles,Orthopaedics,D88,Dr. Davies,S82.1,Fracture of upper end of tibia,Attended
+A1747,12/07/2025 08:11,P644,2326057104,Ella,Hodge,12/09/1972,CF35 4GW,University Hospital,Cardiology,D88,Dr. Davies,S82.1,Fracture of upper end of tibia,Attended
+A1748,12/07/2025 08:11,P512,4971158170,Clarence,Sweeny,16/03/1994,SA30 4GW,University Hospital,Cardiology,D33,Dr. Roberts,M54.5,Low back pain,Attended
+A1749,12/07/2025 08:11,P586,8600932777,Alexander,Mcfadden,24/11/1967,LL18 4WD,University Hospital,Cardiology,D12,Dr. Thomas,E11.9,Type 2 diabetes mellitus without complications,DNA
+A1750,12/07/2025 08:11,P638,1195530927,Mark,Martin,04/08/1942,NP34 3WH,Prince Charles,Orthopaedics,D12,Dr. Thomas,S82.1,Fracture of upper end of tibia,DNA
+A1751,12/07/2025 08:11,P578,5323181974,Mark,Anderson,07/07/1950,NP21 9WS,Royal Glamorgan,Dermatology,D12,Dr. Thomas,K21.9,Gastro-oesophageal reflux disease,Attended
+A1752,12/07/2025 08:11,P513,6340341071,Malena,Snider,20/01/1989,LL18 9HI,University Hospital,Cardiology,D33,Dr. Roberts,J45.9,"Asthma, unspecified",DNA
+A1753,12/07/2025 08:11,P614,6427198327,Dave,Rupp,28/11/1952,CF11 8GL,Singleton Hospital,Oncology,D21,Dr. Evans,K21.9,Gastro-oesophageal reflux disease,DNA
+A1754,12/07/2025 08:11,P582,5367215947,Karen,Rutledge,08/01/1957,NP16 4ZT,Royal Glamorgan,Dermatology,D33,Dr. Roberts,J45.9,"Asthma, unspecified",Attended
+A1755,12/07/2025 08:11,P566,6598774578,Tiffany,Ward,27/03/2002,CF21 5ZR,University Hospital,Cardiology,D12,Dr. Thomas,M54.5,Low back pain,DNA
+A1756,12/07/2025 08:11,P564,2312161559,Paul,Dickerson,17/07/2008,SA29 5JO,Morriston Hospital,Neurology,D45,Dr. Jones,S82.1,Fracture of upper end of tibia,Attended
+A1757,12/07/2025 08:11,P606,292636466,Franklin,Baine,20/06/1989,CF27 1RF,Morriston Hospital,Neurology,D12,Dr. Thomas,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1758,12/07/2025 08:11,P634,4716065103,Jose,Delgado,18/12/1949,SA20 6YW,Morriston Hospital,Neurology,D12,Dr. Thomas,S82.1,Fracture of upper end of tibia,Attended
+A1759,12/07/2025 08:11,P536,4964774724,Jamie,Weeks,11/10/1997,SA25 5SE,Royal Glamorgan,Dermatology,D33,Dr. Roberts,S82.1,Fracture of upper end of tibia,Attended
+A1760,12/07/2025 08:11,P552,7717048590,Georgia,Spears,02/10/1956,CF15 4DF,University Hospital,Cardiology,D33,Dr. Roberts,S82.1,Fracture of upper end of tibia,Attended
+A1761,12/07/2025 08:11,P531,283802200,Michael,Stevenson,19/02/1967,CF24 2HI,University Hospital,Cardiology,D33,Dr. Roberts,M54.5,Low back pain,Attended
+A1762,12/07/2025 08:11,P503,573635722,Lindsay,Eskew,28/04/2006,LL11 3BW,Singleton Hospital,Oncology,D21,Dr. Evans,S82.1,Fracture of upper end of tibia,DNA
+A1763,12/07/2025 08:11,P647,8622752879,Ronald,Canizales,24/02/1980,NP18 3KV,University Hospital,Cardiology,D67,Dr. Williams,J45.9,"Asthma, unspecified",DNA
+A1764,12/07/2025 08:11,P568,5900540227,David,Caplinger,06/03/1950,SA31 9DI,Royal Glamorgan,Gastroenterology,D21,Dr. Evans,S82.1,Fracture of upper end of tibia,DNA
+A1765,12/07/2025 08:11,P570,4609634104,Vivian,Wallace,04/11/1943,SA33 6CQ,Royal Glamorgan,Gastroenterology,D33,Dr. Roberts,M54.5,Low back pain,DNA
+A1766,12/07/2025 08:11,P557,945058632,Connie,Savini,04/09/2001,CF22 8RU,Singleton Hospital,Oncology,D88,Dr. Davies,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1767,12/07/2025 08:11,P549,2825104442,Nydia,Fleshman,26/04/2005,CF23 4HH,Morriston Hospital,Neurology,D67,Dr. Williams,K21.9,Gastro-oesophageal reflux disease,Attended
+A1768,12/07/2025 08:11,P604,5982643394,Beverly,Gering,28/10/1992,CF19 5XV,Morriston Hospital,Neurology,D67,Dr. Williams,K21.9,Gastro-oesophageal reflux disease,DNA
+A1769,12/07/2025 08:11,P509,9788282938,Carolyn,King,01/11/1944,SA17 3EK,Royal Glamorgan,Gastroenterology,D21,Dr. Evans,J45.9,"Asthma, unspecified",Attended
+A1770,12/07/2025 08:11,P608,3920111346,Roosevelt,Schulze,07/01/2006,LL27 5SH,Morriston Hospital,Neurology,D21,Dr. Evans,L20.9,"Atopic dermatitis, unspecified",DNA
+A1771,12/07/2025 08:11,P607,2563666201,Adrianne,Roll,27/06/1943,NP38 2NT,Royal Glamorgan,Dermatology,D12,Dr. Thomas,J45.9,"Asthma, unspecified",Attended
+A1772,12/07/2025 08:11,P591,6016868965,Shelby,Hammon,20/01/2001,LL25 7ZC,Prince Charles,Orthopaedics,D88,Dr. Davies,L20.9,"Atopic dermatitis, unspecified",DNA
+A1773,12/07/2025 08:11,P615,6540640056,Beatrice,Allen,16/07/1959,CF12 1CK,Prince Charles,Orthopaedics,D12,Dr. Thomas,J45.9,"Asthma, unspecified",Attended
+A1774,12/07/2025 08:11,P613,7723271123,Dario,Allen,07/11/1990,NP21 8DL,Prince Charles,Orthopaedics,D88,Dr. Davies,M54.5,Low back pain,Attended
+A1775,12/07/2025 08:11,P587,535215401,Jose,Gill,28/04/1958,NP26 2IZ,Royal Glamorgan,Gastroenterology,D21,Dr. Evans,S82.1,Fracture of upper end of tibia,Attended
+A1776,12/07/2025 08:11,P627,4196208495,Emma,Flora,28/04/1996,SA17 9VJ,Royal Glamorgan,Gastroenterology,D67,Dr. Williams,E11.9,Type 2 diabetes mellitus without complications,DNA
+A1777,12/07/2025 08:11,P528,4400238679,Jamie,Griffis,01/11/1967,NP21 6TT,Morriston Hospital,Neurology,D33,Dr. Roberts,I10,Essential hypertension,Attended
+A1778,12/07/2025 08:11,P541,832854360,Marvin,Milliken,27/02/1982,CF29 7VF,University Hospital,Cardiology,D21,Dr. Evans,J45.9,"Asthma, unspecified",DNA
+A1779,12/07/2025 08:11,P648,5540486900,Jeffrey,Longoria,01/10/1949,NP21 5SO,Royal Glamorgan,Dermatology,D88,Dr. Davies,J45.9,"Asthma, unspecified",Attended
+A1780,12/07/2025 08:11,P507,2757465864,Michael,Woolem,25/09/1960,CF15 8LY,Royal Glamorgan,Dermatology,D33,Dr. Roberts,S82.1,Fracture of upper end of tibia,Attended
+A1781,12/07/2025 08:11,P578,5323181974,Mark,Anderson,07/07/1950,NP21 9WS,Singleton Hospital,Oncology,D33,Dr. Roberts,K21.9,Gastro-oesophageal reflux disease,Attended
+A1782,12/07/2025 08:11,P624,5377167236,Clementine,Beamon,18/12/1989,LL22 6EK,Prince Charles,Orthopaedics,D67,Dr. Williams,L20.9,"Atopic dermatitis, unspecified",DNA
+A1783,12/07/2025 08:11,P527,6906091948,Florrie,Duncan,07/04/2004,SA36 8TW,Singleton Hospital,Oncology,D21,Dr. Evans,M54.5,Low back pain,Attended
+A1784,12/07/2025 08:11,P617,9352052633,Jonathan,Guillotte,14/07/1953,SA34 3ML,Royal Glamorgan,Gastroenterology,D45,Dr. Jones,I10,Essential hypertension,Attended
+A1785,12/07/2025 08:11,P646,4369609879,Esther,Jessup,19/12/1975,SA25 9CR,Royal Glamorgan,Gastroenterology,D45,Dr. Jones,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1786,12/07/2025 08:11,P581,843268050,Eleanor,Monahan,12/01/2009,LL31 3EC,Morriston Hospital,Neurology,D12,Dr. Thomas,J45.9,"Asthma, unspecified",Attended
+A1787,12/07/2025 08:11,P501,1639707557,Christine,Morey,01/01/1969,CF39 9YJ,University Hospital,Cardiology,D21,Dr. Evans,M54.5,Low back pain,Attended
+A1788,12/07/2025 08:11,P590,9592834881,Mary,Mahoney,01/11/2009,NP39 3WR,Singleton Hospital,Oncology,D88,Dr. Davies,S82.1,Fracture of upper end of tibia,DNA
+A1789,12/07/2025 08:11,P532,2683198396,Myra,Mcclure,08/05/1969,SA15 3VX,Prince Charles,Orthopaedics,D21,Dr. Evans,K21.9,Gastro-oesophageal reflux disease,Attended
+A1790,12/07/2025 08:11,P500,3077417944,Robert,Baker,04/02/1979,LL33 2ZZ,University Hospital,Cardiology,D45,Dr. Jones,I10,Essential hypertension,Attended
+A1791,12/07/2025 08:11,P534,3840117496,Fern,Christian,26/04/1990,CF12 7CF,Royal Glamorgan,Gastroenterology,D88,Dr. Davies,M54.5,Low back pain,Attended
+A1792,12/07/2025 08:11,P569,430702019,John,Bonney,18/03/2002,LL33 9SF,Royal Glamorgan,Gastroenterology,D33,Dr. Roberts,S82.1,Fracture of upper end of tibia,DNA
+A1793,12/07/2025 08:11,P554,9042835877,David,Oakden,23/11/1944,NP32 5NF,Prince Charles,Orthopaedics,D67,Dr. Williams,I10,Essential hypertension,Attended
+A1794,12/07/2025 08:11,P618,1323896783,Becky,Vallejos,25/06/2003,CF36 4PA,University Hospital,Cardiology,D67,Dr. Williams,S82.1,Fracture of upper end of tibia,DNA
+A1795,12/07/2025 08:11,P607,2563666201,Adrianne,Roll,27/06/1943,NP38 2NT,Morriston Hospital,Neurology,D45,Dr. Jones,S82.1,Fracture of upper end of tibia,Attended
+A1796,12/07/2025 08:11,P568,5900540227,David,Caplinger,06/03/1950,SA31 9DI,Morriston Hospital,Neurology,D88,Dr. Davies,L20.9,"Atopic dermatitis, unspecified",Attended
+A1797,12/07/2025 08:11,P533,6863164418,Walter,Day,04/12/1981,CF32 7JX,Royal Glamorgan,Dermatology,D67,Dr. Williams,K21.9,Gastro-oesophageal reflux disease,Attended
+A1798,12/07/2025 08:11,P639,8682902893,Maureen,Hackney,19/09/1943,NP20 2QL,Singleton Hospital,Oncology,D88,Dr. Davies,J45.9,"Asthma, unspecified",Attended
+A1799,12/07/2025 08:11,P500,3077417944,Robert,Baker,04/02/1979,LL33 2ZZ,University Hospital,Cardiology,D21,Dr. Evans,M54.5,Low back pain,Attended
+A1800,12/07/2025 08:11,P616,3446346015,Joel,Clawson,20/09/1948,NP34 3XN,Morriston Hospital,Neurology,D67,Dr. Williams,E11.9,Type 2 diabetes mellitus without complications,DNA
+A1801,12/07/2025 08:11,P602,115740902,Belinda,Marvin,19/12/1979,LL37 1DM,Singleton Hospital,Oncology,D88,Dr. Davies,I10,Essential hypertension,DNA
+A1802,12/07/2025 08:11,P646,4369609879,Esther,Jessup,19/12/1975,SA25 9CR,Singleton Hospital,Oncology,D12,Dr. Thomas,L20.9,"Atopic dermatitis, unspecified",DNA
+A1803,12/07/2025 08:11,P630,8668713787,Charlotte,Hamilton,24/12/2003,SA14 4WK,University Hospital,Cardiology,D67,Dr. Williams,E11.9,Type 2 diabetes mellitus without complications,DNA
+A1804,12/07/2025 08:11,P537,390631620,Charles,Maldonado,13/07/1989,NP29 1XR,Morriston Hospital,Neurology,D21,Dr. Evans,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1805,12/07/2025 08:11,P584,2661527591,Johnny,Viloria,09/04/1968,CF10 3LE,Royal Glamorgan,Dermatology,D67,Dr. Williams,J45.9,"Asthma, unspecified",Attended
+A1806,12/07/2025 08:11,P503,573635722,Lindsay,Eskew,28/04/2006,LL11 3BW,University Hospital,Cardiology,D67,Dr. Williams,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1807,12/07/2025 08:11,P640,4792665310,Robert,Marsh,06/04/2002,SA28 5NV,University Hospital,Cardiology,D45,Dr. Jones,S82.1,Fracture of upper end of tibia,Attended
+A1808,12/07/2025 08:11,P504,1560423757,Michelle,Love,14/07/1995,SA19 7XC,Prince Charles,Orthopaedics,D67,Dr. Williams,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1809,12/07/2025 08:11,P502,9623650574,Kim,Szala,11/02/1968,LL37 2PY,Royal Glamorgan,Dermatology,D12,Dr. Thomas,M54.5,Low back pain,DNA
+A1810,12/07/2025 08:11,P579,3205357434,Ryan,Johnson,28/09/1953,LL10 7ZC,Prince Charles,Orthopaedics,D88,Dr. Davies,S82.1,Fracture of upper end of tibia,Attended
+A1811,12/07/2025 08:11,P627,4196208495,Emma,Flora,28/04/1996,SA17 9VJ,Prince Charles,Orthopaedics,D33,Dr. Roberts,J45.9,"Asthma, unspecified",Attended
+A1812,12/07/2025 08:11,P588,9081949284,Donald,Roberts,23/01/1962,LL12 3SF,Singleton Hospital,Oncology,D21,Dr. Evans,J45.9,"Asthma, unspecified",Attended
+A1813,12/07/2025 08:11,P610,4355503771,Everett,Lopez,08/06/1968,CF14 2WD,Singleton Hospital,Oncology,D88,Dr. Davies,E11.9,Type 2 diabetes mellitus without complications,Attended
+A1814,12/07/2025 08:11,P599,2454405946,Sarah,Powers,28/07/1966,NP28 8QF,Royal Glamorgan,Dermatology,D21,Dr. Evans,K21.9,Gastro-oesophageal reflux disease,Attended
