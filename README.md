@@ -1,1 +1,1 @@
-Success, wealth, health, and love are my divine right. I am secure, established, and thriving in my career, creating immense value with my unique talents. Money flows to me freely and endlessly from my work and my thriving businesses. My body radiates health and energy. My family is a center of love and joy. I am a powerful force for good, inspiring millions. I am deeply grateful for this life of abundance, purpose, and peace. It is wonderful!
+
