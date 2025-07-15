@@ -1,0 +1,165 @@
+# Synthetic Outpatient Data Generator
+
+**Author:** Mihael Onuh  
+**Version:** 1.1  
+**Last Updated:** July 12, 2025
+
+-----
+
+## 1\. Overview
+
+This Python script is designed to generate a continuous stream of realistic, synthetic outpatient appointment data. It simulates a real-time data feed by creating a new, unique appointment record every few seconds and appending it to a CSV file.
+
+The primary purpose of this tool is to provide a reliable source of mock data for developing, testing, and demonstrating data warehousing solutions, ETL (Extract, Transform, Load) pipelines, and data analytics dashboards without using sensitive real-world patient information.
+
+-----
+
+## 2\. Key Features
+
+  * **Realistic Data:** Generates believable data including patient names, postcodes, and clinical details.
+  * **Consistent Patient Profiles:** Creates a fixed pool of unique patients at the start. This ensures that a specific `PatientID` always corresponds to the same name, date of birth, and NHS ID across multiple appointments, mimicking a real-world scenario.
+  * **Structurally Valid NHS Numbers:** Generates 10-digit NHS numbers that conform to the official Modulus 11 checksum algorithm, making them structurally identical to real (but entirely fictional) NHS numbers.
+  * **Incremental Generation:** Appends a new data record to the output CSV file at a regular interval (default is 5 seconds), simulating a live data source.
+  * **Configurable:** Easily modify data pools, the number of patients, and the output file path.
+  * **Automatic Directory Creation:** If the target output directory does not exist, the script will create it automatically.
+
+-----
+
+## 3\. Prerequisites
+
+Before running the script, you must have the following installed:
+
+1.  **Python 3.6+:** The script is written in Python 3. You can download it from [python.org](https://python.org).
+      * **Important:** During installation, ensure you tick the box that says "Add Python to PATH".
+2.  **`names` library:** A Python package used to generate random, realistic names.
+
+-----
+
+## 4\. Setup and Installation
+
+Follow these steps to set up your environment:
+
+### Step 1: Install Python
+
+If you don't have Python installed, download it from [python.org](https://python.org) and follow the installation instructions.
+
+### Step 2: Install the `names` library
+
+Open your terminal (Command Prompt, PowerShell, or Terminal on Mac/Linux) and run the following command:
+
+```bash
+pip install names
+```
+
+### Step 3: Save the Script
+
+Save the generator script as a Python file (e.g., `generate_data.py`) in your project directory.
+
+-----
+
+## 5\. Configuration
+
+You can customize the script's behavior by editing the following sections directly within the Python file:
+
+### Setting the Output File Path
+
+To change where the CSV file is saved, modify the `CSV_FILE_NAME` variable. Use a raw string (`r'...'`) for Windows paths to avoid issues with backslashes.
+
+```python
+# --- 3. Setup CSV File and Global Variables ---
+CSV_FILE_NAME = r'C:\DWH_Project\Hospital_Data_Warehouse\datasets -INP\source_crm\outpatient_data_realistic.csv'
+```
+
+### Adjusting the Patient Pool Size
+
+You can change the number of unique patients the script generates by modifying the `num_patients` argument in the `generate_patient_pool` function call.
+
+```python
+# --- 4. Main Generation Script ---
+patient_pool = generate_patient_pool(150) # Change 150 to your desired number
+```
+
+### Modifying Data Pools
+
+The lists `CLINICS`, `PROVIDERS`, `DIAGNOSES`, and `APPOINTMENT_STATUSES` at the top of the script can be edited to include different or more varied data relevant to your simulation.
+
+```python
+# Example: Adding a new clinic
+CLINICS = [
+    ('University Hospital', 'Cardiology'),
+    ('Royal Glamorgan', 'Dermatology'),
+    ('Llandough Hospital', 'Respiratory Medicine'), # <-- New addition
+    # ... more clinics
+]
+```
+
+-----
+
+## 6\. How to Run the Script
+
+1.  Open your terminal or command prompt.
+2.  Navigate to the directory where you saved the `generate_data.py` script.
+    ```bash
+    # Example for Windows if saved on Desktop
+    cd C:\Users\YourUsername\Desktop
+    ```
+3.  Execute the script using the following command:
+    ```bash
+    python generate_data.py
+    ```
+
+The script will start, first generating the patient pool, and then begin adding a new record to your specified CSV file every 5 seconds.
+
+### How to Stop the Script
+
+To stop the data generation process, press `Ctrl + C` in the terminal window where the script is running.
+
+-----
+
+## 7\. Output File Structure
+
+The generated CSV file (`outpatient_data_realistic.csv`) will have the following columns:
+
+| Column Name          | Data Type | Description                                                                 |
+| -------------------- | --------- | --------------------------------------------------------------------------- |
+| **AppointmentID** | String    | A unique identifier for each appointment (e.g., A1001).                     |
+| **AppointmentDateTime**| String    | The date and time the record was generated (YYYY-MM-DD HH:MM:SS).           |
+| **PatientID** | String    | A unique identifier for each patient (e.g., P501). Consistent per patient.  |
+| **NHS\_ID** | String    | A structurally valid, but fictional, 10-digit NHS number.                   |
+| **PatientFirstName** | String    | The patient's first name.                                                   |
+| **PatientLastName** | String    | The patient's last name.                                                    |
+| **PatientDOB** | String    | The patient's date of birth (YYYY-MM-DD).                                   |
+| **PatientPostcode** | String    | The patient's postcode, using realistic Welsh prefixes.                     |
+| **ClinicName** | String    | The name of the hospital or clinic.                                         |
+| **Specialty** | String    | The medical specialty for the appointment (e.g., Cardiology).               |
+| **ProviderID** | String    | A unique ID for the healthcare provider (e.g., D21).                        |
+| **ProviderName** | String    | The name of the healthcare provider.                                        |
+| **DiagnosisCode** | String    | The ICD-10 style code for the primary diagnosis.                            |
+| **DiagnosisDescription**| String    | A brief text description of the diagnosis.                                  |
+| **AppointmentStatus**| String    | The outcome of the appointment (Attended or DNA - Did Not Attend).          |
+
+-----
+
+## 8\. Code Deep Dive
+
+This section explains the core logic of the script.
+
+### `generate_nhs_number()`
+
+This function creates a 10-digit number that passes the Modulus 11 checksum validation used for real NHS numbers. This ensures the data has the same structural integrity as real-world data, which is useful for testing data validation rules in an ETL pipeline. It is entirely fictional and contains no real information.
+
+### `generate_patient_pool(num_patients)`
+
+This is a crucial function for data realism. Instead of creating a new random patient for every appointment, this function is called once at the start to create a list of unique patient dictionaries. Each dictionary contains a patient's static information (`PatientID`, `NHS_ID`, `Name`, `DOB`). The main loop then randomly selects a patient from this "pool" for each new appointment, ensuring data consistency.
+
+### Main Generation Loop
+
+The `while True:` loop is the engine of the script. In each iteration, it:
+
+1.  **Selects a Patient:** Randomly picks a patient dictionary from the `patient_pool`.
+2.  **Generates Appointment Data:** Randomly selects a clinic, provider, and diagnosis for the current appointment. It also captures the current timestamp.
+3.  **Constructs the Row:** Combines the consistent patient data with the variable appointment data into a single list.
+4.  **Writes to CSV:** Appends this new row to the CSV file.
+5.  **Waits:** Pauses for 5 seconds using `time.sleep(5)` before starting the next iteration.
+
+This process continues indefinitely until manually stopped with `Ctrl + C`.
