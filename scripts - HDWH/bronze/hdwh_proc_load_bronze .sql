@@ -1,90 +1,104 @@
 /*
 ===============================================================================
-Stored Procedure:   Bronze.Load_Staging_OutpatientData
+Stored Procedure:   Load Bronze Layer (Source CSV → bronze.stg_OutpatientData)
 ===============================================================================
 Script Purpose:
-    This stored procedure orchestrates the loading of outpatient data into the 
-    Bronze layer. It performs the following actions:
+    This stored procedure loads outpatient data into the 'bronze' schema from 
+    external CSV files. It performs the following actions:
 
-    1. Truncates the 'Bronze.stg_OutpatientData' table to ensure a fresh load.
-    2. Uses the BULK INSERT command to efficiently load data from the source 
-       'outpatient_data_realistic.csv' file.
-    3. Updates the metadata columns (SourceFileName) for the newly loaded batch.
-    4. Logs the process, including timing and success or error messages.
+    1. Truncates the staging table 'bronze.stg_OutpatientData' to ensure a clean load.
+    2. Uses the BULK INSERT command to efficiently load data from the source CSV file.
+    3. Dynamically generates a unique error log file for each run to avoid file conflicts.
+    4. Logs the process, including start time, end time, and duration.
 
 Parameters:
-    None. This stored procedure is designed to run as a single, complete step.
+    None.
+    This stored procedure does not accept any parameters or return any values.
 
 Usage Example:
-    EXEC Bronze.Load_Staging_OutpatientData;
+    EXEC bronze.Load_Staging_OutpatientData;
 ===============================================================================
 */
-CREATE OR ALTER PROCEDURE Bronze.Load_Staging_OutpatientData
+
+CREATE OR ALTER PROCEDURE bronze.Load_Staging_OutpatientData
 AS
 BEGIN
-    -- Suppress the "(1 row affected)" messages to keep the log clean
     SET NOCOUNT ON;
 
-    -- Declare variables for logging and performance timing
-    DECLARE @start_time DATETIME2, @end_time DATETIME2, @batch_start_time DATETIME2, @batch_end_time DATETIME2;
+    -- Declare timestamps for logging
+    DECLARE @start_time DATETIME2 = SYSDATETIME();
+    DECLARE @batch_start_time DATETIME2 = SYSDATETIME();
+
+    -- Define source file and path
     DECLARE @SourceFileName NVARCHAR(255) = 'outpatient_data_realistic.csv';
-    DECLARE @FilePath NVARCHAR(512) = 'C:\DWH_Project\Hospital_Data_Warehouse\datasets -INP\source_crm\outpatient_data_realistic.csv';
+    DECLARE @FilePath NVARCHAR(512) = 'C:\Users\onuhm\Desktop\op-data\op-data-set.csv';
+
+    -- Generate a unique error file name using timestamp
+    DECLARE @ErrorFile NVARCHAR(512) = 'C:\Users\onuhm\Desktop\op-data\bulk_errors_' + 
+        FORMAT(SYSDATETIME(), 'yyyyMMdd_HHmmss') + '.log';
+
+    -- Prepare dynamic SQL for BULK INSERT
+    DECLARE @sql NVARCHAR(MAX);
 
     BEGIN TRY
-        SET @batch_start_time = GETDATE();
         PRINT '================================================================';
-        PRINT 'Executing Stored Procedure: Bronze.Load_Staging_OutpatientData';
+        PRINT 'Executing Stored Procedure: bronze.Load_Staging_OutpatientData';
+        PRINT 'Start Time: ' + CAST(@start_time AS NVARCHAR);
         PRINT '================================================================';
 
-        PRINT '----------------------------------------------------------------';
-        PRINT 'Loading ERP Outpatient Data';
-        PRINT 'Source File: ' + @SourceFileName;
-        PRINT '----------------------------------------------------------------';
+        -- Step 1: Truncate the staging table
+        PRINT '>> Truncating Table: bronze.stg_OutpatientData';
+        TRUNCATE TABLE bronze.stg_OutpatientData;
 
-        SET @start_time = GETDATE();
-        
-        -- Step 1: Truncate the table to remove old data
-        PRINT '>> Truncating Table: Bronze.stg_OutpatientData';
-        TRUNCATE TABLE Bronze.stg_OutpatientData;
+        -- Step 2: Perform BULK INSERT with dynamic error file
+        PRINT '>> Bulk Inserting Data From File: ' + @SourceFileName;
+        PRINT '>> Error File: ' + @ErrorFile;
 
-        -- Step 2: Insert new data from the CSV file
-        PRINT '>> Inserting Data Into: Bronze.stg_OutpatientData';
-        BULK INSERT Bronze.stg_OutpatientData
-        FROM @FilePath
-        WITH (
-            FIRSTROW = 2,
-            FIELDTERMINATOR = ',',
-            ROWTERMINATOR = '0x0a', -- Hex for Line Feed (\n), more reliable
-            TABLOCK
-        );
+        SET @sql = '
+            BULK INSERT bronze.stg_OutpatientData
+            FROM ''' + @FilePath + '''
+            WITH (
+                FIRSTROW = 2,
+                FIELDTERMINATOR = '','',
+                ROWTERMINATOR = ''\n'',
+                TABLOCK,
+                ERRORFILE = ''' + @ErrorFile + '''
+            );
+        ';
+        EXEC sp_executesql @sql;
 
-        -- Step 3: Update metadata for the newly loaded records
-        PRINT '>> Updating metadata (SourceFileName)';
-        UPDATE Bronze.stg_OutpatientData
-        SET SourceFileName = @SourceFileName
-        WHERE SourceFileName IS NULL;
+        -- Optional metadata update (commented out for now)
+        /*
+        PRINT '>> Updating metadata column: SourceFileName';
+        IF COL_LENGTH('bronze.stg_OutpatientData', 'SourceFileName') IS NULL
+        BEGIN
+            ALTER TABLE bronze.stg_OutpatientData ADD SourceFileName NVARCHAR(255);
+        END
 
-        SET @end_time = GETDATE();
+        UPDATE bronze.stg_OutpatientData
+        SET SourceFileName = @SourceFileName;
+        */
+
+        -- Step 3: Log duration
+        DECLARE @end_time DATETIME2 = SYSDATETIME();
         PRINT '>> Load Duration: ' + CAST(DATEDIFF(SECOND, @start_time, @end_time) AS NVARCHAR) + ' seconds';
-        PRINT '>> -------------';
 
-        SET @batch_end_time = GETDATE();
+        DECLARE @batch_end_time DATETIME2 = SYSDATETIME();
         PRINT '================================================================';
-        PRINT 'SUCCESS: Bronze Layer loading is complete.';
-        PRINT '   - Total Procedure Duration: ' + CAST(DATEDIFF(SECOND, @batch_start_time, @batch_end_time) AS NVARCHAR) + ' seconds.';
+        PRINT 'SUCCESS: bronze Layer loading is complete.';
+        PRINT 'Total Procedure Duration: ' + CAST(DATEDIFF(SECOND, @batch_start_time, @batch_end_time) AS NVARCHAR) + ' seconds.';
         PRINT '================================================================';
 
     END TRY
     BEGIN CATCH
         PRINT '================================================================';
-        PRINT '!! ERROR OCCURRED WHILE LOADING BRONZE LAYER !!';
+        PRINT '!! ERROR OCCURRED WHILE LOADING bronze LAYER !!';
         PRINT 'Error Number: ' + CAST(ERROR_NUMBER() AS NVARCHAR);
         PRINT 'Error Message: ' + ERROR_MESSAGE();
         PRINT 'Error State: ' + CAST(ERROR_STATE() AS NVARCHAR);
         PRINT 'Error Line: ' + CAST(ERROR_LINE() AS NVARCHAR);
         PRINT '================================================================';
-        -- Re-throw the error to allow calling applications to handle it
-        THROW; 
+        THROW;
     END CATCH
 
     SET NOCOUNT OFF;
