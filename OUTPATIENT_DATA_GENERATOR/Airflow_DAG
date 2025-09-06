@@ -1,0 +1,162 @@
+#
+# A. IMPORT THE TOOLS WE NEED
+#
+# We need tools from Airflow to create the DAG and the task.
+# We also need tools for handling dates, files, data (pandas), and the database (sqlalchemy).
+#
+from __future__ import annotations
+
+import datetime
+import os
+
+import pandas as pd
+from sqlalchemy import create_engine, text, types
+
+from airflow.models.dag import DAG
+from airflow.operators.python import PythonOperator
+
+#
+# B. DEFINE THE MAIN VARIABLES
+#
+# Here we hardcode all the specific details for our task.
+# In the future, you can move these to Airflow's UI for better management.
+#
+DATA_FOLDER_PATH = r"C:\Users\onuhm\Desktop\outpatient_data" # The 'r' before the string is important for Windows paths!
+PROCESSED_LOG_FILE = os.path.join(DATA_FOLDER_PATH, "processed_files.log")
+ERROR_LOG_FILE = os.path.join(DATA_FOLDER_PATH, "error_log.log")
+SQL_SERVER_NAME = "Michael"
+DATABASE_NAME = "OP_DWH"
+TABLE_NAME = "mike_opdata"
+SCHEMA_NAME = "dbo" # Usually 'dbo' for SQL Server
+
+#
+# C. THE MAIN PYTHON FUNCTION (THE HEAVY LIFTING)
+#
+# This function contains all the logic to find, process, and load the data.
+# Airflow will call this function when the task runs.
+#
+def find_and_load_new_data():
+    """
+    Scans a directory for new CSV or Excel files, processes them,
+    and loads them into a SQL Server table.
+    """
+    print("Starting the data loading process...")
+
+    # --- Step 1: Create the database connection engine ---
+    # This engine is like a car's engine; it's what powers our connection to the database.
+    # We use 'Windows Authentication' (trusted_connection=yes), so no password is needed.
+    try:
+        connection_string = (
+            f"mssql+pyodbc://{SQL_SERVER_NAME}/{DATABASE_NAME}?"
+            f"driver=ODBC+Driver+17+for+SQL+Server&trusted_connection=yes"
+        )
+        engine = create_engine(connection_string)
+        print("Successfully created database engine.")
+    except Exception as e:
+        print(f"Error creating database engine: {e}")
+        raise # Stop the task if we can't connect to the database
+
+    # --- Step 2: Get the list of already processed files ---
+    # We keep a log file so we don't process the same file twice.
+    # If the log file doesn't exist, we create an empty set to start.
+    print(f"Looking for processed files log at: {PROCESSED_LOG_FILE}")
+    try:
+        with open(PROCESSED_LOG_FILE, "r") as f:
+            processed_files = set(f.read().splitlines())
+        print(f"Found {len(processed_files)} previously processed files.")
+    except FileNotFoundError:
+        print("Processed log file not found. Assuming this is the first run.")
+        processed_files = set()
+
+    # --- Step 3: Find all data files in the folder ---
+    all_files = os.listdir(DATA_FOLDER_PATH)
+    # We only care about .csv and .xlsx files.
+    data_files = [f for f in all_files if f.endswith(('.csv', '.xlsx'))]
+    print(f"Found {len(data_files)} total data files in the folder.")
+
+    # --- Step 4: Figure out which files are new ---
+    new_files = [f for f in data_files if f not in processed_files]
+    if not new_files:
+        print("No new files to process. Task is complete.")
+        return # Exit the function if there's nothing to do.
+
+    print(f"Found {len(new_files)} new files to process: {new_files}")
+
+    # --- Step 5: Loop through each new file and process it ---
+    for file_name in new_files:
+        full_file_path = os.path.join(DATA_FOLDER_PATH, file_name)
+        print(f"\n--- Processing file: {file_name} ---")
+        try:
+            # Read the file into a pandas DataFrame (a table in Python)
+            if file_name.endswith('.csv'):
+                df = pd.read_csv(full_file_path)
+            else: # .xlsx
+                df = pd.read_excel(full_file_path)
+            
+            print(f"Successfully read {len(df)} rows from the file.")
+
+            # Add the 'insert_date' column with the current timestamp
+            df['insert_date'] = datetime.datetime.now()
+
+            # Create a dictionary to tell our database to make every column VARCHAR(MAX).
+            # This is a great trick to avoid data type errors in staging.
+            dtype_mapping = {col: types.VARCHAR(length=None) for col in df.columns}
+
+            # Load the DataFrame into the SQL Server table
+            print(f"Loading data into table: {SCHEMA_NAME}.{TABLE_NAME}")
+            df.to_sql(
+                name=TABLE_NAME,
+                con=engine,
+                schema=SCHEMA_NAME,
+                if_exists='append', # Add data to the table; don't replace it
+                index=False,        # Don't write the DataFrame's index as a column
+                dtype=dtype_mapping # Use our VARCHAR(MAX) mapping
+            )
+
+            # If successful, add the file to our processed log
+            with open(PROCESSED_LOG_FILE, "a") as f:
+                f.write(f"{file_name}\n")
+
+            print(f"--- Successfully processed and loaded {file_name} ---")
+
+        except Exception as e:
+            # If anything goes wrong, we catch the error here!
+            error_message = f"Failed to process file '{file_name}'. Error: {e}"
+            print(error_message)
+            # Log the error to our error file for later review
+            with open(ERROR_LOG_FILE, "a") as f:
+                f.write(f"[{datetime.datetime.now()}] {error_message}\n")
+            # The 'continue' keyword tells the loop to skip to the next file
+            continue
+    
+    print("\nData loading process finished.")
+
+
+#
+# D. DEFINE THE AIRFLOW DAG
+#
+# This is where we describe our DAG to Airflow.
+# We give it a name, a start date, and a schedule.
+#
+with DAG(
+    dag_id="load_outpatient_data_to_mssql",
+    start_date=datetime.datetime(2025, 9, 6), # The date your DAG should become active
+    schedule_interval="@daily",               # How often to run: once a day. You can use cron syntax too e.g., "0 5 * * *"
+    catchup=False,                            # If the DAG is off for a few days, it won't try to run for all the missed days
+    tags=["data-ingestion", "mssql"],
+    doc_md="""
+    ### Outpatient Data Loading DAG
+    This DAG checks a folder for new outpatient data files (CSV or Excel),
+    loads them into a staging table in MSSQL, and logs which files have been processed.
+    """,
+) as dag:
+    #
+    # E. DEFINE THE TASK
+    #
+    # This is the actual step in our DAG's recipe.
+    # We tell it which Python function to run.
+    #
+    load_new_data_task = PythonOperator(
+        task_id="find_and_load_new_data",
+        python_callable=find_and_load_new_data,
+    )
