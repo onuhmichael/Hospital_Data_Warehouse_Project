@@ -1,4 +1,194 @@
+Of course\! Using an Airflow Hook is an excellent idea. It's the standard best practice because it separates your code from your connection details, making your DAG more secure and easier to manage.
+
+Here is the updated script that uses the `MsSqlHook` to connect to your server.
+
+-----
+
+### Key Changes
+
+1.  **MsSqlHook**: Instead of building a connection string manually with `sqlalchemy`, we will now use Airflow's built-in `MsSqlHook`.
+2.  **Connection ID**: We'll replace the hardcoded server and database names in the script with a single **Connection ID**. You will store the actual connection details securely in the Airflow UI.
+3.  **New Prerequisite**: You'll need to install the provider package that contains the hook.
+
+-----
+
+### Prerequisites (Updated)
+
+1.  **Python Libraries**: If you haven't already, install the required libraries. The new one is `apache-airflow-providers-microsoft-mssql`.
+    ```bash
+    pip install pandas sqlalchemy pyodbc openpyxl apache-airflow-providers-microsoft-mssql
+    ```
+2.  **ODBC Driver**: Your Windows machine must still have the **Microsoft ODBC Driver for SQL Server** installed.
+
+-----
+
+### How to Set Up the Airflow Connection
+
+Before you run the new DAG, you must create the connection in the Airflow UI. This is how the hook knows which server and database to connect to.
+
+1.  In the Airflow UI, go to **Admin** -\> **Connections**.
+2.  Click the `+` button to add a new connection.
+3.  Fill out the form with the following details:
+      * **Connection ID**: `mssql_op_dwh` (This must match the ID in the script)
+      * **Connection Type**: `Microsoft SQL Server`
+      * **Host**: `Michael` (Your server name)
+      * **Schema**: `OP_DWH` (Your database name)
+      * **Login**: **Leave this blank.**
+      * **Password**: **Leave this blank.**
+
+Leaving the login and password blank tells the hook to use **Windows Authentication**.
+4\.  Click **Save**.
+
+-----
+
+### The Updated Airflow DAG Script
+
+Here is the full script, updated to use the `MsSqlHook`. The core logic for processing files remains the same, but the connection part is now much cleaner.
+
+```python
 #
+# A. IMPORT THE TOOLS WE NEED
+#
+# We've added the MsSqlHook for connecting to our database.
+#
+from __future__ import annotations
+
+import datetime
+import os
+
+import pandas as pd
+from sqlalchemy import types
+
+from airflow.models.dag import DAG
+from airflow.operators.python import PythonOperator
+# NEW IMPORT: Import the hook for Microsoft SQL Server
+from airflow.providers.microsoft.mssql.hooks.mssql import MsSqlHook
+
+#
+# B. DEFINE THE MAIN VARIABLES
+#
+# We now only need to specify the Connection ID we created in the Airflow UI.
+#
+DATA_FOLDER_PATH = r"C:\Users\onuhm\Desktop\outpatient_data"
+PROCESSED_LOG_FILE = os.path.join(DATA_FOLDER_PATH, "processed_files.log")
+ERROR_LOG_FILE = os.path.join(DATA_FOLDER_PATH, "error_log.log")
+TABLE_NAME = "mike_opdata"
+SCHEMA_NAME = "dbo"
+# NEW VARIABLE: The Connection ID from the Airflow UI
+MSSQL_CONN_ID = "mssql_op_dwh"
+
+#
+# C. THE MAIN PYTHON FUNCTION (UPDATED)
+#
+def find_and_load_new_data():
+    """
+    Scans a directory for new files and loads them into SQL Server using an Airflow Hook.
+    """
+    print("Starting the data loading process...")
+
+    # --- Step 1: Get the database connection engine from the Hook ---
+    # This is the major change. We create an instance of the hook and ask it
+    # for a connection engine. Airflow handles all the connection details securely.
+    try:
+        print(f"Getting connection for '{MSSQL_CONN_ID}' via MsSqlHook...")
+        hook = MsSqlHook(mssql_conn_id=MSSQL_CONN_ID)
+        engine = hook.get_sqlalchemy_engine()
+        print("Successfully created database engine from hook.")
+    except Exception as e:
+        print(f"Error creating database engine from hook: {e}")
+        raise # Stop the task if we can't connect
+
+    # --- Step 2: Get the list of already processed files ---
+    # (This part is unchanged)
+    print(f"Looking for processed files log at: {PROCESSED_LOG_FILE}")
+    try:
+        with open(PROCESSED_LOG_FILE, "r") as f:
+            processed_files = set(f.read().splitlines())
+        print(f"Found {len(processed_files)} previously processed files.")
+    except FileNotFoundError:
+        print("Processed log file not found. Assuming this is the first run.")
+        processed_files = set()
+
+    # --- Step 3 & 4: Find new data files ---
+    # (This part is unchanged)
+    all_files = os.listdir(DATA_FOLDER_PATH)
+    data_files = [f for f in all_files if f.endswith(('.csv', '.xlsx'))]
+    new_files = [f for f in data_files if f not in processed_files]
+    if not new_files:
+        print("No new files to process. Task is complete.")
+        return
+    print(f"Found {len(new_files)} new files to process: {new_files}")
+
+    # --- Step 5: Loop through each new file and process it ---
+    # (This part is unchanged)
+    for file_name in new_files:
+        full_file_path = os.path.join(DATA_FOLDER_PATH, file_name)
+        print(f"\n--- Processing file: {file_name} ---")
+        try:
+            if file_name.endswith('.csv'):
+                df = pd.read_csv(full_file_path)
+            else: # .xlsx
+                df = pd.read_excel(full_file_path)
+            
+            print(f"Successfully read {len(df)} rows from the file.")
+
+            df['insert_date'] = datetime.datetime.now()
+
+            dtype_mapping = {col: types.VARCHAR(length=None) for col in df.columns}
+
+            print(f"Loading data into table: {SCHEMA_NAME}.{TABLE_NAME}")
+            df.to_sql(
+                name=TABLE_NAME,
+                con=engine,
+                schema=SCHEMA_NAME,
+                if_exists='append',
+                index=False,
+                dtype=dtype_mapping
+            )
+
+            with open(PROCESSED_LOG_FILE, "a") as f:
+                f.write(f"{file_name}\n")
+
+            print(f"--- Successfully processed and loaded {file_name} ---")
+
+        except Exception as e:
+            error_message = f"Failed to process file '{file_name}'. Error: {e}"
+            print(error_message)
+            with open(ERROR_LOG_FILE, "a") as f:
+                f.write(f"[{datetime.datetime.now()}] {error_message}\n")
+            continue
+    
+    print("\nData loading process finished.")
+
+#
+# D. DEFINE THE AIRFLOW DAG
+#
+# (This part is unchanged)
+#
+with DAG(
+    dag_id="load_outpatient_data_to_mssql",
+    start_date=datetime.datetime(2025, 9, 6),
+    schedule_interval="@daily",
+    catchup=False,
+    tags=["data-ingestion", "mssql", "hook"],
+    doc_md="""
+    ### Outpatient Data Loading DAG
+    This DAG checks a folder for new outpatient data files (CSV or Excel),
+    loads them into a staging table in MSSQL, and logs which files have been processed.
+    **This version uses an MsSqlHook for connections.**
+    """,
+) as dag:
+    #
+    # E. DEFINE THE TASK
+    #
+    # (This part is unchanged)
+    #
+    load_new_data_task = PythonOperator(
+        task_id="find_and_load_new_data_with_hook",
+        python_callable=find_and_load_new_data,
+    )
+```
+========================================================================================================
 # A. IMPORT THE TOOLS WE NEED
 #
 # We need tools from Airflow to create the DAG and the task.
